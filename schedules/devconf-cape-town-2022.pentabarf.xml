@@ -1,0 +1,635 @@
+<schedule>
+	<conference>
+		<title>DevConf Cape Town 2022</title>
+		<city>Cape Town</city>
+		<venue>Lagoon Beach Hotel &amp; Spa</venue>
+	</conference>
+	<day index="1" date="2022-04-05">
+		<room name="Atlantic 1">
+			<event id="293777">
+				<start>10:00</start>
+				<duration>00:40</duration>
+				<room>Atlantic 1</room>
+				<title>Resilient and well-architected apps with chaos engineering</title>
+				<description>Well-architected applications are designed and built to be secure, high-performing and resilient. You need to test your application, validate that it operates as designed, and is resilient to failures. Here, learn about the what and why of chaos engineering. Lastly, what tool on AWS can be leveraged for chaos engineering (with demo) in the AWS cloud. In the end, you'll learn about the importance of chaos engineering - no matter the tool used.</description>
+				<language />
+				<persons>
+					<person>Veliswa Boya</person>
+				</persons>
+			</event>
+			<event id="298838">
+				<start>10:50</start>
+				<duration>00:40</duration>
+				<room>Atlantic 1</room>
+				<title>Pliable software architecture - architecture that is easy to change</title>
+				<description>We will discuss our approach to ensure that our software architecture is easy to change to ensure that it remains relevant and up to date with the latest libraries and trending technology.
+We will present a case study on a consumer application that is 8 years old where we have applied our approach to maintaining a super stable platform and average user growth of around 6% per month. Currently, we have 400,000 IoT devices and 130,000 active users.</description>
+				<language />
+				<persons>
+					<person>Daniel Joubert</person>
+				</persons>
+			</event>
+			<event id="319172">
+				<start>11:40</start>
+				<duration>00:40</duration>
+				<room>Atlantic 1</room>
+				<title>npm run build... nap time</title>
+				<description>We keep focusing on UX, let's give some thought to DX (Developer Experience). How much time do we really waste from a long running build? What can be done to improve that? How else can we help ourselves to deliver better?</description>
+				<language />
+				<persons>
+					<person>Adrian Riddle</person>
+				</persons>
+			</event>
+			<event id="298122">
+				<start>13:20</start>
+				<duration>00:40</duration>
+				<room>Atlantic 1</room>
+				<title>Top 5 techniques for building the worst microservice system ever</title>
+				<description>Microservices come with promises of scalability, reliability, and autonomy. But if everything is so rosy, how come the only success stories we hear about are at places like Netflix or Uber? I've spent countless hours working on all kinds of microservice systems to come up with the definitive top 5 tips to ensure your microservices become complete disasters. Join me on a tour of insanity through some of the worst ways to make distributed mistakes.</description>
+				<language />
+				<persons>
+					<person>William Brander</person>
+				</persons>
+			</event>
+			<event id="295594">
+				<start>14:10</start>
+				<duration>00:40</duration>
+				<room>Atlantic 1</room>
+				<title>Marketing Your Tech Skills in a Remote World</title>
+				<description>More than in other fields, developers and tech teams are in a lucky position to be able to work remotely. Not just that, COVID has created the opportunity to apply for more international opportunities... If you are able to stand out from what is now a much bigger crowd.
+
+I'll talk about:
+1. Why you shouldn't be allergic to marketing/branding as a dev
+2. Different strategies you can employ to build your personal brand
+3. How to get started</description>
+				<language />
+				<persons>
+					<person>Candice Grobler</person>
+				</persons>
+			</event>
+			<event id="298664">
+				<start>15:20</start>
+				<duration>00:40</duration>
+				<room>Atlantic 1</room>
+				<title>Advance home automation a deeper dive into how you can automate your smart life</title>
+				<description>This session will build on the home automation intro at our last DevConf. We will dive deeper into how to collect and analyse your home data using time series tools like InfluxDB and Grafana,  how automation engines like Node-RED allow you to control of your connected home. In addition, I will explore the ever-increasing sensors and devices available like cameras, alarms, geyser monitors and how they can be connected to create a truly smart home.</description>
+				<language />
+				<persons>
+					<person>Cliff de Wit</person>
+				</persons>
+			</event>
+			<event id="292249">
+				<start>16:10</start>
+				<duration>00:40</duration>
+				<room>Atlantic 1</room>
+				<title>You don't need AI; You need to know what your data is</title>
+				<description>93% of data science projects never make it into production. Many of us in the field feel the sheer futility of all our efforts.
+
+First, let's talk about how we ended up in this mess: Spoiler Alert - We were misled. 
+Next, let's figure out how to get OUT of it.
+
+ Join me on a journey to go back and rework some of the foundations so that our Data Science efforts start adding value - complete with Wardley maps, sparkle GIFs and Ru Paul memes
+</description>
+				<language />
+				<persons>
+					<person>Jade Abbott</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Atlantic 2">
+			<event id="298944">
+				<start>10:00</start>
+				<duration>00:40</duration>
+				<room>Atlantic 2</room>
+				<title>Two peeps; 2.6 Million "Happy" Users</title>
+				<description>The speaker will take us through a journey of how EskomSePush got to where it is today; with just two peeps; no budget; late nights; and a bunch of disappointment. (Some fun was had during the way, and some learning :p)
+
+Aka: How we use a combination of Google Cloud, Kubernetes, Flutter, Firebase and Python to operate the most loved load shedding app in South Africa. Going from 1,000 to 2,000,000 requests per minute in a moments notice.</description>
+				<language />
+				<persons>
+					<person>Dan Wells</person>
+				</persons>
+			</event>
+			<event id="299230">
+				<start>11:40</start>
+				<duration>00:40</duration>
+				<room>Atlantic 2</room>
+				<title>Integrating distributed enterprise data using data fabric technology</title>
+				<description>The value of data to organisations is only increasing, yet many architectures still make use of data lakes and/or data warehouses which come with severe limitations. In this talk we compare these old technologies to the newer data fabric technologies. How does it solve common problems and what cool things can we do in the backend. 
+We also practically explore the architecture; microservices, Kubertnetes and Apache Spark engine. </description>
+				<language />
+				<persons>
+					<person>Chris Tite</person>
+				</persons>
+			</event>
+			<event id="318783">
+				<start>13:20</start>
+				<duration>00:40</duration>
+				<room>Atlantic 2</room>
+				<title>Campfire Stories: The Data was coming from Outside the VPC</title>
+				<description>Aruba UXI is a network monitoring tool, which consists of a dashboard and an IOT appliance which performs tests.
+
+In this talk, I will be describing the journey taken by our small but crafty engineering team, as we scaled our backend infrastructure to handle the incredible amounts of data sent to us by our fleet of sensors.
+
+Our system processes around 500 million test results per day, and this is only going to grow.
+
+I am proud of all the progress our engineering team has made to get us to this point, and I would be delighted if you would join me to let me tell this story.
+
+Technical content will include distributed systems for time series and cross sectional data, our experience moving from a pull to push oriented architecture and our technical successes and failures scaling our infrastructure, our product and our engineering team.</description>
+				<language />
+				<persons>
+					<person>Pierre Hugo</person>
+				</persons>
+			</event>
+			<event id="298653">
+				<start>14:10</start>
+				<duration>00:40</duration>
+				<room>Atlantic 2</room>
+				<title>A self-driving vehicle in GTA-V style using deep learning and convolutional neural networks</title>
+				<description>Many tasks that were previously performed by humans are now performed by artificial intelligence. An artificially created network can be trained to drive a vehicle autonomously without any human intervention, creating a safer driving environment. A variety of hardware such as cameras, radars, and LIDAR is installed on these vehicles to collect data in real-time. A complex neural network predicts outcomes and controls the car based on the data. </description>
+				<language />
+				<persons>
+					<person>Rudi Grobler</person>
+				</persons>
+			</event>
+			<event id="298869">
+				<start>15:20</start>
+				<duration>00:40</duration>
+				<room>Atlantic 2</room>
+				<title>Performance is hard: or how I learned to stop worrying and love the chaos</title>
+				<description>Performance is hard, no matter what you're building. It requires specialist knowledge and a particular mindset. You must abandon determinism for data, and instinct for proof, which are things that no one teaches you. This talk covers what I’ve learned in becoming a performance specialist, and how I’ve had to adapt my thinking about problems. Performance is found in the gaps between things, and this talk will arm you with the skills to find it.</description>
+				<language />
+				<persons>
+					<person>Mike Geyser</person>
+				</persons>
+			</event>
+			<event id="298842">
+				<start>16:10</start>
+				<duration>00:40</duration>
+				<room>Atlantic 2</room>
+				<title>State of the Developer Nation: What's it like to be a developer in South Africa in 2022?</title>
+				<description>🤔 What are South African developers being paid at different stages of their career? 
+🤔 What do developers want in a new job? 
+🤔 How do South African developers level up? 
+
+We’ve got some insights! Based on a survey of over 3000 local developers, the 2022 OfferZen State of the Developer Nation report is here. A deep dive into the report findings providing the latest data on the question: What’s it like to be a developer in South Africa in 2022?</description>
+				<language />
+				<persons>
+					<person>Philip Joubert</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Courtyard 1">
+			<event id="299048">
+				<start>10:00</start>
+				<duration>00:40</duration>
+				<room>Courtyard 1</room>
+				<title>How we successfully run a fully-remote, autonomous team</title>
+				<description>We are a small, multi-disciplinary team of software devs, a QA engineer and a business analyst currently working on a project together with teams spanning multiple companies and time zones - 100% remote, without a manager, and with great success!
+
+I will showcase how we do it, the challenges we faced, lessons we learnt, and how you can implement our working methodology in your own company.</description>
+				<language />
+				<persons>
+					<person>Andreas Nel</person>
+				</persons>
+			</event>
+			<event id="291753">
+				<start>10:50</start>
+				<duration>00:40</duration>
+				<room>Courtyard 1</room>
+				<title>Root Canal Surgery</title>
+				<description>Improve quality in software is more than just finding and fixing defects. Rather it's a commitment to identifying the root of our quality gaps and working to rectify them. 
+
+The topics I plan to cover in this talk include:
+-	What is root cause analysis and why do you need it?
+-	Strategies for successful RCA triage
+-	Adequate mitigations for effort
+-	Classifying root causes effectively
+-	How reporting on RCA will lead to better decisions
+</description>
+				<language />
+				<persons>
+					<person>Craig Risi</person>
+				</persons>
+			</event>
+			<event id="292543">
+				<start>11:40</start>
+				<duration>00:40</duration>
+				<room>Courtyard 1</room>
+				<title>Debugging Robots in Virtual Reality</title>
+				<description>We have been developing various robots at work, but using ROS (Robot Operating System) and embedded devices makes for painful debugging. We have developed some internal tools that allow us to jump into the world of the robot, visualizing data and logs in meaningful ways other than just looking at debug logs and spreadsheets filled with graphs. Its the minority report way of debugging code ;)</description>
+				<language />
+				<persons>
+					<person>Tom Van den Bon</person>
+				</persons>
+			</event>
+			<event id="297621">
+				<start>13:20</start>
+				<duration>00:40</duration>
+				<room>Courtyard 1</room>
+				<title>Rust, WebAssembly and Two Smoking Barrels.</title>
+				<description>What lies beyond the basic "Hello, world!" tutorials in Rust. Is the dark realm of WebAssembly within easy reach? Take a step into the unknown with me and learn enough Rust in half an hour to dive into light Wasm development while learning a bit about a serious language. Frivolous fun, disastrous live coding and epic blunders await one and all.</description>
+				<language />
+				<persons>
+					<person>Ewald Horn</person>
+				</persons>
+			</event>
+			<event id="298885">
+				<start>14:10</start>
+				<duration>00:40</duration>
+				<room>Courtyard 1</room>
+				<title>How we code matters; introducing Critical Code Literacies</title>
+				<description>Programming languages are languages. When we code, we are making meaning. Words have power; what you say, and how you say it matters. Software has far-reaching ramifications, but these often go unseen. To understand the socio-cultural impacts of the code we write, we need to think about the power of our words. This talk introduces Critical Code Literacies, and demonstrates how thinking about code in this way could drive meaningful change.</description>
+				<language />
+				<persons>
+					<person>Hanli Geyser</person>
+				</persons>
+			</event>
+			<event id="318680">
+				<start>15:20</start>
+				<duration>00:40</duration>
+				<room>Courtyard 1</room>
+				<title>The TikTok Takeover</title>
+				<description>Resourcing, upskilling and enriching software engineers is already an arduous task for any organization.
+Trying to do that with inexperienced, overwhelmed and often unexpectedly eccentric young people, is chaos incarnate.
+This session talks to the disorderly, remarkable people of Generation Z, and how to effectively inject them into a highly complex IT ecosystem.</description>
+				<language />
+				<persons>
+					<person>Delano Ramdas</person>
+				</persons>
+			</event>
+			<event id="294011">
+				<start>16:10</start>
+				<duration>00:40</duration>
+				<room>Courtyard 1</room>
+				<title>Observability for Earthly Applications</title>
+				<description>Observability has been the big buzzword in the cloud-native world for years, and rightly so: having full insight into how your application is running is essential for providing a reliable and performant service.
+
+Traditional (not cloud-native) applications could also benefit massively from this approach, and in this talk I'll show you how: without changing a single line of code!</description>
+				<language />
+				<persons>
+					<person>Danny Kopping</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Courtyard 2">
+			<event id="294735">
+				<start>10:00</start>
+				<duration>00:40</duration>
+				<room>Courtyard 2</room>
+				<title>Building a JavaScript Webapp without a Framework</title>
+				<description>After almost a decade of development, Web Components have garnered large mindshare in the web community. Yet a sizeable amount of developers to this day are unsure what exactly they are or what to use them for. This session will feature a brief overview of what problem web components solve. As well as a demo where a functional Web App will be built from scratch without using any frameworks or third-party JavaScript libraries.</description>
+				<language />
+				<persons>
+					<person>Schalk Venter</person>
+				</persons>
+			</event>
+			<event id="292664">
+				<start>10:50</start>
+				<duration>00:40</duration>
+				<room>Courtyard 2</room>
+				<title>A Better Vue</title>
+				<description>A bit of a better VIEW when it comes to developing world-class software. This framework might be a bit of a recent buzzword for some, for some, it might be something spotted when on youtube. Allow me to open up vue for you in the early stages and how I got started with this framework to give you a better view of when it comes to creating web projects.</description>
+				<language />
+				<persons>
+					<person>Melissa Landsberg</person>
+				</persons>
+			</event>
+			<event id="298879">
+				<start>11:40</start>
+				<duration>00:40</duration>
+				<room>Courtyard 2</room>
+				<title>Something old, something new: Adding Jetpack Compose to a large open source Android app</title>
+				<description>Jetpack Compose is the new UI framework for Android from Google. Can I take an existing large open source Android app and get the benefit of what compose offers? This talk is a practical report of adding the new UI framework to an existing consumer app. The app I have chosen is Habitica the very popular habit tracking app. 
+
+I am presenting this exploration as a travel diary of sorts - architecture, UI exploration, interop and a demo</description>
+				<language />
+				<persons>
+					<person>Maia Grotepass</person>
+				</persons>
+			</event>
+			<event id="298068">
+				<start>13:20</start>
+				<duration>00:40</duration>
+				<room>Courtyard 2</room>
+				<title>Creating an operating system from scratch: the good, the bad and the ugly</title>
+				<description>One day, I was cleaning out the garage and I came across an old OS programming textbook. I got interested and my dad told me "You are NOT writing an OS!". Of course, I ignored him. 
+In this talk, I will take you through the basics of writing a OS from scratch. I will show you how to set up an environment using modern tools on Linux: QEMU, the Limine bootloader/GRUB, automating the building and deployment of the OS and finally my own OS in C.</description>
+				<language />
+				<persons>
+					<person>Cayden de Wit</person>
+				</persons>
+			</event>
+			<event id="291968">
+				<start>14:10</start>
+				<duration>00:40</duration>
+				<room>Courtyard 2</room>
+				<title>The rise of IDPs (Internal Developer Platforms) or the key to how modern engineering teams scale</title>
+				<description>We have seen how the adoption and proliferation of DevOps has lead to engineering cultures that foster more accountability and ownership. The notion of throwing something over the fence has long since been dispelled, splendidly. This talk speaks to how leading engineering organisations recognise that the key to scale in an industry that is constantly expanding - is to create internal developer platforms that enable and empower their teams. </description>
+				<language />
+				<persons>
+					<person>Yatin Badal</person>
+				</persons>
+			</event>
+			<event id="297079">
+				<start>15:20</start>
+				<duration>00:40</duration>
+				<room>Courtyard 2</room>
+				<title>Coding Words, A Practical Guide for Developers Who Want To Become Better Writers.</title>
+				<description>Bringing your point across in the written word is an under-appreciated skill that will level up your career as a developer. Writing well is something that has a positive impact on all aspects of your job. 
+
+This talk is a distillation of five years of active "writing while being a developer". I'll share some personal stories, as well as tips and advice to overcome some of the hurdles developers encounter as they work to improve their writing. </description>
+				<language />
+				<persons>
+					<person>Jonathan Bossenger</person>
+				</persons>
+			</event>
+			<event id="299122">
+				<start>16:10</start>
+				<duration>00:40</duration>
+				<room>Courtyard 2</room>
+				<title>Making my life easier by automating my garden</title>
+				<description>I enjoy gardening, but my biggest challenge is watering the garden, so I decided to build an internet-connected irrigation system.
+In this talk, I take you on the journey of how I built my connected irrigation system, starting with using a Raspberry Pi and a few sensors to collect data. Data such as temperature and humidity for both the soil and air combined with weather prediction data to intelligently and automatically water my garden. </description>
+				<language />
+				<persons>
+					<person>Michael Johnson</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Marine">
+			<event id="298468">
+				<start>10:00</start>
+				<duration>00:40</duration>
+				<room>Marine</room>
+				<title>Remote Pairing</title>
+				<description>Remote Pairing is a fabulous combination of remote development with high people engagement and collaboration. 
+
+In this live demo we will take you through a variety of pairing tools, and talk about the challenges and successes of remote pairing. 
+
+Whether you are new to Pairing, or a long-time fan, we have tons of suggestions for how to make the most of Remote Pairing.</description>
+				<language />
+				<persons>
+					<person>Lorraine Steyn</person>
+					<person>Alain King</person>
+				</persons>
+			</event>
+			<event id="298484">
+				<start>10:50</start>
+				<duration>00:40</duration>
+				<room>Marine</room>
+				<title>Making the Leap into Technology Leadership</title>
+				<description>In this talk I will share the challenges new technology leaders face when they transition into a leadership role from being an individual contributor. I will then share how to tackle these challenges and give new leaders a better chance of succeeding in their leap into technology leadership. I will also share some good resources (books, blogs, podcasts and videos) that technology leaders can utilise to learn and develop their leadership skills.</description>
+				<language />
+				<persons>
+					<person>Tanaka Mutakwa</person>
+				</persons>
+			</event>
+			<event id="299081">
+				<start>11:40</start>
+				<duration>00:40</duration>
+				<room>Marine</room>
+				<title>The Importance of Team Community</title>
+				<description>A talk describing the importance and approach of building a community within a team.   Transcending the co-worker space into the space of familiarity, allow people to be psychologically safe and share their personal needs for prosperity within a team. </description>
+				<language />
+				<persons>
+					<person>Werner Smit</person>
+				</persons>
+			</event>
+			<event id="299049">
+				<start>13:20</start>
+				<duration>00:40</duration>
+				<room>Marine</room>
+				<title>Terms of Engagement: The Golden Rules</title>
+				<description>The user interface (UI) is a critical part of any software product. When it’s done well, users don’t even notice it. When it’s done badly, users don't come back.  UX principles represent concepts that guide interface designs and  accessibility. Including them from the start provides both developers and designers with a solid foundation. Join the treasure hunt across 4 pre-developed sites to show  "the good, the bad and the ugly" of UX in action.</description>
+				<language />
+				<persons>
+					<person>Louise van der Bijl</person>
+				</persons>
+			</event>
+			<event id="319130">
+				<start>14:10</start>
+				<duration>00:40</duration>
+				<room>Marine</room>
+				<title>Securing and defending your castle</title>
+				<description>Within the ever growing expenses and advances in technology the attack surfaces for vulnerabilities are only getting wider and more complicated with the role of security becoming more prominent - depending on your industry some of these requirements will be regulated. 
+
+This talk will be focused on widening the moat and installing vigilant guards so that you can minimize the risks of nefarious persons. </description>
+				<language />
+				<persons>
+					<person>Judy Winn</person>
+				</persons>
+			</event>
+			<event id="291995">
+				<start>15:20</start>
+				<duration>00:40</duration>
+				<room>Marine</room>
+				<title>Using GitOps for Continuous Delivery to Multiple Kubernetes Clusters</title>
+				<description>In this talk, I’ll be covering what GitOps is, its benefits, and its challenges. After that, I’ll demonstrate how DevOps engineers can create a CI workflow working in conjunction with Rancher Fleet (a GitOps tool) for continuous deployments to multiple Kubernetes clusters. 
+·   What GitOps is 
+·   GitOps Pros and Cons 
+·   How Fleet works as a GitOps tool 
+·   Demonstrate workflow of CI Build and CD deployments to different Kubernetes clusters. </description>
+				<language />
+				<persons>
+					<person>Lukonde Mwila</person>
+				</persons>
+			</event>
+			<event id="324376">
+				<start>16:10</start>
+				<duration>00:40</duration>
+				<room>Marine</room>
+				<title>“Stop right now and put your Repo up” – How to develop securely in the cloud.</title>
+				<description>Shock, you’ve been hacked – you don’t even know what to do – you rush to your laptop, power it up, and panic, potentially introducing more risk. But wait, there is a better idea – use GitHub codespaces and GitHub security to develop securely.
+
+In this session, we’ll guide you through:
+- Navigating the whole GitHub Codespaces experience.
+- Push an insecure app full of vulnerabilities.
+- Powerful new GitHub Security features to scan and suggest fixes.
+
+Join Joylynn and Rory from Microsoft Global Advocacy for a hilarious live demo highlighting the latest developer security and penetration testing techniques. You love GitHub, now code with safety.
+</description>
+				<language />
+				<persons>
+					<person>Rory Preddy</person>
+					<person>Joylynn Kirui</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Other">
+			<event id="0">
+				<start>07:15</start>
+				<duration>01:15</duration>
+				<room>Other</room>
+				<title>Registration</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1">
+				<start>08:00</start>
+				<duration>11:00</duration>
+				<room>Other</room>
+				<title>Expo Opens</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="2">
+				<start>08:30</start>
+				<duration>00:15</duration>
+				<room>Other</room>
+				<title>Welcome</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="318179">
+				<start>08:45</start>
+				<duration>00:45</duration>
+				<room>Other</room>
+				<title>The Great Myth: Software Engineering Teams</title>
+				<description>I have worked in many Software Engineering Teams of all shapes and sizes. I have attempted to built Software Engineering Teams. To a significant extent, the results have been the same. It’s time we came clean that Software Engineering teams are generally flawed and their existence is generally a waste. In this session, I will show you why I came to this conclusion. Furthermore, I will propose an alternative to traditional software engineering teams that draws from an age-old agricultural approach to team design and management of thriving ecosystems.</description>
+				<language />
+				<persons>
+					<person>Mandla Magagula</person>
+				</persons>
+			</event>
+			<event id="5">
+				<start>09:30</start>
+				<duration>00:30</duration>
+				<room>Other</room>
+				<title>Movement, Networking &amp; Refreshements</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="6">
+				<start>10:00</start>
+				<duration>00:40</duration>
+				<room>Other</room>
+				<title>Timeslot 1</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="9">
+				<start>10:40</start>
+				<duration>00:10</duration>
+				<room>Other</room>
+				<title>Movement</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="10">
+				<start>10:50</start>
+				<duration>00:40</duration>
+				<room>Other</room>
+				<title>Timeslot 2</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="13">
+				<start>11:30</start>
+				<duration>00:10</duration>
+				<room>Other</room>
+				<title>Movement</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="14">
+				<start>11:40</start>
+				<duration>00:40</duration>
+				<room>Other</room>
+				<title>Timeslot 3</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="17">
+				<start>12:20</start>
+				<duration>01:00</duration>
+				<room>Other</room>
+				<title>Lunch</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="18">
+				<start>13:20</start>
+				<duration>00:40</duration>
+				<room>Other</room>
+				<title>Timeslot 4</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="21">
+				<start>14:00</start>
+				<duration>00:10</duration>
+				<room>Other</room>
+				<title>Movement</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="22">
+				<start>14:10</start>
+				<duration>00:40</duration>
+				<room>Other</room>
+				<title>Timeslot 5</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="25">
+				<start>14:50</start>
+				<duration>00:30</duration>
+				<room>Other</room>
+				<title>Movement, Networking &amp; Refreshments</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="26">
+				<start>15:20</start>
+				<duration>00:40</duration>
+				<room>Other</room>
+				<title>Timeslot 6</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="29">
+				<start>16:00</start>
+				<duration>00:10</duration>
+				<room>Other</room>
+				<title>Movement</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="30">
+				<start>16:10</start>
+				<duration>00:40</duration>
+				<room>Other</room>
+				<title>Timeslot 7</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="32">
+				<start>16:50</start>
+				<duration>02:10</duration>
+				<room>Other</room>
+				<title>Drinks &amp; networking</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+		</room>
+	</day>
+</schedule>
