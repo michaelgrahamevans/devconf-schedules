@@ -110,6 +110,17 @@ Aka: How we use a combination of Google Cloud, Kubernetes, Flutter, Firebase and
 					<person>Dan Wells</person>
 				</persons>
 			</event>
+			<event id="326974">
+				<start>10:50</start>
+				<duration>00:40</duration>
+				<room>Atlantic 2</room>
+				<title>Removing the Platform from Engineering: Making AWS a place where builders can build</title>
+				<description>AWS aims to simplify the lives of our customers by removing common infrastructure work, and allowing them to focus on what is unique to their businesses. I am going to look at some of the ways we do the same internally to allow teams to focus on the unique aspects of their services. I will go over some of the motivations, strategies, and lessons learned as we have centralised certain core aspects of our platform.</description>
+				<language />
+				<persons>
+					<person>Pippa Hillebrand</person>
+				</persons>
+			</event>
 			<event id="299230">
 				<start>11:40</start>
 				<duration>00:40</duration>
@@ -458,8 +469,8 @@ Join Joylynn and Rory from Microsoft Global Advocacy for a hilarious live demo h
 		</room>
 		<room name="Other">
 			<event id="0">
-				<start>07:15</start>
-				<duration>01:15</duration>
+				<start>07:30</start>
+				<duration>01:00</duration>
 				<room>Other</room>
 				<title>Registration</title>
 				<description />
