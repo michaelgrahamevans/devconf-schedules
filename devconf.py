@@ -38,6 +38,8 @@ class DevConfEvent(BaseModel):
     location: str
     venue: str
     sessions: List[DevConfSession]
+    starts_at: datetime
+    ends_at: datetime
 
 
 def get_event(event: Event, location: Location, use_archive: bool) -> DevConfEvent:
@@ -86,6 +88,12 @@ def parse_agenda(
             continue
         sessions.append(s)
 
+    if not sessions:
+        raise Exception("could not find sessions")
+
+    event_start = min(sessions, key=lambda s: s.starts_at).starts_at
+    event_end = max(sessions, key=lambda s: s.ends_at).ends_at
+
     end_times = {session.starts_at: session.ends_at for session in sessions}
 
     agenda_sessions = agenda.find_all("div", class_="agenda-session")
@@ -107,6 +115,8 @@ def parse_agenda(
         location=location,
         venue=venue,
         sessions=sessions,
+        starts_at=event_start,
+        ends_at=event_end,
     )
 
 
@@ -231,8 +241,14 @@ def event_to_pentabarf(event: DevConfEvent):
         conference, "title"
     ).text = f"DevConf {event.location} {year}"
     ElementTree.SubElement(conference, "city").text = event.location
+
     if event.venue:
         ElementTree.SubElement(conference, "venue").text = event.venue
+
+    ElementTree.SubElement(conference, "start").text = event.starts_at.strftime(
+        "%Y-%m-%d"
+    )
+    ElementTree.SubElement(conference, "end").text = event.ends_at.strftime("%Y-%m-%d")
 
     for i, d in enumerate(sorted(days)):
         day = ElementTree.SubElement(
