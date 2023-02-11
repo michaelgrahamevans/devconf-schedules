@@ -1,31 +1,45 @@
 #!/usr/bin/env python3
-
-import json
-import sys
-from copy import deepcopy
-from datetime import date, datetime, time
-from enum import Enum
-from typing import List, Optional
-from uuid import UUID
+from datetime import date
 
 import requests
-from devtools import debug
-from pydantic import BaseModel
 
-from devconf import event_to_pentabarf, get_events
-from sessionize import Event, Room, Session
+import devconf
+from devconf import event_to_pentabarf, get_event
+from sessionize import Event
 
 
 def main():
-    event_id = "p87oviq3"
-    response = requests.get(f"https://sessionize.com/api/v2/{event_id}/view/all")
-    event = Event(**response.json())
+    config = devconf.Config(
+        sessionize_id="p87oviq3",
+        use_archive=True,
+        locations=[
+            devconf.Location(
+                name="Cape Town", short_name="capetown", day=date(2022, 4, 5)
+            ),
+            devconf.Location(
+                name="Virtual", short_name="virtual", day=date(2022, 4, 7)
+            ),
+            devconf.Location(
+                name="Johannesburg", short_name="joburg", day=date(2022, 4, 7)
+            ),
+        ],
+    )
 
-    events = get_events(event)
-    for event in events:
+    for location in config.locations:
+        archive_datetime = location.day.strftime("%Y%m%d000000")
+        response = requests.get(
+            f"https://web.archive.org/web/{archive_datetime}/https://sessionize.com/api/v2/{config.sessionize_id}/view/all"
+        )
+        sessionize_event = Event(**response.json())
+
+        event = get_event(sessionize_event, location, config.use_archive)
         out = event_to_pentabarf(event)
-        location = event.location.lower().replace(" ", "-")
-        with open(f"schedules/devconf-{location}-2022.pentabarf.xml", "w") as f:
+
+        loc = location.name.lower().replace(" ", "-")
+        with open(
+            f"schedules/devconf-{loc}-{location.day.year}.pentabarf.xml",
+            "w",
+        ) as f:
             f.write(out)
 
 
