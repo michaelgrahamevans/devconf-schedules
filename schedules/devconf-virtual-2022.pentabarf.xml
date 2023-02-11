@@ -2,6 +2,8 @@
 	<conference>
 		<title>DevConf Virtual 2022</title>
 		<city>Virtual</city>
+		<start>2022-04-07</start>
+		<end>2022-04-07</end>
 	</conference>
 	<day index="1" date="2022-04-07">
 		<room name="Other">
