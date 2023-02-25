@@ -8,7 +8,7 @@ import sessionize
 
 
 def main():
-    config = devconf.Config(
+    devconf_2022 = devconf.Config(
         sessionize_id="p87oviq3",
         use_archive=True,
         events=[
@@ -23,17 +23,33 @@ def main():
             ),
         ],
     )
+    devconf_2023 = devconf.Config(
+        sessionize_id="3hwiocdj",
+        use_archive=False,
+        events=[
+            devconf.EventConfig(
+                name="Cape Town", short_name="capetown", day=date(2023, 5, 23)
+            ),
+            devconf.EventConfig(
+                name="Pretoria", short_name="pretoria", day=date(2023, 5, 25)
+            ),
+        ],
+    )
 
-    for event_config in config.events:
-        event = devconf.get_event(config, event_config)
-        out = devconf.event_to_pentabarf(event)
+    for config in [devconf_2022, devconf_2023]:
+        for event_config in config.events:
+            event = devconf.get_event(
+                config,
+                event_config,
+            )
+            out = devconf.event_to_pentabarf(event)
 
-        loc = event_config.name.lower().replace(" ", "-")
-        with open(
-            f"schedules/devconf-{loc}-{event_config.day.year}.pentabarf.xml",
-            "w",
-        ) as f:
-            f.write(out.to_xml())
+            loc = event_config.name.lower().replace(" ", "-")
+            with open(
+                f"schedules/devconf-{event_config.day.year}-{loc}.pentabarf.xml",
+                "w",
+            ) as f:
+                f.write(out.to_xml())
 
 
 if __name__ == "__main__":

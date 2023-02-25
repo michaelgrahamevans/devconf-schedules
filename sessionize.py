@@ -14,9 +14,9 @@ class Session(BaseModel):
     id: int
     title: str
     description: str
-    startsAt: datetime
-    endsAt: datetime
-    roomId: int
+    startsAt: Optional[datetime]
+    endsAt: Optional[datetime]
+    roomId: Optional[int]
     isServiceSession: bool = False
     isPlenumSession: bool = False
     speakers: List[UUID] = []
@@ -29,7 +29,9 @@ class Session(BaseModel):
 class LinkType(Enum):
     Blog = "Blog"
     CompanyWebsite = "Company_Website"
+    Facebook = "Facebook"
     LinkedIn = "LinkedIn"
+    Sessionize = "Sessionize"
     Twitter = "Twitter"
 
 

@@ -99,6 +99,9 @@ def parse_agenda(
 
     agenda_rows = agenda.find_all("div", class_=re.compile("^agenda-row-.*"))
     for i, row in enumerate(agenda_rows):
+        if "agenda-row-timeslot" in row["class"]:
+            # This well get parsed later
+            continue
         try:
             timeslot = parse_agenda_row(row, sessions_by_id, speakers_by_id, i, day)
             if not timeslot:
@@ -130,11 +133,11 @@ def parse_agenda_row(
     _id: int,
     day: date,
 ) -> Optional[Timeslot]:
-    m = re.match(r"\s*(\d\dh\d\d) → (.*) ← (\d\dh\d\d)\s*", soup.text)
+    m = re.match(r"\s*(\d+h\d+)\s+(→|❯)\s+(.*)\s+(❮|←)\s+(\d+h\d+)\s*", soup.text)
     if not m:
         return None
 
-    starts_at, title, ends_at = m.groups()
+    starts_at, _, title, _, ends_at = m.groups()
     starts_at = datetime.combine(day, parse_time(starts_at))
     ends_at = datetime.combine(day, parse_time(ends_at))
 
@@ -142,6 +145,13 @@ def parse_agenda_row(
         # Keynote session row requires special handling
         return parse_keynote_row(
             soup, sessions_by_id, speakers_by_id, starts_at, ends_at
+        )
+    elif "agenda-row-style-break" in soup["class"]:
+        return Timeslot(
+            title=title,
+            starts_at=starts_at,
+            ends_at=ends_at,
+            sessions=[],
         )
     elif "agenda-row-style-key" in soup["class"]:
         sessions: List[Session] = []
@@ -287,8 +297,14 @@ def event_to_pentabarf(event: Event) -> pentabarf.Schedule:
                     pentabarf.Event(
                         id=session.id,
                         title=session.title,
-                        description=session.description,
+                        description=re.sub(
+                            r"\s+$",
+                            "",
+                            session.description.replace("\r\n", "\n"),
+                            flags=re.MULTILINE,
+                        ),
                         room=room,
+                        track=room,
                         start=session.starts_at,
                         duration=session.ends_at - session.starts_at,
                         language="",

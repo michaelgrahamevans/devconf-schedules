@@ -1,5 +1,5 @@
 from datetime import date, datetime, timedelta
-from typing import List
+from typing import List, Optional
 from xml.etree import ElementTree
 
 from pydantic import BaseModel
@@ -11,6 +11,7 @@ class Event(BaseModel):
     duration: timedelta
     room: str
     title: str
+    track: Optional[str]
     description: str
     language: str
     persons: List[str]
@@ -78,6 +79,8 @@ class Schedule(BaseModel):
                     ElementTree.SubElement(e, "room").text = r.name
                     ElementTree.SubElement(e, "title").text = event.title
                     ElementTree.SubElement(e, "description").text = event.description
+                    if event.track:
+                        ElementTree.SubElement(e, "track").text = event.track
                     ElementTree.SubElement(e, "language").text = event.language
 
                     persons = ElementTree.SubElement(e, "persons")
