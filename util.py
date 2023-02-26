@@ -14,15 +14,3 @@ def xcal_format_duration(start: datetime, end: datetime) -> str:
     seconds = seconds % 60
 
     return f"{days}:{hours:02}:{minutes:02}:{seconds:02}"
-
-
-def pentabarf_format_duration(start: datetime, end: datetime) -> str:
-    seconds = int((end - start).total_seconds())
-
-    hours = seconds // (60 * 60)
-    seconds = seconds % (60 * 60)
-
-    minutes = seconds // 60
-    seconds = seconds % 60
-
-    return f"{hours:02}:{minutes:02}"

@@ -39,7 +39,7 @@ def main():
             f"schedules/devconf-{loc}-{event_config.day.year}.pentabarf.xml",
             "w",
         ) as f:
-            f.write(out)
+            f.write(out.to_xml())
 
 
 if __name__ == "__main__":

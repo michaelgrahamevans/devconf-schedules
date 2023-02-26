@@ -6,7 +6,8 @@ from xml.etree import ElementTree
 
 from pydantic import BaseModel
 
-from util import pentabarf_format_duration, xcal_format_duration
+import pentabarf
+from util import xcal_format_duration
 
 
 class Session(BaseModel):
@@ -67,21 +68,17 @@ class Event(BaseModel):
     questions: List[str]
 
 
-def event_to_pentabarf(event: Event) -> str:
-    rooms = {room.id: room for room in event.rooms}
-    speakers = {speaker.id: speaker for speaker in event.speakers}
-    days = {session.startsAt.date() for session in event.sessions}
+def event_to_pentabarf(event: Event) -> pentabarf.Schedule:
+    rooms_by_id = {room.id: room for room in event.rooms}
+    speakers_by_id = {speaker.id: speaker for speaker in event.speakers}
+    dates = {session.startsAt.date() for session in event.sessions}
+    days: List[pentabarf.Day] = []
 
-    root = ElementTree.Element("schedule")
-    ElementTree.SubElement(root, "conference")
+    for d in sorted(dates):
+        rooms: List[pentabarf.Room] = []
 
-    for i, d in enumerate(sorted(days)):
-        day = ElementTree.SubElement(
-            root, "day", attrib={"index": str(i + 1), "date": d.strftime("%Y-%m-%d")}
-        )
-
-        for _, r in rooms.items():
-            room = ElementTree.SubElement(day, "room", attrib={"name": r.name})
+        for _, r in rooms_by_id.items():
+            events: List[pentabarf.Event] = []
 
             for session in event.sessions:
                 if session.startsAt.date() != d:
@@ -89,27 +86,43 @@ def event_to_pentabarf(event: Event) -> str:
                 if session.roomId != r.id:
                     continue
 
-                e = ElementTree.SubElement(
-                    room, "event", attrib={"id": str(session.id)}
+                events.append(
+                    pentabarf.Event(
+                        id=str(session.id),
+                        start=session.startsAt,
+                        duration=session.endsAt - session.startsAt,
+                        room=r.name,
+                        title=session.title,
+                        description=session.description,
+                        language="",
+                        persons=[speakers_by_id[s].fullName for s in session.speakers],
+                    )
                 )
-                ElementTree.SubElement(e, "start").text = session.startsAt.strftime(
-                    "%H:%M"
-                )
-                ElementTree.SubElement(e, "duration").text = pentabarf_format_duration(
-                    session.startsAt, session.endsAt
-                )
-                ElementTree.SubElement(e, "room").text = r.name
-                ElementTree.SubElement(e, "title").text = session.title
-                ElementTree.SubElement(e, "description").text = session.description
-                persons = ElementTree.SubElement(e, "persons")
-                for s in session.speakers:
-                    speaker = speakers[s]
-                    ElementTree.SubElement(
-                        persons, "person", attrib={"id": str(speaker.id)}
-                    ).text = speaker.fullName
 
-    ElementTree.indent(root, space="\t", level=0)
-    return ElementTree.tostring(root, encoding="unicode")
+            rooms.append(
+                pentabarf.Room(
+                    name=r.name,
+                    events=events,
+                )
+            )
+
+        days.append(
+            pentabarf.Day(
+                date=d,
+                rooms=rooms,
+            )
+        )
+
+    return pentabarf.Schedule(
+        conference=pentabarf.Conference(
+            title="",
+            city="",
+            venue="",
+            start=min(dates),
+            end=max(dates),
+        ),
+        days=days,
+    )
 
 
 def event_to_xcal(event: Event) -> str:

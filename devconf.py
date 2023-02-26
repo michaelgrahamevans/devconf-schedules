@@ -2,14 +2,13 @@ import re
 from datetime import date, datetime, time
 from typing import Dict, List, Optional
 from uuid import UUID
-from xml.etree import ElementTree
 
 import bs4
 import requests
 from pydantic import BaseModel
 
+import pentabarf
 import sessionize
-from util import pentabarf_format_duration
 
 
 class EventConfig(BaseModel):
@@ -232,57 +231,51 @@ def parse_time(t: str) -> time:
     return time(int(t[:2]), int(t[3:]))
 
 
-def event_to_pentabarf(event: Event):
-    rooms = {session.room for session in event.sessions}
-    days = {session.starts_at.date() for session in event.sessions}
+def event_to_pentabarf(event: Event) -> pentabarf.Schedule:
     year = event.sessions[0].starts_at.year
+    days: List[pentabarf.Day] = []
 
-    root = ElementTree.Element("schedule")
-    conference = ElementTree.SubElement(root, "conference")
-    ElementTree.SubElement(
-        conference, "title"
-    ).text = f"DevConf {event.location} {year}"
-    ElementTree.SubElement(conference, "city").text = event.location
+    for date in sorted({session.starts_at.date() for session in event.sessions}):
+        rooms: List[pentabarf.Room] = []
 
-    if event.venue:
-        ElementTree.SubElement(conference, "venue").text = event.venue
+        for room in sorted({session.room for session in event.sessions}):
+            events: List[pentabarf.Event] = []
 
-    ElementTree.SubElement(conference, "start").text = event.starts_at.strftime(
-        "%Y-%m-%d"
-    )
-    ElementTree.SubElement(conference, "end").text = event.ends_at.strftime("%Y-%m-%d")
+            for session in (s for s in event.sessions if s.room == room):
+                events.append(
+                    pentabarf.Event(
+                        id=str(session.id),
+                        title=session.title,
+                        description=session.description,
+                        room=room,
+                        start=session.starts_at,
+                        duration=session.ends_at - session.starts_at,
+                        language="",
+                        persons=session.speakers,
+                    )
+                )
 
-    for i, d in enumerate(sorted(days)):
-        day = ElementTree.SubElement(
-            root, "day", attrib={"index": str(i + 1), "date": d.strftime("%Y-%m-%d")}
+            rooms.append(
+                pentabarf.Room(
+                    name=room,
+                    events=events,
+                )
+            )
+
+        days.append(
+            pentabarf.Day(
+                date=date,
+                rooms=rooms,
+            )
         )
 
-        for r in sorted(rooms):
-            room = ElementTree.SubElement(day, "room", attrib={"name": r})
-
-            for session in event.sessions:
-                if session.starts_at.date() != d:
-                    continue
-                if session.room != r:
-                    continue
-
-                e = ElementTree.SubElement(
-                    room, "event", attrib={"id": str(session.id)}
-                )
-                ElementTree.SubElement(e, "start").text = session.starts_at.strftime(
-                    "%H:%M"
-                )
-                ElementTree.SubElement(e, "duration").text = pentabarf_format_duration(
-                    session.starts_at, session.ends_at
-                )
-                ElementTree.SubElement(e, "room").text = r
-                ElementTree.SubElement(e, "title").text = session.title
-                ElementTree.SubElement(e, "description").text = session.description
-                ElementTree.SubElement(e, "language")
-
-                persons = ElementTree.SubElement(e, "persons")
-                for speaker in session.speakers:
-                    ElementTree.SubElement(persons, "person").text = speaker
-
-    ElementTree.indent(root, space="\t", level=0)
-    return ElementTree.tostring(root, encoding="unicode")
+    return pentabarf.Schedule(
+        conference=pentabarf.Conference(
+            title=f"DevConf {event.location} {year}",
+            city=event.location,
+            venue=event.venue,
+            start=event.starts_at,
+            end=event.ends_at,
+        ),
+        days=days,
+    )
