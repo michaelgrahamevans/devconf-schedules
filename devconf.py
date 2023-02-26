@@ -8,11 +8,11 @@ import bs4
 import requests
 from pydantic import BaseModel
 
-from sessionize import Event, Session, Speaker
+import sessionize
 from util import pentabarf_format_duration
 
 
-class Location(BaseModel):
+class EventConfig(BaseModel):
     name: str
     short_name: str
     day: date
@@ -21,10 +21,10 @@ class Location(BaseModel):
 class Config(BaseModel):
     sessionize_id: str
     use_archive: bool
-    locations: List[Location]
+    events: List[EventConfig]
 
 
-class DevConfSession(BaseModel):
+class Session(BaseModel):
     id: int
     title: str
     description: str
@@ -34,40 +34,42 @@ class DevConfSession(BaseModel):
     speakers: List[str]
 
 
-class DevConfEvent(BaseModel):
+class Event(BaseModel):
     location: str
     venue: str
-    sessions: List[DevConfSession]
+    sessions: List[Session]
     starts_at: datetime
     ends_at: datetime
 
 
-def get_event(event: Event, location: Location, use_archive: bool) -> DevConfEvent:
+def get_event(
+    event: sessionize.Event, event_config: EventConfig, use_archive: bool
+) -> Event:
     sessions_by_id = {session.id: session for session in event.sessions}
     speakers_by_id = {speaker.id: speaker for speaker in event.speakers}
 
     if use_archive:
-        archive_datetime = location.day.strftime("%Y%m%d000000")
+        archive_datetime = event_config.day.strftime("%Y%m%d000000")
         response = requests.get(
-            f"https://web.archive.org/web/{archive_datetime}/https://devconf.co.za/{location.short_name}"
+            f"https://web.archive.org/web/{archive_datetime}/https://devconf.co.za/{event_config.short_name}"
         )
     else:
-        response = requests.get(f"https://devconf.co.za/{location.short_name}")
+        response = requests.get(f"https://devconf.co.za/{event_config.short_name}")
 
     soup = bs4.BeautifulSoup(response.text, "html.parser")
     return parse_agenda(
-        soup, sessions_by_id, speakers_by_id, location.name, location.day
+        soup, sessions_by_id, speakers_by_id, event_config.name, event_config.day
     )
 
 
 def parse_agenda(
     soup: bs4.BeautifulSoup,
-    sessions_by_id: Dict[int, Session],
-    speakers_by_id: Dict[UUID, Speaker],
+    sessions_by_id: Dict[int, sessionize.Session],
+    speakers_by_id: Dict[UUID, sessionize.Speaker],
     location: str,
     day: date,
-) -> DevConfEvent:
-    sessions: List[DevConfSession] = []
+) -> Event:
+    sessions: List[Session] = []
 
     venue = ""
     scdl = soup.find("div", class_="sponsor-content-detail-location")
@@ -111,7 +113,7 @@ def parse_agenda(
             continue
         sessions.append(s)
 
-    return DevConfEvent(
+    return Event(
         location=location,
         venue=venue,
         sessions=sessions,
@@ -122,11 +124,11 @@ def parse_agenda(
 
 def parse_agenda_row(
     soup: bs4.BeautifulSoup,
-    sessions_by_id: Dict[int, Session],
-    speakers_by_id: Dict[UUID, Speaker],
+    sessions_by_id: Dict[int, sessionize.Session],
+    speakers_by_id: Dict[UUID, sessionize.Speaker],
     _id: int,
     day: date,
-) -> Optional[DevConfSession]:
+) -> Optional[Session]:
     m = re.match(r"\s*(\d\dh\d\d) → (.*) ← (\d\dh\d\d)\s*", soup.text)
     if not m:
         return None
@@ -141,7 +143,7 @@ def parse_agenda_row(
             soup, sessions_by_id, speakers_by_id, starts_at, ends_at
         )
     else:
-        return DevConfSession(
+        return Session(
             id=_id,
             title=title,
             description="",
@@ -154,11 +156,11 @@ def parse_agenda_row(
 
 def parse_keynote_row(
     soup: bs4.BeautifulSoup,
-    sessions_by_id: Dict[int, Session],
-    speakers_by_id: Dict[UUID, Speaker],
+    sessions_by_id: Dict[int, sessionize.Session],
+    speakers_by_id: Dict[UUID, sessionize.Speaker],
     starts_at: datetime,
     ends_at: datetime,
-) -> DevConfSession:
+) -> Session:
     keynote = soup.find("div", class_="agenda-keynote-session")
     if not isinstance(keynote, bs4.Tag):
         raise Exception("could not find keynote session ID")
@@ -170,7 +172,7 @@ def parse_keynote_row(
 
     session = sessions_by_id[_id]
     speakers = [speakers_by_id[i].fullName for i in session.speakers]
-    return DevConfSession(
+    return Session(
         id=_id,
         title=session.title,
         description=session.description,
@@ -183,11 +185,11 @@ def parse_keynote_row(
 
 def parse_agenda_session(
     soup: bs4.BeautifulSoup,
-    sessions_by_id: Dict[int, Session],
-    speakers_by_id: Dict[UUID, Speaker],
+    sessions_by_id: Dict[int, sessionize.Session],
+    speakers_by_id: Dict[UUID, sessionize.Speaker],
     day: date,
     end_times: Dict[datetime, datetime],
-) -> Optional[DevConfSession]:
+) -> Optional[Session]:
     _ids = soup.get_attribute_list("data-slot-id")
     if not _ids:
         raise Exception("could not find session ID")
@@ -212,7 +214,7 @@ def parse_agenda_session(
 
     speakers = [speakers_by_id[i].fullName for i in session.speakers]
 
-    return DevConfSession(
+    return Session(
         id=_id,
         title=session.title,
         description=session.description,
@@ -230,7 +232,7 @@ def parse_time(t: str) -> time:
     return time(int(t[:2]), int(t[3:]))
 
 
-def event_to_pentabarf(event: DevConfEvent):
+def event_to_pentabarf(event: Event):
     rooms = {session.room for session in event.sessions}
     days = {session.starts_at.date() for session in event.sessions}
     year = event.sessions[0].starts_at.year
