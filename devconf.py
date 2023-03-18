@@ -1,4 +1,6 @@
+import hashlib
 import re
+import sys
 from datetime import date, datetime, time
 from typing import Dict, List, Optional
 from uuid import UUID
@@ -24,7 +26,7 @@ class Config(BaseModel):
 
 
 class Session(BaseModel):
-    id: int
+    id: str
     title: str
     description: str
     room: str
@@ -33,10 +35,17 @@ class Session(BaseModel):
     speakers: List[str]
 
 
+class Timeslot(BaseModel):
+    title: str
+    starts_at: datetime
+    ends_at: datetime
+    sessions: List[Session]
+
+
 class Event(BaseModel):
     location: str
     venue: str
-    sessions: List[Session]
+    timeslots: List[Timeslot]
     starts_at: datetime
     ends_at: datetime
 
@@ -68,7 +77,7 @@ def parse_agenda(
     location: str,
     day: date,
 ) -> Event:
-    sessions: List[Session] = []
+    timeslots: List[Timeslot] = []
 
     venue = ""
     scdl = soup.find("div", class_="sponsor-content-detail-location")
@@ -84,38 +93,25 @@ def parse_agenda(
 
     agenda_rows = agenda.find_all("div", class_=re.compile("^agenda-row-.*"))
     for i, row in enumerate(agenda_rows):
-        s = parse_agenda_row(row, sessions_by_id, speakers_by_id, i, day)
-        if not s:
-            continue
-        sessions.append(s)
+        try:
+            timeslot = parse_agenda_row(row, sessions_by_id, speakers_by_id, i, day)
+            if not timeslot:
+                # print("failed to parse agenda row", row)
+                continue
+            timeslots.append(timeslot)
+        except Exception as e:
+            print(f"failed to parse agenda row: {str(e)}", file=sys.stderr)
 
-    if not sessions:
-        raise Exception("could not find sessions")
+    if not timeslots:
+        raise Exception("could not find timeslots")
 
-    event_start = min(sessions, key=lambda s: s.starts_at).starts_at
-    event_end = max(sessions, key=lambda s: s.ends_at).ends_at
-
-    end_times = {session.starts_at: session.ends_at for session in sessions}
-
-    agenda_sessions = agenda.find_all("div", class_="agenda-session")
-    for session in agenda_sessions:
-        if not session.contents:
-            continue
-
-        if "agenda-keynote-session" in session.get_attribute_list("class"):
-            continue
-
-        s = parse_agenda_session(
-            session, sessions_by_id, speakers_by_id, day, end_times
-        )
-        if not s:
-            continue
-        sessions.append(s)
+    event_start = min(timeslots, key=lambda s: s.starts_at).starts_at
+    event_end = max(timeslots, key=lambda s: s.ends_at).ends_at
 
     return Event(
         location=location,
         venue=venue,
-        sessions=sessions,
+        timeslots=timeslots,
         starts_at=event_start,
         ends_at=event_end,
     )
@@ -127,7 +123,7 @@ def parse_agenda_row(
     speakers_by_id: Dict[UUID, sessionize.Speaker],
     _id: int,
     day: date,
-) -> Optional[Session]:
+) -> Optional[Timeslot]:
     m = re.match(r"\s*(\d\dh\d\d) → (.*) ← (\d\dh\d\d)\s*", soup.text)
     if not m:
         return None
@@ -141,16 +137,37 @@ def parse_agenda_row(
         return parse_keynote_row(
             soup, sessions_by_id, speakers_by_id, starts_at, ends_at
         )
-    else:
-        return Session(
-            id=_id,
+    elif "agenda-row-style-key" in soup["class"]:
+        sessions: List[Session] = []
+        if (
+            soup.next_sibling
+            and "agenda-row-timeslot" in soup.next_sibling.get_attribute_list("class")
+        ):
+            agenda_sessions = soup.next_sibling.find_all("div", class_="agenda-session")
+            for session in agenda_sessions:
+                if not session.contents:
+                    continue
+
+                s = parse_agenda_session(
+                    session,
+                    sessions_by_id,
+                    speakers_by_id,
+                    day,
+                    starts_at,
+                    ends_at,
+                )
+                if not s:
+                    continue
+                sessions.append(s)
+
+        return Timeslot(
             title=title,
-            description="",
-            room="Other",
             starts_at=starts_at,
             ends_at=ends_at,
-            speakers=[],
+            sessions=sessions,
         )
+
+    return None
 
 
 def parse_keynote_row(
@@ -159,7 +176,7 @@ def parse_keynote_row(
     speakers_by_id: Dict[UUID, sessionize.Speaker],
     starts_at: datetime,
     ends_at: datetime,
-) -> Session:
+) -> Timeslot:
     keynote = soup.find("div", class_="agenda-keynote-session")
     if not isinstance(keynote, bs4.Tag):
         raise Exception("could not find keynote session ID")
@@ -171,14 +188,21 @@ def parse_keynote_row(
 
     session = sessions_by_id[_id]
     speakers = [speakers_by_id[i].fullName for i in session.speakers]
-    return Session(
-        id=_id,
-        title=session.title,
-        description=session.description,
-        room="Other",
+    return Timeslot(
+        title="Keynote",
         starts_at=starts_at,
         ends_at=ends_at,
-        speakers=speakers,
+        sessions=[
+            Session(
+                id=str(_id),
+                title=session.title,
+                description=session.description,
+                room="Other",
+                starts_at=starts_at,
+                ends_at=ends_at,
+                speakers=speakers,
+            )
+        ],
     )
 
 
@@ -187,7 +211,8 @@ def parse_agenda_session(
     sessions_by_id: Dict[int, sessionize.Session],
     speakers_by_id: Dict[UUID, sessionize.Speaker],
     day: date,
-    end_times: Dict[datetime, datetime],
+    starts_at: datetime,
+    ends_at: datetime,
 ) -> Optional[Session]:
     _ids = soup.get_attribute_list("data-slot-id")
     if not _ids:
@@ -199,27 +224,19 @@ def parse_agenda_session(
         raise Exception(f"could not find room for session {_id}")
     room = room_div.text.strip()
 
-    starts_at_div = soup.find("div", class_="agenda-session-time")
-    if not starts_at_div:
-        raise Exception(f"could nto find start time for session {_id}")
-    starts_at = starts_at_div.text.strip()
-
     if _id not in sessions_by_id:
         return None
     session = sessions_by_id[_id]
 
-    starts_at_dt = datetime.combine(day, parse_time(starts_at))
-    ends_at_dt = end_times[starts_at_dt]
-
     speakers = [speakers_by_id[i].fullName for i in session.speakers]
 
     return Session(
-        id=_id,
+        id=str(_id),
         title=session.title,
         description=session.description,
         room=room,
-        starts_at=starts_at_dt,
-        ends_at=ends_at_dt,
+        starts_at=starts_at,
+        ends_at=ends_at,
         speakers=speakers,
     )
 
@@ -232,19 +249,37 @@ def parse_time(t: str) -> time:
 
 
 def event_to_pentabarf(event: Event) -> pentabarf.Schedule:
-    year = event.sessions[0].starts_at.year
+    year = event.starts_at.year
     days: List[pentabarf.Day] = []
 
-    for date in sorted({session.starts_at.date() for session in event.sessions}):
+    all_sessions = []
+
+    for timeslot in event.timeslots:
+        if timeslot.sessions:
+            all_sessions.extend(timeslot.sessions)
+        else:
+            all_sessions.append(
+                Session(
+                    id=hashlib.md5(timeslot.title.encode()).hexdigest(),
+                    title=timeslot.title,
+                    description="",
+                    room="",  # TODO Lookup in sessionize data?
+                    starts_at=timeslot.starts_at,
+                    ends_at=timeslot.ends_at,
+                    speakers=[],
+                )
+            )
+
+    for date in sorted({timeslot.starts_at.date() for timeslot in event.timeslots}):
         rooms: List[pentabarf.Room] = []
 
-        for room in sorted({session.room for session in event.sessions}):
+        for room in sorted({session.room for session in all_sessions}):
             events: List[pentabarf.Event] = []
 
-            for session in (s for s in event.sessions if s.room == room):
+            for session in (s for s in all_sessions if s.room == room):
                 events.append(
                     pentabarf.Event(
-                        id=str(session.id),
+                        id=session.id,
                         title=session.title,
                         description=session.description,
                         room=room,
