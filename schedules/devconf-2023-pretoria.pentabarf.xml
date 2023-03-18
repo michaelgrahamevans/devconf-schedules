@@ -1,0 +1,736 @@
+<schedule>
+	<conference>
+		<title>DevConf Pretoria 2023</title>
+		<city>Pretoria</city>
+		<venue>CSIR International Conference Centre</venue>
+		<start>2023-05-25</start>
+		<end>2023-05-25</end>
+	</conference>
+	<day index="1" date="2023-05-25">
+		<room name="">
+			<event id="0f98b7f230f3c91292f0de4c99e263f2">
+				<start>07:30</start>
+				<duration>01:30</duration>
+				<room />
+				<title>Registration</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="cf6d920e9979b2465f24700075a3342a">
+				<start>08:00</start>
+				<duration>11:00</duration>
+				<room />
+				<title>Expo Opens</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="480967">
+				<start>09:15</start>
+				<duration>00:45</duration>
+				<room />
+				<title>Make more stuff</title>
+				<description>We all know that South Africa has great software engineers. So where are our great software companies?
+This talk aims to discuss some of the reasons we haven't built them yet¹ and aims to encourage more of us to remedy this.
+__
+¹ We try to avoid lazy tropes like the absence of a VC ecosystem</description>
+				<track>Keynotes</track>
+				<language />
+				<persons>
+					<person>Haroon Meer</person>
+				</persons>
+			</event>
+			<event id="e1c1b65851b4665252e9684fbec3f1a5">
+				<start>10:00</start>
+				<duration>00:30</duration>
+				<room />
+				<title>Movement, Networking &amp; Refreshments</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="4642e767f9251fa40afadbc963f80b7a">
+				<start>11:10</start>
+				<duration>00:10</duration>
+				<room />
+				<title>Movement</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="f1e8a2ee776150614aaf07a8bdbac218">
+				<start>12:00</start>
+				<duration>00:50</duration>
+				<room />
+				<title>Lunch</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="4642e767f9251fa40afadbc963f80b7a">
+				<start>13:30</start>
+				<duration>00:10</duration>
+				<room />
+				<title>Movement</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="4642e767f9251fa40afadbc963f80b7a">
+				<start>14:20</start>
+				<duration>00:10</duration>
+				<room />
+				<title>Movement</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="e1c1b65851b4665252e9684fbec3f1a5">
+				<start>15:10</start>
+				<duration>00:30</duration>
+				<room />
+				<title>Movement, Networking &amp; Refreshments</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="4642e767f9251fa40afadbc963f80b7a">
+				<start>16:20</start>
+				<duration>00:10</duration>
+				<room />
+				<title>Movement</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="e296e3e0cf8195806d6ff760275f3765">
+				<start>17:10</start>
+				<duration>01:50</duration>
+				<room />
+				<title>Drinks &amp; networking</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+		</room>
+		<room name="Amber">
+			<event id="404856">
+				<start>10:30</start>
+				<duration>00:40</duration>
+				<room>Amber</room>
+				<title>Mental Illness and Vulnerability in Tech</title>
+				<description>In his seminal “Noonday Demon: An Atlas of Depression”, Andrew Solomon remarked that there is an entire world of silent “agonizing lives in invisible wheelchairs, dressed in invisible bodycasts". It is becoming increasingly apparent that the tech sector is no exception. In the recent “Mental Health in Tech Survey" only 30.7% of respondents indicated that they “feel comfortable discussing mental health with coworkers”. This seems unsurprising, given that when mental health was discussed only 33.6% of respondents “experienced or observed a supportive or well-handled response”. As someone with a history of mental illness myself, I spent the last year conducting interviews with individuals struggling with mental health in the tech sector. In addition, I also interviewed legal and therapeutic practitioners to create a list of avenues of support you are legally entitled to as a South African citizen. In this talk, I hope to share some insights uncovered during this personal investigation.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Schalk Venter</person>
+				</persons>
+			</event>
+			<event id="424951">
+				<start>11:20</start>
+				<duration>00:40</duration>
+				<room>Amber</room>
+				<title>Assessing the performance of your engineering team</title>
+				<description>Assessing the performance of a software engineering team has for a long time been viewed as a complex or even controversial undertaking. However without having some form of performance measurements in place, many engineering teams are operating in the dark. There is a famous quote about this - “You can't improve what you don't measure.”
+There is no one solution to engineering measurement, rather there are many modes of engineering measurement, each of which is appropriate for a given scenario.
+In this talk I will share what you should measure in order to have good insight into the performance of your engineering team. After you apply the suggested approaches you will be clear on the state of your team for each of the following:
+1 - The value the product built by your team is providing for users
+2 - The technical quality of the solutions built by your team
+3 - The efficiency of your team's processes
+4 - The health / culture of your team</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Tanaka Mutakwa</person>
+				</persons>
+			</event>
+			<event id="429080">
+				<start>12:50</start>
+				<duration>00:40</duration>
+				<room>Amber</room>
+				<title>DevOops, I did it again.</title>
+				<description>Exploring the 5 Tenets of DevOps and how we can use it not just for success at Work but in our personal lives.
+We'll discuss how we can use Culture, Lean, Automation, Measurement and Sharing
+- To build a Safe Culture,
+- deliver value to our coworkers and customers
+- how we become better people in the process.
+How I used these principles to Loose - 25 kg and become healthy</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Karl Fischer</person>
+				</persons>
+			</event>
+			<event id="428626">
+				<start>13:40</start>
+				<duration>00:40</duration>
+				<room>Amber</room>
+				<title>How we cut 20M daily API calls and saved $30k a month on our infrastructure.</title>
+				<description> I’ll dive into how we halved the network traffic from our users by analysing the lifecycle of React-Native in its handling of background tasks.
+Outline:
+- Use-case of Apple’s Healthkit and step-counts functionality for Relive
+- Interface with Healthkit via a library that we’ve written ourselves
+- We saw incredible amounts of API calls being made while the app is in the background and the user is not even using the app
+- Apple Healthkit notifies us of new activities, and step-counts, which triggers the app to launch, in turn instantiating the bridge and RCTRootView
+- The root of the app is mounted while the app is in the background busy processing this notification
+- Native solution is not possible, since the handlers are in the JS layer
+- To solve this, introduce a wrapper that is aware of the app state before mounting the app
+- Share learnings about the importance of understanding the RN lifecycle
+- Share learnings about the importance of investigating smelly events in your analytics</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Frikkie Snyman</person>
+				</persons>
+			</event>
+			<event id="427242">
+				<start>14:30</start>
+				<duration>00:40</duration>
+				<room>Amber</room>
+				<title>End Procrastination Tomorrow! Doing things later can make your system better</title>
+				<description>Are you looking to improve the performance, scalability, and reliability of your system while doing less work right now? Many people believe that doing things right away is the best approach, but what if putting some things off until later is a good thing?
+In this session, we will explore the benefits of designing your system to embrace procrastination. We'll look at techniques like delayed delivery, and long-running business process patterns such as the Saga and Process Manager patterns. We will discuss the types of delays that can occur in a system, how the Saga and Process Manager patterns can handle failures and complex workflows, and review real-world examples. Attendees will leave with a deeper understanding of when and how to implement these patterns for simpler systems architecture.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>William Brander</person>
+				</persons>
+			</event>
+			<event id="430384">
+				<start>15:40</start>
+				<duration>00:40</duration>
+				<room>Amber</room>
+				<title>Smart Watch Lobotomy</title>
+				<description>Taking the cheapest smart watch on Takealot, completely reverse engineering it and building new software for it adding the features I want.
+Find out how to dump firmware, identify components, decode buses and make things blink while destroying only a few watches.
+This talk is filled with hardware hacking, reverse engineering, a little embedded software and a lot of googling and at the end of it all I might still have a watch that tells the time with working bluetooth.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Dale Nunns</person>
+				</persons>
+			</event>
+			<event id="430666">
+				<start>16:30</start>
+				<duration>00:40</duration>
+				<room>Amber</room>
+				<title>Chasing Rainbows: The Shifting Challenges of Scaling Up.</title>
+				<description>While growing our startup from initial success with a team of 6 to a headcount approaching 100 we faced many hurdles that come with scaling up an engineering team. We're dealing with technical, team structure, and knowledge sharing challenges. All of these require tradeoffs as we're building out the system, while running it 24/7.
+I will cover some of the specific challenges faced when things don't scale well, how we moved past them, and lessons learned.
+The problems we faced ranged from technical, like how early choices in a growing code base painted us into a corner later, to how a growing user base coupled with growing system complexity lead to difficult tradeoffs for deployments, and making sure a growing team speeds up, rather than slowing down.
+Crucially, you can't scale up the last man who knew everything (me), and expect the engineering team and output to scale up while he is in the centre of it all and not sharing knowledge.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Niel de Wet</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Amethyst">
+			<event id="410736">
+				<start>10:30</start>
+				<duration>00:40</duration>
+				<room>Amethyst</room>
+				<title>How Kubernetes made our staging environment disappear</title>
+				<description>Kubernetes is an extremely powerful tool that takes IaC to the next level.
+In this talk, I'll walk through how we built a set of automated pipelines that allowed us to spin up on-demand review environments for each piece of work-in-progress that live safely alongside our production code. This has eliminated the need for clunky shared staging environments.
+I'll talk about the pitfalls of putting all your infrastructure eggs in one kubernetes basket, but also give you tips and tricks on how to maximise reuse in your cluster.
+Our K8S journey has been long, expensive, illuminating, and ultimately rewarding, and we'd love to share how introducing it into our environment has revolutionised the way ship value.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Gabriel Fortuna</person>
+				</persons>
+			</event>
+			<event id="419273">
+				<start>11:20</start>
+				<duration>00:40</duration>
+				<room>Amethyst</room>
+				<title>There and Back Again: From MPAs to SPAs and Back</title>
+				<description>A story about how and why we drank the SPA kool-aid, realized there are considerable drawbacks to this, and now are gradually changing to new meta-frameworks that bring back the best of classical MPAs.
+This talk is about the weaknesses of SPAs and the benefits of server-side rendering. Furthermore, we look at the long-forgotten art of progressive enhancement.
+Finally, we'll compare popular meta frameworks for React, Vue, and Svelte and their ups and downs. And we want to investigate how they can help us build better, more resilient applications faster.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Markus Oberlehner</person>
+				</persons>
+			</event>
+			<event id="493619">
+				<start>12:50</start>
+				<duration>00:40</duration>
+				<room>Amethyst</room>
+				<title>From Zero to Hero; Growing a Software Development Apprenticeship Program From Concept to Success!</title>
+				<description>As a young company based on the East Coast of South Africa, we always battled to find great developers!
+7 years ago we made the decision to change our approach and instead of trying to find great people, we decided to help develop them instead. Leveraging our internal company ethos of learning, as well as our tag line "Learn, Grow, Deliver" we embarked on a journey to grow young developers and positively contribute to the software development ecosystem.
+This is not only the story of our journey, it is also the story of some of our juniors who have been through the apprenticeship program and are now leaders in our and other organisations.
+In this talk we cover:
+* The inception of the Apprenticeship program.
+* Our approach to growing young software developers.
+* How we fast tracking growing young leaders and encourage them to stay with us.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Chris Tite</person>
+				</persons>
+			</event>
+			<event id="453060">
+				<start>13:40</start>
+				<duration>00:40</duration>
+				<room>Amethyst</room>
+				<title>Power Platform Integration with everyday Applications – A 4th Generation development Tool</title>
+				<description>1.What is a 4th Generation Development tool?
+2.What are Power Apps?
+3.What is Power Automate?
+4.Microsoft Dataverse
+5.The Common Data Model
+6.Creating a web application that saves data to the Dataverse
+7.Setting up triggers in Power Automate for when entries are made in the Dataverse
+8.Connecting your process flow to an Azure SQL Database
+9.Connecting your process flow to a local SQL Database
+10.Creating a Web API in 5 minutes
+11.Creating a process flow that works with DevOps work items
+12.Creating a process flow that starts a release pipeline in DevOps
+13.Integrating your process flows with Microsoft Teams
+14.Create a process flow that triggers when a file is dropped in SharePoint
+15.Filling in a Microsoft Word document and converting it to PDF
+17.Create a trading bot then a process flow that integrates with your trading bot and a chat platform like Microsoft Teams or Telegram
+18.Give your trading bot trading instructions from Microsoft Teams</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Rynardt Koen</person>
+				</persons>
+			</event>
+			<event id="429688">
+				<start>14:30</start>
+				<duration>00:40</duration>
+				<room>Amethyst</room>
+				<title>ChatGPT in Action</title>
+				<description>Join us for a deep dive into the world of natural language processing with ChatGPT, OpenAI's state-of-the-art language model. We'll explore the transformative power of ChatGPT and what has changed in the field of NLP, covering the current state and future of common NLP tasks.
+We'll start with a simplified explanation of how language models work and then dive deeper into GPT, examining its transformer architecture, massive size, and groundbreaking training techniques. We'll discuss how the model can be used through the API and showcase real-life use cases while also addressing potential pitfalls, including prompt engineering and ethical concerns.
+This developer talk is the perfect opportunity to learn about the latest advancements in deep learning and the future of NLP. Whether you're a seasoned developer or new to the field, you'll leave feeling informed and inspired by ChatGPT's power and potential.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Rudi Grobler</person>
+				</persons>
+			</event>
+			<event id="460376">
+				<start>15:40</start>
+				<duration>00:40</duration>
+				<room>Amethyst</room>
+				<title>The Raging River</title>
+				<description>A deep dive into the fast paced agile-ish development culture at Raging River and how we're making waves in the sport's betting industry.
+We'll float by the following :
+How the little fish proof of concept became a big fish.
+Game day numbers and monster weekend waves.
+How we've dealt with rapids and bottlenecks.
+The near-drowning mistakes we've made.
+Lessons learned in the river.
+How we all come together as a school.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Matthew Bowden</person>
+				</persons>
+			</event>
+			<event id="408986">
+				<start>16:30</start>
+				<duration>00:40</duration>
+				<room>Amethyst</room>
+				<title>Achieving Inclusivity Through Remote Work</title>
+				<description>A strength of the tech industry is its ability to facilitate remote work. Remote work helps people — particularly people who are part of marginalized communities, such as folks who are undergoing a gender transition. We often talk about how to foster inclusive teams and remote work can be a big factor in that!
+In this talk, you’ll learn about barriers that disproportionately affect underrepresented folks in tech, like health concerns, financial/geographical logistics and emotional burnout, as well as the ways working remotely can ease those burdens, and how to promote healthy distributed teams.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Jameson Alea</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Diamond Auditorium">
+			<event id="431089">
+				<start>10:30</start>
+				<duration>00:40</duration>
+				<room>Diamond Auditorium</room>
+				<title>How to build a pair of SASL gloves</title>
+				<description>I once built a pair of South African Sign Language gloves which convert sign language into spoken English. I used a total of 22 sensors and developed a pair of gloves which can translate dynamic and static gestures with an accuracy of 98.7%. There were many things I learnt whilst doing this including: assistive technologies need to be informed by the people they're meant to assist and that you should never get your mom to sew the gloves as it will create tension in your family.
+In this session, we will go through how to build the gloves and what I learnt whilst doing it.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Thalia Pillay</person>
+				</persons>
+			</event>
+			<event id="474978">
+				<start>11:20</start>
+				<duration>00:40</duration>
+				<room>Diamond Auditorium</room>
+				<title>The State of the South African Software Developer Nation in 2023</title>
+				<description>Our 2023 State of the Dev Nation report aggregates the experience of over 4,500 South African devs. Some key insights: The South African tech industry avoided mass-scale layoffs, with only 3% reporting being laid off in 2022. The rising inflation means companies will be stricter with hiring and developers may need to make some trade-offs during their job search. We’ll cover what that means for the 30% of developers looking to change roles this year.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Nic Botes</person>
+				</persons>
+			</event>
+			<event id="424847">
+				<start>12:50</start>
+				<duration>00:40</duration>
+				<room>Diamond Auditorium</room>
+				<title>An overview of software development at the SKA Observatory</title>
+				<description>The Square Kilometre Array Observatory is a next-generation radio astronomy facility that will revolutionise our understanding of the universe.
+It brings together over 500 engineers, 1000 scientists and more than 20 countries.
+This talk covers a top down overview of software development at the SKAO and will touch on the following topics:
+- How software development work is contracted and distributed among member countries.
+- How dish designs are defined and communicated to developers for implementation.
+- How architectural decisions are made and communicated to teams.
+- Which development processes are used to get teams located across the globe pulling in the same direction.
+- Which tools/technologies we use.
+- How we support teams with varying levels of experience, to enable them to deliver high quality code.
+- How we make use of, and contribute back to the open source community.
+- What challenges are we grappling with.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Johan Venter</person>
+				</persons>
+			</event>
+			<event id="427288">
+				<start>13:40</start>
+				<duration>00:40</duration>
+				<room>Diamond Auditorium</room>
+				<title>Six Small Steps towards Continuous Delivery</title>
+				<description>It's 12 years since the eponymous Continuous Delivery book (Farley/Humble) was published.
+Many conference talks and articles assume that CD is a done deal. But the State of DevOps Report 2022 shows that 90% of respondents have deployment frequencies and lead times of between 1 week and 6 months (compared to the 10% of 'high performers' who can release on-demand - the very definition of Continuous Delivery).
+This talk aims to avoid just describing what the destination looks like, but instead focuses on six, tangible, independent actions that delivery teams can take, to move towards - or to improve - their continuous delivery ambitions.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Phil Parker</person>
+				</persons>
+			</event>
+			<event id="430845">
+				<start>14:30</start>
+				<duration>00:40</duration>
+				<room>Diamond Auditorium</room>
+				<title>Emulators inside out</title>
+				<description>If you're reading this, you likely use a computer a lot. But, often times we don't stop and think about how the machines we use every day work. This talk will aim to teach you about how these machines work by creating a simulated CPU together. Going through all the design steps one by one and by the end, you will have created a basic virtual computer with me.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Cayden de Wit</person>
+				</persons>
+			</event>
+			<event id="424218">
+				<start>15:40</start>
+				<duration>00:40</duration>
+				<room>Diamond Auditorium</room>
+				<title>Becoming a Team Lead in Tech: Personal Experience and  Practical Advice</title>
+				<description>Professionals in the technology industry often find
+themselves considering a transition from individual contributor
+roles to leadership positions. This shift can be challenging, as it involves taking on a range of new responsibilities.
+In this talk, I will explore my personal experience navigating this transition and offer practical suggestions for successfully transitioning into a new lead role.
+Specifically, I will focus on the following topics:
+● Soft skills required for a new leadership role
+● Strategies for working with a diverse team, including techniques for resolving conflicts
+● The importance of effective delegation and mentorship in
+building a successful team
+● Tips for managing client relationships and engaging in
+solution design to drive business success
+● Coping with disappointment, failure, and stress as a
+leader in the technology industry
+I will provide attendees with an overview of the challenges and opportunities that come with transitioning into a lead role in IT.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Merissa Badenhorst</person>
+				</persons>
+			</event>
+			<event id="424363">
+				<start>16:30</start>
+				<duration>00:40</duration>
+				<room>Diamond Auditorium</room>
+				<title>Making secure development practices fun in web engineering</title>
+				<description>As software development becomes increasingly complex and interconnected, ensuring the security of applications is more important than ever. However, it can be difficult to get developers to prioritize security, especially when it is seen as a burden or an afterthought. This talk aims to change that perception by demonstrating how security can be made into a fun and engaging part of the development process.
+Through interactive exercises and real-world examples, attendees will learn how to create a culture of security within their organization and how to make security practices an integral part of their development workflow. Attendees will also learn how to use tools and resources to make security testing and code reviews more efficient and effective.
+By the end of this talk, attendees will have a new appreciation for the role of security in development and will have a set of practical strategies for making secure development practices a more enjoyable and integral part of their work.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Jessie Auguste</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Emerald Auditorium">
+			<event id="430722">
+				<start>10:30</start>
+				<duration>00:40</duration>
+				<room>Emerald Auditorium</room>
+				<title>Create the sustainable home farm of your dreams!</title>
+				<description>Are you interested in growing your own food at home, but unsure of how to get started? Do you want to create a sustainable home farm that is both productive and environmentally friendly? Look no further!
+In this exciting presentation, we will be exploring the amazing potential of using your dev skills in C# and  .NET, using .NET Nanoframework on microcontrollers (ESP32) and the cloud to create a sustainable home farm. By leveraging the power of these technologies, you can optimize your home farm for maximum productivity, sustainability and power efficiency.    But best of all not have it be a full time job to maintain as a home farmer.
+Join me on my journey of builidng my own farm at home and I will cover my experiences and everything needed to build a ruggedized, weather-proof, outdoor farming system: powered by the sun and irrigated by rainwater.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Allan Pead</person>
+				</persons>
+			</event>
+			<event id="427230">
+				<start>11:20</start>
+				<duration>00:40</duration>
+				<room>Emerald Auditorium</room>
+				<title>Microservice Reuse: Some Unintended Consequences</title>
+				<description>The conventional microservice wisdom is to package business logic in a service and reuse it.  But integration is hard.  This talk is about the times I've under-estimated just how hard.
+We work through a case study based on some real projects I've been involved in.  We look at how a team reuses a microservice, and how this has some unintended consequences. And we look at how these are addressed and overcome.
+We review the team's experience from a number of angles, drawing on ideas from Domain Driven Design, integration patterns, scaling agile teams, and good old Conway's Law.  While celebrating the team's success, we consider carefully what hindsight is teaching us.
+We may learn a few things about microservices and when to reuse them.  We may even see microservices from a slightly different point of view.  But at the very least, we'll have a few more questions to ask before we decide to reuse another microservice.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Donald Graham</person>
+				</persons>
+			</event>
+			<event id="424713">
+				<start>12:50</start>
+				<duration>00:40</duration>
+				<room>Emerald Auditorium</room>
+				<title>Zen and the Art of Software Maintenance</title>
+				<description>Software either dies, or it needs to be maintained.
+The art of software maintenance is a balancing act between constraints on the project that are in dynamic tension with one another. Satisfying one of these often means trading off against another. Or does it?
+What is Quality in Software? According to whom? Is it purely subjective? Or are there ways to measure it?  More broadly than that, does it even matter?
+Even if I claim to know what Quality is, can I claim to know what causes Quality?
+In the last decade, studies on Software Engineering have emerged that are scientifically rigorous and whose findings are giving us meaningful insight into what drives good software engineering. No longer do we have to settle for picking a side between different ideologies based chiefly on their champions' force of personality.
+Find out why we should care about the Quality of our code beyond romantic notions like elegance. Even your boss will like what I have to say.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Xandor Schiefer</person>
+				</persons>
+			</event>
+			<event id="403000">
+				<start>13:40</start>
+				<duration>00:40</duration>
+				<room>Emerald Auditorium</room>
+				<title>Satellites are the future, are your space development skills up to date? [PRE-RECORDED]</title>
+				<description>These days rockets and satellites are being launched almost every week. More and more software developers will get exciting opportunities to write code for satellites (tracking, communication or even code running on satellites). Before you miss that opportunity, why not start playing with satellites, let's chat about tracking satellites, communicating with them (receive and transmit) with your own ground station and also talk about the various frameworks available to develop your own tracking software, communication software and even make your own physical satellite simulator. Space is the future, are you prepared?
+Note: Tom cannot join us due to a last-minute issue but has pre-recorded his session, which will be shown in the timeslot.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Tom Van den Bon</person>
+				</persons>
+			</event>
+			<event id="414282">
+				<start>14:30</start>
+				<duration>00:40</duration>
+				<room>Emerald Auditorium</room>
+				<title>A Developers odyssey to overcoming fear, anxiety, and burnout.</title>
+				<description>As professionals in the IT industry, we sometimes have trouble we wish wasn't there and it’s hard for us to understand, internalize, and process non-technical challenges. We are immersed in an ever-changing, fast-moving, and demanding world that expects nothing but the best from us while constantly throwing challenges at us. We feel uncertain, unfulfilled, exhausted, stressed, and we wonder how we've lost our energy, excitement, and enthusiasm.
+In this session, I will use valuable lessons from my dev career spanning two decades, combined with years of research in mental health and cognitive behavior analysis to share principles that helped me through a remarkable recovery from stress, anxiety, burnout, depression, and ulcers.
+Enjoying a fulfilling IT career requires more than just technical skills. It requires all of you. Let this session help you become more resilient and better equipped to overcome obstacles and live abundantly.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Johan Olivier</person>
+				</persons>
+			</event>
+			<event id="494374">
+				<start>15:40</start>
+				<duration>00:40</duration>
+				<room>Emerald Auditorium</room>
+				<title>How to get accepted to conferences: A panel discussion</title>
+				<description>Join a panel of DevConf Speakers as they share their knowledge and experience in applying to, and being accepted to speak at events in South Africa and overseas.
+The panel host is: Gabriel Fortuna
+Panel participants include
+- Chris Tite
+- Jameson Alea
+- Eva Podbrdská</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>DevConf Panel</person>
+				</persons>
+			</event>
+			<event id="430729">
+				<start>16:30</start>
+				<duration>00:40</duration>
+				<room>Emerald Auditorium</room>
+				<title>Building a vaccine register on the Ethereum blockchain</title>
+				<description>Blockchain is a shared, immutable ledger that allows exchange of value and data between network participants. By having this ledger as a single source of truth, trust is built and time-wasting reconciliations of data are minimised. In this talk, I give a primer on blockchain technology with a focus on the Ethereum blockchain and its ecosystem of tools, followed by a demo of a blockchain-based web application for tracking vaccine recipients (e.g. COVID-19). The demo illustrates the use of Ethereum blockchain to provide a single source of truth for vaccination records and how the different technology pieces fit together - the web application, the solidity smart contract and a local instance of an Ethereum blockchain network.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Julian Kanjere</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Ruby Auditorium">
+			<event id="431631">
+				<start>10:30</start>
+				<duration>00:40</duration>
+				<room>Ruby Auditorium</room>
+				<title>Demystifying Data Science</title>
+				<description>Today’s world generates different kinds of data at unbelievably rapid rates. One often hears that Data Science is changing the world - but what does it mean? Why use it? What questions can it answer?
+This talk introduces Data Science and explains the Data Science pipeline and algorithms using real-life examples. It also gives an overview of the common frameworks used for the various processes involved. It is aimed at budding data scientists and anyone curious about interpreting data.
+By the end of this session, audience members will have a better grasp of the capabilities and processes of Data Science. They will be familiar with the general structure of a Data Science pipeline, the frameworks commonly used and will develop a strong foundation to continue learning and experimenting in Data Science.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Grishma Jena</person>
+				</persons>
+			</event>
+			<event id="420520">
+				<start>11:20</start>
+				<duration>00:40</duration>
+				<room>Ruby Auditorium</room>
+				<title>The Line of Code That Crashed a Rocket</title>
+				<description>On June 4 1996, Ariane 5 flight 501 launched from a spaceport in French Guiana, loaded with expensive satellites full of scientific equipment. Just 37 seconds into the flight, it exploded.
+What caused the eight billion dollar failure was a simple software bug. One wrong line of code. One developer's mistake.
+Or... was it really?
+Can a catastrophic failure in such an extremely complex system be caused by one single person's oversight?
+Let's take a look at the offical ESA Inquiry Board report - in the style of Air Crash Investigations. We'll dig deeper into the many hidden causes of the crash of Ariane 5's maiden flight and analyse them from the point of view of a software quality engineer. We will see that there are many lessons to be learned about quality culture that are applicable to our own everyday work.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Eva Podbrdská</person>
+				</persons>
+			</event>
+			<event id="427828">
+				<start>12:50</start>
+				<duration>00:40</duration>
+				<room>Ruby Auditorium</room>
+				<title>The Clashes of the Titans - Usability vs. Security. Can They Live Together?</title>
+				<description>Security is a critical component in every app. A single mistake or breach can destroy a business. However, security can also be a nuisance and complicate your UX flows. This talk will discuss one of the most common security precautions - password strength. We will dive into the importance of your customers’ passwords, learn how to evaluate them and have a look at some of the tools that can help you do that efficiently. In addition, we will cover some of the tradeoffs between product &amp; security and how the use of a smart algorithm can simplify your UX without compromising security.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Alon Kiriati</person>
+				</persons>
+			</event>
+			<event id="408237">
+				<start>13:40</start>
+				<duration>00:40</duration>
+				<room>Ruby Auditorium</room>
+				<title>A11y beyond the theory: Integrating accessibility testing into your workflow</title>
+				<description>Ensuring that we build accessible solutions is about more than the moral obligation of removing accessibility barriers for all. It has significant financial and commercial implications too. With more than 30% of the population living with some form of impairment, the industry is finally coming to terms with the importance of accessibility.
+However, while the theory appears to be understood, accessibility considerations in software solutions are still treated as a nice-to-have and an afterthought. One of the big reasons for this is that testing for accessibility requires extra work.
+In this hands-on talk, we'll go through a brief outline of what A11y is and its importance. We'll then dive into key practical tools that can be used by everyone in the software development lifecycle to ensure that the solutions we produce are as accessible as possible.
+If you're interested in making sure you provide accessible software solutions for everyone, then this talk is for you.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Nhlanhla Lucky Nkosi</person>
+				</persons>
+			</event>
+			<event id="469901">
+				<start>14:30</start>
+				<duration>00:40</duration>
+				<room>Ruby Auditorium</room>
+				<title>Automated Canary Tests with Internal Users</title>
+				<description>In 1911-1986 miners used canaries in coal mines to detect carbon monoxide and other toxic gases before they hurt humans. Today we use this process as an analogy to describe canary tests that use real internal users to pick up issues before deploying the change to real customers.
+- At the end of my talk, the audience will get to learn:
+    - How automated canary tests limit the risk of disruption for the entire user base.
+    - Running canary tests with feature flags
+    - Benefits of canary tests in reducing production bugs
+    - A demo on how we run Canary test at Paystack</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Bongani Dube</person>
+				</persons>
+			</event>
+			<event id="403301">
+				<start>15:40</start>
+				<duration>00:40</duration>
+				<room>Ruby Auditorium</room>
+				<title>You'll never get rid of Legacy code: Why &amp; what we can do about it</title>
+				<description>The talk tackles the problem all companies face - re-wiriting legacy code bases. When a business is started, decisions are made that aren't well thought out, or that "will be fixed later" (how many times have we heard that). Years later when we realise the time has come to re-write a code base being held together by duct tape and glue (some large corporates have scary code bases), we will always encounter 1 major hurdle - we cannot get rid of the legacy monolith entirely. The talk will cover what technical debt you will most likely be stuck with (things like dbs, process flows, upgrade limitations, etc), and then how you can get around this problem of still needing your legacy system in some shape or form, but re-writing it at the same time. Having worked for 2 fintech companies that needed to be pulled apart into micro-services, I've seen these issues first hand, and that inspired me to put together a talk about it's challenges.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Daniel Cilliers</person>
+				</persons>
+			</event>
+			<event id="427347">
+				<start>16:30</start>
+				<duration>00:40</duration>
+				<room>Ruby Auditorium</room>
+				<title>Avian App Development: A Flock of Fun and Feathers</title>
+				<description>Come join us on a flight through the process of developing a ZA-based birding app that's for the birds (pun intended). We'll share our tales of beak-to-beak collaboration with ornithologists, writers, illustrators, and photographers to bring a comprehensive and visually stunning avian app to life.
+During the talk, we'll delve into the technical aspects of building the app, including the choice of tech stack and the considerations we made for seamless UX. We'll also share the process of working with experts in the field of ornithology to ensure the accuracy and accessibility of the app's content.
+But it's not all about the technicalities – we'll also share the personal and emotional challenges we faced so far. From the thrill of seeing the app take flight to the frustration of hitting turbulence, we'll give you an honest and transparent look at what it took to bring this project to fruition.
+This talk will provide insights and inspiration for anyone looking to create their own.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Stephan Swart</person>
+					<person>Ebbie Swart</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Workshop Space">
+			<event id="9592824bc1c83cc02487de2b7d3187e2">
+				<start>10:30</start>
+				<duration>01:40</duration>
+				<room>Workshop Space</room>
+				<title>Deploying a Serverless ChatGPT Bot with Devan Barwood</title>
+				<description>This workshop will introduce you to a basic software lifecycle. From infrastructure to application deployment and unit testing. A quick start to learning some of the best practices when deploying an application to AWS. Technologies: Terraform, Github Actions, AWS Serverless Services, Python. Attendees need to bring their own laptops.</description>
+				<track>Workshops</track>
+				<language />
+				<persons>
+					<person>cloudandthings.io</person>
+				</persons>
+			</event>
+			<event id="afcd7777756531f01fb09f54e9bd0d7a">
+				<start>12:30</start>
+				<duration>01:00</duration>
+				<room>Workshop Space</room>
+				<title>Deploying a Serverless ChatGPT Bot with Devan Barwood</title>
+				<description>This workshop will introduce you to a basic software lifecycle. From infrastructure to application deployment and unit testing. A quick start to learning some of the best practices when deploying an application to AWS. Technologies: Terraform, Github Actions, AWS Serverless Services, Python. Attendees need to bring their own laptops.</description>
+				<track>Workshops</track>
+				<language />
+				<persons>
+					<person>cloudandthings.io</person>
+				</persons>
+			</event>
+			<event id="035e836bef5d2029ba7dbd42f8792546">
+				<start>14:30</start>
+				<duration>00:40</duration>
+				<room>Workshop Space</room>
+				<title>Game changing AI tools for full stack apps: Unleash your potential!</title>
+				<description>IntroductionExplanation of workshop goals and objectives. Overview of the benefits of using AI tools in full stack app development. All attendees to please bring their laptops!</description>
+				<track>Workshops</track>
+				<language />
+				<persons>
+					<person>Runninghill Software Development (Pty)Ltd</person>
+				</persons>
+			</event>
+			<event id="493b2a1e8048ca24443ccdbf4e7c5872">
+				<start>15:30</start>
+				<duration>01:50</duration>
+				<room>Workshop Space</room>
+				<title>Game changing AI tools for full stack apps: Unleash your potential!</title>
+				<description>Understanding AI Tools for Full Stack App Development Explanation of what AI tools are and how they can be used in full stack app development. Overview of the different types of AI tools available for full stack app development. Hands-On Session: Using AI Tools in Full Stack App Development Participants will work on a guided exercise to use AI tools for full stack app development. Participants will learn how to use AI tools to improve their development process. Best Practices for Using AI Tools in Full Stack App Development Overview of best practices for using AI tools in full stack app development. Discussion of how AI tools can improve productivity and creativity in full stack app development. Conclusion Recap of workshop topics and discussion of next steps. Q&amp;A session with workshop participants.</description>
+				<track>Workshops</track>
+				<language />
+				<persons>
+					<person>Runninghill Software Development (Pty)Ltd</person>
+				</persons>
+			</event>
+		</room>
+	</day>
+</schedule>
