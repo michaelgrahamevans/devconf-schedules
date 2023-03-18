@@ -2,6 +2,7 @@ import hashlib
 import re
 import sys
 from datetime import date, datetime, time
+from enum import Enum
 from typing import Dict, List, Optional
 from uuid import UUID
 
@@ -25,8 +26,16 @@ class Config(BaseModel):
     events: List[EventConfig]
 
 
+class SessionType(Enum):
+    Session = "Session"
+    Break = "Break"
+    Keynote = "Keynote"
+    Workshop = "Workshop"
+
+
 class Session(BaseModel):
     id: str
+    type: SessionType
     title: str
     description: str
     room: str
@@ -155,26 +164,49 @@ def parse_agenda_row(
         )
     elif "agenda-row-style-key" in soup["class"]:
         sessions: List[Session] = []
-        if (
-            soup.next_sibling
-            and "agenda-row-timeslot" in soup.next_sibling.get_attribute_list("class")
-        ):
-            agenda_sessions = soup.next_sibling.find_all("div", class_="agenda-session")
-            for session in agenda_sessions:
-                if not session.contents:
-                    continue
-
-                s = parse_agenda_session(
-                    session,
-                    sessions_by_id,
-                    speakers_by_id,
-                    day,
-                    starts_at,
-                    ends_at,
+        if soup.next_sibling:
+            if "agenda-row-timeslot" in soup.next_sibling.get_attribute_list("class"):
+                agenda_sessions = soup.next_sibling.find_all(
+                    "div", class_="agenda-session"
                 )
-                if not s:
-                    continue
-                sessions.append(s)
+                for session in agenda_sessions:
+                    if not session.contents:
+                        continue
+
+                    s = parse_agenda_session(
+                        session,
+                        sessions_by_id,
+                        speakers_by_id,
+                        day,
+                        starts_at,
+                        ends_at,
+                    )
+                    if not s:
+                        continue
+                    sessions.append(s)
+
+            elif "agenda-workshop" in soup.next_sibling.get_attribute_list("class"):
+                w = soup.next_sibling
+
+                speakers = []
+                sponsor = w.find(class_="agenda-workshop-sponsor")
+                if sponsor:
+                    speakers.append(sponsor.find("a").text)
+
+                sessions.append(
+                    Session(
+                        id=hashlib.md5(
+                            starts_at.isoformat().encode()
+                        ).hexdigest(),  # TODO
+                        type=SessionType.Workshop,
+                        title=w.find("h3").text,
+                        description=w.find(class_="agenda-workshop-content").text,
+                        room=w.find(class_="agenda-workshop-time").text,
+                        starts_at=starts_at,
+                        ends_at=ends_at,
+                        speakers=speakers,  # TODO
+                    )
+                )
 
         return Timeslot(
             title=title,
@@ -211,9 +243,10 @@ def parse_keynote_row(
         sessions=[
             Session(
                 id=str(_id),
+                type=SessionType.Keynote,
                 title=session.title,
                 description=session.description,
-                room="Other",
+                room="",
                 starts_at=starts_at,
                 ends_at=ends_at,
                 speakers=speakers,
@@ -248,6 +281,7 @@ def parse_agenda_session(
 
     return Session(
         id=str(_id),
+        type=SessionType.Session,
         title=session.title,
         description=session.description,
         room=room,
@@ -277,6 +311,7 @@ def event_to_pentabarf(event: Event) -> pentabarf.Schedule:
             all_sessions.append(
                 Session(
                     id=hashlib.md5(timeslot.title.encode()).hexdigest(),
+                    type=SessionType.Break,
                     title=timeslot.title,
                     description="",
                     room="",  # TODO Lookup in sessionize data?
@@ -304,7 +339,7 @@ def event_to_pentabarf(event: Event) -> pentabarf.Schedule:
                             flags=re.MULTILINE,
                         ),
                         room=room,
-                        track=room,
+                        track=session.type.value + "s",  # FIXME kind of hacky
                         start=session.starts_at,
                         duration=session.ends_at - session.starts_at,
                         language="",
