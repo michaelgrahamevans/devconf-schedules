@@ -50,21 +50,27 @@ class Event(BaseModel):
     ends_at: datetime
 
 
-def get_event(
-    event: sessionize.Event, event_config: EventConfig, use_archive: bool
-) -> Event:
-    sessions_by_id = {session.id: session for session in event.sessions}
-    speakers_by_id = {speaker.id: speaker for speaker in event.speakers}
-
-    if use_archive:
+def get_event(config: Config, event_config: EventConfig) -> Event:
+    if config.use_archive:
         archive_datetime = event_config.day.strftime("%Y%m%d000000")
+        sessionize_response = requests.get(
+            f"https://web.archive.org/web/{archive_datetime}/https://sessionize.com/api/v2/{config.sessionize_id}/view/all"
+        )
         response = requests.get(
             f"https://web.archive.org/web/{archive_datetime}/https://devconf.co.za/{event_config.short_name}"
         )
     else:
+        sessionize_response = requests.get(
+            f"https://sessionize.com/api/v2/{config.sessionize_id}/view/all"
+        )
         response = requests.get(f"https://devconf.co.za/{event_config.short_name}")
 
+    sessionize_event = sessionize.Event(**sessionize_response.json())
     soup = bs4.BeautifulSoup(response.text, "html.parser")
+
+    sessions_by_id = {session.id: session for session in sessionize_event.sessions}
+    speakers_by_id = {speaker.id: speaker for speaker in sessionize_event.speakers}
+
     return parse_agenda(
         soup, sessions_by_id, speakers_by_id, event_config.name, event_config.day
     )
