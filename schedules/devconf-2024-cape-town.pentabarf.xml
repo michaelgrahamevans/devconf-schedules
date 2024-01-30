@@ -1,0 +1,508 @@
+<schedule>
+	<conference>
+		<title>DevConf Cape Town 2024</title>
+		<city>Cape Town</city>
+		<venue>Century City Conference Centre</venue>
+		<start>2024-05-09</start>
+		<end>2024-05-09</end>
+	</conference>
+	<day index="1" date="2024-05-09">
+		<room name="">
+			<event id="0f98b7f230f3c91292f0de4c99e263f2">
+				<start>07:30</start>
+				<duration>01:30</duration>
+				<room />
+				<title>Registration</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="cf6d920e9979b2465f24700075a3342a">
+				<start>08:00</start>
+				<duration>11:00</duration>
+				<room />
+				<title>Expo Opens</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="e1c1b65851b4665252e9684fbec3f1a5">
+				<start>10:00</start>
+				<duration>00:30</duration>
+				<room />
+				<title>Movement, Networking &amp; Refreshments</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="4642e767f9251fa40afadbc963f80b7a">
+				<start>11:10</start>
+				<duration>00:15</duration>
+				<room />
+				<title>Movement</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="4642e767f9251fa40afadbc963f80b7a">
+				<start>12:05</start>
+				<duration>00:15</duration>
+				<room />
+				<title>Movement</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="f1e8a2ee776150614aaf07a8bdbac218">
+				<start>13:00</start>
+				<duration>00:50</duration>
+				<room />
+				<title>Lunch</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="4642e767f9251fa40afadbc963f80b7a">
+				<start>14:30</start>
+				<duration>00:15</duration>
+				<room />
+				<title>Movement</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="e1c1b65851b4665252e9684fbec3f1a5">
+				<start>15:25</start>
+				<duration>00:30</duration>
+				<room />
+				<title>Movement, Networking &amp; Refreshments</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="4642e767f9251fa40afadbc963f80b7a">
+				<start>16:35</start>
+				<duration>00:15</duration>
+				<room />
+				<title>Movement</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+			<event id="e296e3e0cf8195806d6ff760275f3765">
+				<start>17:30</start>
+				<duration>01:30</duration>
+				<room />
+				<title>Drinks &amp; networking</title>
+				<description />
+				<track>Breaks</track>
+				<language />
+				<persons />
+			</event>
+		</room>
+		<room name="Hall A">
+			<event id="550781">
+				<start>10:30</start>
+				<duration>00:40</duration>
+				<room>Hall A</room>
+				<title>The Dummy’s Guide to Coding for Minibus Taxis</title>
+				<description>Our company is Sebenza, and we have installed 5000 wifi routers in minibus taxis across South Africa to get internet into the hands of those that can scarce afford it.
+Along the way, we had to learn how to code for the minibus - that is, being able to work on the cheapest of phones, sometimes with limited signal, all running through complex custom firmware that run on routers.
+In short - we made so many early mistakes from our choice of stack, to our rollout approach and implementation, that this talk is an ode to what we figured out along the way, what technologies worked, and how we bent them to our will.
+This is, in fact, a coder's starter kit to building for the uniquely South African experience and its limitations and strengths.
+We won't spend too much time on the wide spectrum of material here, but rather framing this as a journey against sometimes-hostile tech and our own desperate attempts not to succumb to the growing dread that we were, in fact, Dunning Kruger sufferers.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Stuart Steedman</person>
+				</persons>
+			</event>
+			<event id="565641">
+				<start>12:20</start>
+				<duration>00:40</duration>
+				<room>Hall A</room>
+				<title>All the cool tech behind building a smart parcel locker network in South Africa</title>
+				<description>This talk uncovers the comprehensive journey of  developing the hardware, microcontroller firmware, cloud infrastructure, web-based software, IoT network, and  mobile app for a growing worldwide trend in ecommerce logistics: smart parcel lockers. Discover how we used technology to overcome some of the unique challenges to South Africa around security, load shedding, network coverage, logistics, costs and consumer behaviour.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Andy Higgins</person>
+				</persons>
+			</event>
+			<event id="561829">
+				<start>13:50</start>
+				<duration>00:40</duration>
+				<room>Hall A</room>
+				<title>Dysfunctional Requirements Obviously!  Being Deliberate about Quality Attributes</title>
+				<description>I am so tired of "Obviously".  It's too late for "Obviously".  I never want to hear "Obviously" again.
+In a world where non-functional requirements are left to chance, a lone developer bravely confronts software quality.  She sighs deeply.
+Obviously our app needs four nines reliabilty.  Obviously it must respond within 200 ms.  Obviously a toddler should find it easy to use.  Obviously it should scale to 100 000 users.  Obviously it must repel attacks from Anonymous. There's nothing obvious about any of this!
+We think we can fulfil these requirements at no cost, but we can't.  We think they'll just emerge, and we're disappointed. We never define quality attributes well enough.  Not across the board. If we're deliberate about performance and security, we neglect modifiability and availability.  Why do we do this?  Again and again...
+Is it too late?  Or can one intrepid developer lead us to a safer place?  One iteration at a time.  Never to be bullied with "Obviously" again...</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Donald Graham</person>
+				</persons>
+			</event>
+			<event id="563078">
+				<start>14:45</start>
+				<duration>00:40</duration>
+				<room>Hall A</room>
+				<title>Ducking Duck - Rubber Duck 2.0 : Building a better rubber duck.</title>
+				<description>Come with me on a journey as I attempt to totally revolutionise rubber ducking and build the ultimate rubber ducking companion.
+Using all of the latest buzz-word compliant AI technology including voice recognition, large language models, machine vision and robotics I attempt to build the ultimate debugging companion.
+This isn't just a frontend to ChatGPT this is a bespoke, offline, secure debugging companion that will revolutionise your debugging and also become your friend.
+The talk covers the dead-ends, the ups and downs as I try build something a little smarter than your Alexa/Siri and a little cuter than your typical rubber duck.
+Whether you're interested in AI, Robotics, Rubber Ducks or just the struggles of integration hell there will be something in this talk for everyone.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Dale Nunns</person>
+				</persons>
+			</event>
+			<event id="556283">
+				<start>15:55</start>
+				<duration>00:40</duration>
+				<room>Hall A</room>
+				<title>The science of queues: Performance monitoring theme parks (and distributed systems)</title>
+				<description>Performance monitoring is an important part of running a successful theme park. Like a distributed system, theme parks have separate components (attractions). Each has a queue in front of it. How can we find out which of them are the least efficient? Which ones are slowing us down? Where should we spend time optimizing?
+Join me for a roller-coaster ride through distributed system performance monitoring. Find out which measurements tell you the most about your system and how to optimize it. As an added bonus, you'll learn how to run a successful theme park!</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Mike Minutillo</person>
+				</persons>
+			</event>
+			<event id="556963">
+				<start>16:50</start>
+				<duration>00:40</duration>
+				<room>Hall A</room>
+				<title>DevOps at Netflix</title>
+				<description>Netflix is a global leader in video streaming and has always been known in Silicon Valley for its culture document; a seminal work in setting the context about culture.
+In this session, I will shed light on how Netflix thinks about DevOps, how our culture permeates our thought on Agile practices, DevOps, and development.
+It will be a great way to get a glimpse of how loosely coupled and highly aligned Netflix is, and participants can apply some parts of our culture to their organizations.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Tejas Chopra</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Hall B">
+			<event id="564837">
+				<start>10:30</start>
+				<duration>00:40</duration>
+				<room>Hall B</room>
+				<title>The Wikipedia Infrastructure: How Wikipedia Hosts Over Six Million Articles and Still Counting</title>
+				<description>Wikipedia, the world's largest and most comprehensive online encyclopedia, is an astounding example of collaborative knowledge-sharing. With over six million articles in the English Wikipedia. it's an extraordinary feat of infrastructure and technology. Have you ever wondered how Wikipedia manages to host and deliver this massive amount of information while continuing to grow?
+This engaging talk will take you on a journey behind the scenes of Wikipedia's remarkable infrastructure. We will explore the fascinating technologies and strategies that empower Wikipedia to not only host millions of articles but also maintain a high standard of accessibility and reliability.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Hannah Okwelum</person>
+				</persons>
+			</event>
+			<event id="566406">
+				<start>11:25</start>
+				<duration>00:40</duration>
+				<room>Hall B</room>
+				<title>From a South African Village to Berlin: My Journey from Call Centre Agent to Frontend Lead Developer</title>
+				<description>Listen to a captivating narrative that unfolds the inspiring journey of a self-taught Frontend Lead Developer who began in a South African village and now flourishes in Berlin's tech hub
+What's in it for you? This isn't just a story; it's a source of motivation and a testament to the power of perseverance. Witness a "struggles to successes" tale for the digital age
+This narrative offers more than inspiration; its a reminder that every obstacle is an opportunity, and every setback is a setup for a comeback. It's a journey that promises to ignite your own aspirations and leave you with a renewed belief in the potential within you
+Join in to explore the incredible transformation that unfolds when an ordinary individual like you harnesses determination, resilience, and a boundless thirst for knowledge to conquer the ever-evolving world of software development. Be prepared to be inspired, motivated, and equipped with the knowledge that your own journey to success is just waiting to begin</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Richard Sithole</person>
+				</persons>
+			</event>
+			<event id="562554">
+				<start>14:45</start>
+				<duration>00:40</duration>
+				<room>Hall B</room>
+				<title>A World Without Passwords? Are We There Yet?</title>
+				<description>Passwords are the bane of my existence, and I'm sure they're yours too. We're constantly burdened with creating complex passwords, forgetting them, resetting them, and eventually settling for something simple (and weak), leaving us vulnerable to account takeover attacks from credential spraying and phishing.
+As developers, we have the power to rid the world of passwords and provide better authentication experiences for our users. Passwordless forms of authentication exist, but they're flying under the radar due to a lack of awareness and education. It's time to shine a light on them.
+In this talk, you'll learn about the existing forms of passwordless authentication (webAuthn + passkeys), and leave with knowledge of how you can start adopting them into your products.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Linda Ikechukwu</person>
+				</persons>
+			</event>
+			<event id="565939">
+				<start>15:55</start>
+				<duration>00:40</duration>
+				<room>Hall B</room>
+				<title>Building Yourself an AI Powered Microscope</title>
+				<description>Are you fascinated by the prospect of assembling your own intelligent Digital Microscope, writing the control software for it and deploying it from the cloud?  If the answer is yes, then this session is for you!
+The other title for this talk could have been "How I solved my own accessibility problems with tech and AI".   What started as a mobile app project to read the part numbers on integrated circuits has transformed to become a Raspberry Pi Linux based kiosk app, Digital Microscope powered by AI Vision.  The reason for this: it's becoming increasingly hard for me to read the text on IC's (without a magnifying glass).  The ONLY solution to this accessibility issue is ofcourse with technology and electronics!!!
+Imagine building your own Microscope that can read text, identify objects, and gain insights from the visuals.   We could call this "Copilot for Microscopes"!
+Join me for a fun "Do-it-yourself" session with demos and code!</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Allan Pead</person>
+				</persons>
+			</event>
+			<event id="550426">
+				<start>16:50</start>
+				<duration>00:40</duration>
+				<room>Hall B</room>
+				<title>How building a portable escape room made me a better microservices developer</title>
+				<description>I built a portable IoT escape room, and it changed how I think about microservice development! In this session, we'll uncover unexpected parallels between crafting intricate escape room puzzles and architecting resilient, scalable microservices. Explore how the lessons learned from escape room design translate into invaluable guidance for Domain-Driven Design (DDD), modularity, communication, scalability, and fault tolerance. Join me for a fun exploration of this odd pairing! Doors will be unlocked at the end - even if the audience can't solve the puzzles.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>William Brander</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Hall C">
+			<event id="560692">
+				<start>10:30</start>
+				<duration>00:40</duration>
+				<room>Hall C</room>
+				<title>Tech's Hidden Superpower: How to Unleash Neurodiverse Talent</title>
+				<description>Join me as I walk you through my story as an autistic engineer in the software industry, and how we can reap the rewards of undeniable neurodiverse talent by applying inclusive strategies from the hiring process to the workplace.
+While neurodiversity may sound like a modern buzzword, we’ll delve into this definition and attempt to demystify it. You will gain awareness of the difficulties that neurodiverse people experience in the industry, and learn suggestions for changes that can prevent difficulties in future.
+Let’s unleash the superpower of neurodiverse tech talent: my advice on embracing neurodivergent coworkers will be essential for all roles in the industry, as well as for neurodiverse individuals in the audience who may resonate with my stories, and use these key tips as inspiration for what they may implement in their own careers.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Cassandra Vellema</person>
+				</persons>
+			</event>
+			<event id="555819">
+				<start>14:45</start>
+				<duration>00:40</duration>
+				<room>Hall C</room>
+				<title>Navigating the Storm: Tools and Patterns for Resilient Systems in the Face of Production Chaos</title>
+				<description>Troubleshooting large, distributed systems during production outages can be a daunting challenge. When downtime is not an option, how do you steer your ship through the storm of technical difficulties?
+Drawing from extensive experience trying to keep production up at one of South Africa's largest banks, this talk delves into the realm of resilience engineering. It will equip you to identify and reproduce issues and also to make your systems more resilient in the face of chaos.
+We will explore an array of troubleshooting tools, such as Application Performance Monitoring tools, logging, heap and thread dumps, application metrics, profiling techniques, load testing, and briefly touch on chaos engineering.
+Recognizing that prevention is better than cure, we will conclude with patterns and strategies to help you build resilient systems. Topics will include timeouts, connection reuse, circuit breakers, bulkheads, and fallback mechanisms.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Renette Ros</person>
+				</persons>
+			</event>
+			<event id="550361">
+				<start>15:55</start>
+				<duration>00:40</duration>
+				<room>Hall C</room>
+				<title>Embracing Neurodiversity in the Software Industry</title>
+				<description>Neurodiversity refers to the range of differences in how individuals cognitively process the world around them. Neurodiversity is an umbrella term that includes (but is not limited to) autism spectrum disorders, ADHD, dyslexia, dyscalculia, and Tourette's disorder. Individuals with these differences make up a large portion of the population and it is found that the software industry seems to be an attractive industry for individuals with these differences, therefore it is imperative to embrace this population to better understand their differences, the strengths that they bring to the table, and the common difficulties that they may face in a workplace setting.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Monique Marshall</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Meeting Room 10">
+			<event id="6d75af668419ea0241d6023e9adc338d">
+				<start>10:30</start>
+				<duration>01:35</duration>
+				<room>Meeting Room 10</room>
+				<title />
+				<description />
+				<track>Workshops</track>
+				<language />
+				<persons />
+			</event>
+			<event id="42084285778baed498a6d38a919b3348">
+				<start>13:50</start>
+				<duration>01:35</duration>
+				<room>Meeting Room 10</room>
+				<title />
+				<description />
+				<track>Workshops</track>
+				<language />
+				<persons />
+			</event>
+			<event id="e8df47072730c22b3f207c555903e601">
+				<start>15:55</start>
+				<duration>01:35</duration>
+				<room>Meeting Room 10</room>
+				<title />
+				<description />
+				<track>Workshops</track>
+				<language />
+				<persons />
+			</event>
+		</room>
+		<room name="Meeting Room 11">
+			<event id="561186">
+				<start>11:25</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 11</room>
+				<title>10 Lessons I Learned About Engineering Leadership from Ted Lasso</title>
+				<description>This talk goes into the ten lessons which Benny learned from the Emmy Award Winning show Ted Lasso, about an American Football coach hired to coach an English Football (soccer) team.
+Benny applied the Lessons as a consulting Head of Engineering for a HealthTech with some moderate success.
+Please be aware that there are tons of Spoilers.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Benny Ou</person>
+				</persons>
+			</event>
+			<event id="562703">
+				<start>12:20</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 11</room>
+				<title>From Overheating to Overachieving: A Comedic Tale of Hacking My Car</title>
+				<description>Embark on a humorous and enlightening journey into the world of car hacking in this developer-focused conference talk. As my trusty old car overheated and befuddled multiple repair shops, I decided to take matters into my own hands. Armed with an OBD connector, I ventured to uncover the secrets hidden within my vehicle's systems.
+In this presentation, I'll guide you through the process of reverse engineering, offering a brief Electronics 101 for beginners. Discover how I used Arduino to decode the mysterious signals on the car's CAN bus. Along the way, I'll share my humorous misadventures and the lessons learned from my escapades.
+But the journey doesn't stop there. I'll also explore the exciting possibilities that car hacking opens up. Learn how a friend transformed his gasoline car into an electric marvel using the same techniques.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Rudi Grobler</person>
+				</persons>
+			</event>
+			<event id="561825">
+				<start>13:50</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 11</room>
+				<title>If it's everywhere, why aren't you using it?</title>
+				<description>WebAssembly. Wasm. Wat. What? What?!
+It's everywhere, in the browser, on the server, embedded devices, your preferred runtime. Every. Where.  Why should you start to take note? How can Wasm be a cohesive force, allowing you to use the best tools for the job, yet still remain portable and performant.
+Rust, Zig, Go, Python and friends can all work together using WebAssembly. We've heard it before, but what does it mean in practice? What does this unlock, for you, the developer?
+Let's see how Wasm can make you more productive, open up new possibilities and allow contributions from many different disciplines to come together and form the solutions we need for modern challenges.
+I will share lessons learned in bringing together various development efforts to build a solution that would be a serious challenge to do with only one or two programming languages or frameworks.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Ewald Horn</person>
+				</persons>
+			</event>
+			<event id="566288">
+				<start>15:55</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 11</room>
+				<title>I Can't Believe It's Not Native!</title>
+				<description>The web's come a long way, baby!
+The gap between the web and native platforms has been closing for years, and it's finally gotten really small.
+It used to be that web applications did not have access to a lot of mobile platform functionality, but did you know that you can access Bluetooth, NFC, USB directly from a web app, and that iOS Safari finally supports web push notifications?
+Even with the new platform capabilities of the modern web, you may still be concerned about performance! Aren't web browsers slow? I'll cover how you can build UIs that look and feel just as slick as a native UI.
+Of course, there are no silver bullets, so I'll also discuss when the web is not a good choice, and you might prefer to go native.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Xandor Schiefer</person>
+				</persons>
+			</event>
+			<event id="561808">
+				<start>16:50</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 11</room>
+				<title>Will AI really take my job? - A Call for Complete Developer Mindshift!</title>
+				<description>AI is changing how we develop software. AI tools can generate, complete, debug, optimize, and review code. But how do you use them effectively and responsibly? How do you enhance your creativity and productivity, without losing your identity and autonomy as a developer?
+In this session, you will learn about the current state of AI tools for software development, and how they can help you at distinct stages of your career, which may include.
+- Starting off as a newbie developer
+- Increasing your confidence as a junior developer
+- Delivering higher quality work after a promotion to senior developer
+You will also discover the challenges and opportunities of working with AI as a co-creator, and how to adopt a new mindset that embraces AI as a partner, not a competitor.
+Join me, as we walk through a new world of AI and developers co-existing to accelerate innovation through short demos on AI code generation/ completion tools, debugging and documentation tools and code review tools.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Julia Muiruri</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Meeting Room 8 and 9">
+			<event id="566625">
+				<start>10:30</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 8 and 9</room>
+				<title>Serverless apps, How and Why?</title>
+				<description>For my 40-minute talk on "Serverless Functions: How and Why?", I will offer an informative and educational exploration of serverless computing. I'll begin by introducing key concepts and delve into the advantages of serverless, addressing potential challenges and mitigation strategies. I'll demonstrate the practical aspects of developing and deploying serverless functions on Azure and AWS, providing a simple code example and sharing best practices for monitoring and debugging. Additionally, I'll discuss security considerations and best practices while showcasing a real-world case study to illustrate the technology's practical application. This talk is designed to inform and educate the audience about serverless computing</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Reuben Kruger</person>
+				</persons>
+			</event>
+			<event id="565694">
+				<start>11:25</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 8 and 9</room>
+				<title>How modern computers play board games</title>
+				<description>Bao (or Bawo) is a mancala type game originating out of east Africa. It is an old and somewhat obscure game with little to known records of its origins. It has become an obsession and is a wonderful game to illustrate how computers can play board games. This talk will be about the algorithms that computers use to play board games (Like chess, go or Bao) and finally will apply what was learnt to make the best engine for Bao that could likely beat almost any human player.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Cayden de Wit</person>
+				</persons>
+			</event>
+			<event id="563904">
+				<start>12:20</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 8 and 9</room>
+				<title>Data Science For Dummies</title>
+				<description>The Data Science buzz is reaching new heights and it seems like a pretty intimidating field and set of tools. This session utilises a live demo to walk through the basic concepts of Data Science.  It makes the case for why you should learn Data Science tools and how you can get started today!</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Quinn Grace</person>
+				</persons>
+			</event>
+			<event id="565695">
+				<start>13:50</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 8 and 9</room>
+				<title>Chains Redefined: Blockchain’s Promise for Africa’s Rich Resources</title>
+				<description>In a world where the term 'chains' often conjures images of restriction, "Chains Redefined" explores the liberating power of blockchain technology in managing Africa's natural wealth. This talk is a journey for everyday software developers, a journey from historical chains of exploitation to modern chains of opportunity and innovation. It’s an exploration into how blockchain, a technology many developers interact with daily, can have profound impacts far beyond cryptocurrency – specifically in revolutionizing the management of Africa’s rich resources.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Omphile Matheolane</person>
+				</persons>
+			</event>
+			<event id="556508">
+				<start>14:45</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 8 and 9</room>
+				<title>Module Federation: Your teams don't need to deploy together</title>
+				<description>A deep dive into Webpack Module Federation and what it can do for you, your teams and your monolithic frontends. Deploy separately but still present one application to the user, you can have good developer experience and user experience at the same time.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Tiane Erwee</person>
+				</persons>
+			</event>
+			<event id="566735">
+				<start>16:50</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 8 and 9</room>
+				<title>Automating Blue Teaming Practices using Golang</title>
+				<description>Golang is a programming language launched by Google and is best suited in cybersecurity because of its ease of typing, concurrency and multipurposefulness.
+What we will cover at this session:
+- Secure Coding practices promoted by Golang
+- Go libraries and tools used in the cybersecurity field, such as GoBuster for directory and file brute-forcing and GoDNS for DNS enumeration.
+- Showcasing an existing log aggregator built using Golang, used for collecting log data, as an example for logging and monitoring
+- Live Demo: Building a custom-built Golang based tool for network and vulnerability scanning - using nmap and gopacket
+- Q&amp;A and discussion on use of Go in blue teaming practices with the audience.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Ankshita Maunthrooa</person>
+				</persons>
+			</event>
+		</room>
+	</day>
+</schedule>
