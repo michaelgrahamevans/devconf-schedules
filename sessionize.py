@@ -1,6 +1,6 @@
 from datetime import datetime
 from enum import Enum
-from typing import List, Optional
+from typing import List, Literal, Optional
 from uuid import UUID
 from xml.etree import ElementTree
 
@@ -8,6 +8,11 @@ from pydantic import BaseModel
 
 import pentabarf
 from util import xcal_format_duration
+
+
+class QuestionAnswer(BaseModel):
+    questionId: int
+    answerValue: str
 
 
 class Session(BaseModel):
@@ -33,6 +38,7 @@ class LinkType(Enum):
     LinkedIn = "LinkedIn"
     Sessionize = "Sessionize"
     Twitter = "Twitter"
+    Other = "Other"
 
 
 class Link(BaseModel):
@@ -53,7 +59,7 @@ class Speaker(BaseModel):
     sessions: List[int]
     fullName: str
     categoryItems: List[str]
-    questionAnswers: List[str]
+    questionAnswers: List[QuestionAnswer]
 
 
 class Room(BaseModel):
@@ -62,12 +68,33 @@ class Room(BaseModel):
     sort: int
 
 
+class CategoryItem(BaseModel):
+    id: int
+    name: str
+    sort: int
+
+
+class Category(BaseModel):
+    id: int
+    title: str
+    items: List[CategoryItem]
+    sort: int
+    type: Literal["speaker"]
+
+
+class Question(BaseModel):
+    id: int
+    question: str
+    questionType: Literal["Short_Text"]
+    sort: int
+
+
 class Event(BaseModel):
     sessions: List[Session]
     speakers: List[Speaker]
     rooms: List[Room]
-    categories: List[str]
-    questions: List[str]
+    categories: List[Category]
+    questions: List[Question]
 
 
 def event_to_pentabarf(event: Event) -> pentabarf.Schedule:
