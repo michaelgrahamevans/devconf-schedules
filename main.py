@@ -25,13 +25,19 @@ def main():
     )
     devconf_2023 = devconf.Config(
         sessionize_id="3hwiocdj",
-        use_archive=False,
+        use_archive=True,
         events=[
             devconf.EventConfig(
-                name="Cape Town", short_name="capetown", day=date(2023, 5, 23)
+                name="Cape Town",
+                short_name="capetown",
+                day=date(2023, 5, 23),
+                archive_day=date(2023, 5, 28),
             ),
             devconf.EventConfig(
-                name="Pretoria", short_name="pretoria", day=date(2023, 5, 25)
+                name="Pretoria",
+                short_name="pretoria",
+                day=date(2023, 5, 25),
+                archive_day=date(2023, 5, 28),
             ),
         ],
     )

@@ -18,6 +18,7 @@ class EventConfig(BaseModel):
     name: str
     short_name: str
     day: date
+    archive_day: Optional[date]
 
 
 class Config(BaseModel):
@@ -61,7 +62,8 @@ class Event(BaseModel):
 
 def get_event(config: Config, event_config: EventConfig) -> Event:
     if config.use_archive:
-        archive_datetime = event_config.day.strftime("%Y%m%d000000")
+        archive_day = event_config.archive_day or event_config.day
+        archive_datetime = archive_day.strftime("%Y%m%d000000")
         sessionize_response = requests.get(
             f"https://web.archive.org/web/{archive_datetime}/https://sessionize.com/api/v2/{config.sessionize_id}/view/all"
         )
