@@ -284,6 +284,18 @@ Let’s unleash the superpower of neurodiverse tech talent: my advice on embraci
 					<person>Cassandra Vellema</person>
 				</persons>
 			</event>
+			<event id="566291">
+				<start>12:20</start>
+				<duration>00:40</duration>
+				<room>Hall C</room>
+				<title>So you want to be a CTO</title>
+				<description>Most technical people reach a point in their career journey where they must decide between management or remaining in an individual contribution role. At the same time, many good technical people believe the only way to advance their careers is by taking on a role in management. In this talk, I will cover two critical aspects of the CTO role.  Firstly, is it a good career choice for you Secondly what are the skills and attributes required to succeed in the CTO role?</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Cliff de Wit</person>
+				</persons>
+			</event>
 			<event id="555819">
 				<start>14:45</start>
 				<duration>00:40</duration>
@@ -345,6 +357,22 @@ Recognizing that prevention is better than cure, we will conclude with patterns 
 			</event>
 		</room>
 		<room name="Meeting Room 11">
+			<event id="564009">
+				<start>10:30</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 11</room>
+				<title>PRQL: a modern language for transforming data - a simple, powerful, pipelined SQL replacement</title>
+				<description>The past 50 years have seen a great evolution in programming languages — except in the world of databases. There, SQL still reigns supreme; but is it a shark, enduring due to its perfection, or a dinosaur, one impact away from extinction?
+We argue that SQL is an amalgamation of both: relational algebra — the shark; and the language — the bloated dinosaur.
+PRQL incorporates the beauty of relational algebra while also embracing the best from libraries like dplyr, Pandas, and LINQ to name just a few. It is a functional, pipelined query language with modern ergonomics and expressivity that compiles to SQL, making it usable on any relational database. PRQL is open source, contributor-driven, and committed to staying that way forever.
+This talk will motivate why we need a modern query language to replace SQL, introduce PRQL, and demonstrate its elegance and productivity as a language for data using interactive examples.
+Join us and learn about the latest evolution in query languages!</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Tobias Brandt</person>
+				</persons>
+			</event>
 			<event id="561186">
 				<start>11:25</start>
 				<duration>00:40</duration>
