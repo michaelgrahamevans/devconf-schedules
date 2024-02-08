@@ -339,6 +339,19 @@ Join in to explore the incredible transformation that unfolds when an ordinary i
 					<person>Richard Sithole</person>
 				</persons>
 			</event>
+			<event id="566454">
+				<start>13:50</start>
+				<duration>00:40</duration>
+				<room>NCC</room>
+				<title>P-AI-R Programming with Duet AI</title>
+				<description>During this talk attendees will get first-hand experience developing an application (either .NET 8 and/or Node.js) using Visual Code with Duet AI. We are starting out from a basic project (provided via my public GitHub repository) and are going to "discuss" matters, refactor and extend the application with Duet AI, our AI-based assistant.
+P-AI-R programming, or programming with AI-based assistants, is a new paradigm for software development that leverages the power of AI to help developers write better code, faster. Duet AI is a Google Cloud service that provides AI-powered assistance for developers, including code completion, code generation, code understanding, and code refactoring.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Jochen Kirstätter</person>
+				</persons>
+			</event>
 			<event id="562554">
 				<start>14:45</start>
 				<duration>00:40</duration>
@@ -394,6 +407,21 @@ Let’s unleash the superpower of neurodiverse tech talent: my advice on embraci
 				<language />
 				<persons>
 					<person>Cassandra Vellema</person>
+				</persons>
+			</event>
+			<event id="566310">
+				<start>11:25</start>
+				<duration>00:40</duration>
+				<room>Senate I</room>
+				<title>Making observability tangible with end-to-end test automation</title>
+				<description>The tooling for observability (metrics, traces, logging) has evolved at a rapid pace.
+The benefits this offers are remarkable but it is hard to see the potential without practical experience. On smaller projects (or projects in their infancy) it is also hard to get enough traffic to have statistically meaningful data to showcase observability benefits.
+In this talk I want to show how end-to-end tests can be used to continuously instrument a sample application to establish a baseline of observability data. This can then be used to get a better understanding of the inner workings of our application and also to diagnose specific problems created during the talk.
+I will also do a quick introduction to observability in general and some of the dos and don'ts that I've noticed.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Daniel Temme</person>
 				</persons>
 			</event>
 			<event id="566291">
