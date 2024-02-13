@@ -231,9 +231,9 @@ Join in to explore the incredible transformation that unfolds when an ordinary i
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Hall B</room>
-				<title>P-AI-R Programming with Duet AI</title>
-				<description>During this talk attendees will get first-hand experience developing an application (either .NET 8 and/or Node.js) using Visual Code with Duet AI. We are starting out from a basic project (provided via my public GitHub repository) and are going to "discuss" matters, refactor and extend the application with Duet AI, our AI-based assistant.
-P-AI-R programming, or programming with AI-based assistants, is a new paradigm for software development that leverages the power of AI to help developers write better code, faster. Duet AI is a Google Cloud service that provides AI-powered assistance for developers, including code completion, code generation, code understanding, and code refactoring.</description>
+				<title>P-AI-R Programming with Gemini</title>
+				<description>During this talk attendees will get first-hand experience developing an application (either .NET 8 and/or Node.js) using Visual Code with Gemini. We are starting out from a basic project (provided via my public GitHub repository) and are going to "discuss" matters, refactor and extend the application with Gemini, our AI-based assistant.
+P-AI-R programming, or programming with AI-based assistants, is a new paradigm for software development that leverages the power of AI to help developers write better code, faster. Gemini is a Google Cloud service that provides AI-powered assistance for developers, including code completion, code generation, code understanding, and code refactoring.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
@@ -273,8 +273,8 @@ Join me for a fun "Do-it-yourself" session with demos and code!</description>
 				<start>16:50</start>
 				<duration>00:40</duration>
 				<room>Hall B</room>
-				<title>How building a portable escape room made me a better microservices developer</title>
-				<description>I built a portable IoT escape room, and it changed how I think about microservice development! In this session, we'll uncover unexpected parallels between crafting intricate escape room puzzles and architecting resilient, scalable microservices. Explore how the lessons learned from escape room design translate into invaluable guidance for Domain-Driven Design (DDD), modularity, communication, scalability, and fault tolerance. Join me for a fun exploration of this odd pairing! Doors will be unlocked at the end - even if the audience can't solve the puzzles.</description>
+				<title>How building a portable escape room made me a better developer</title>
+				<description>I built a portable IoT escape room, and it changed how I think about development! In this session, we'll uncover unexpected parallels between escape rooms and architecting resilient, scalable systems. Let me share the lessons learned, and how they translate into invaluable guidance for Domain-Driven Design (DDD), modularity, communication, scalability and fault tolerance. Doors will be unlocked at the end - even if the audience can't solve the puzzles.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
