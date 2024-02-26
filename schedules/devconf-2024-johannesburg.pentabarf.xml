@@ -126,6 +126,18 @@ We won't spend too much time on the wide spectrum of material here, but rather f
 					<person>Stuart Steedman</person>
 				</persons>
 			</event>
+			<event id="634888">
+				<start>11:25</start>
+				<duration>00:40</duration>
+				<room>Centre Court</room>
+				<title>Restoring business trust in technology</title>
+				<description>Working with business teams to deliver technology outcomes can be hard. Customers who don’t understand what it will take to deliver the thing they want. Customers who seem constantly disappointed and who don’t know when to say, “wow, that’s amazing”. Customers with crazy timelines and budgets that just don’t cut it. Business teams have “better ideas”, “faster ideas”, “cheaper ideas”. We serve customers who are not experts in our fields, but who often think they are. This is the reality of many technology teams. Unless we can build trusting relationships with our business customers, we are going to keep on being beaten up for things our customers don’t understand. It just might be possible...</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Jason Petzer</person>
+				</persons>
+			</event>
 			<event id="565641">
 				<start>12:20</start>
 				<duration>00:40</duration>
@@ -142,7 +154,7 @@ We won't spend too much time on the wide spectrum of material here, but rather f
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Centre Court</room>
-				<title>Dysfunctional Requirements Obviously!  Being Deliberate about Quality Attributes</title>
+				<title>Non-Functional or Dysfunctional?  Don't Leave Quality Attributes to Chance</title>
 				<description>I am so tired of "Obviously".  It's too late for "Obviously".  I never want to hear "Obviously" again.
 In a world where non-functional requirements are left to chance, a lone developer bravely confronts software quality.  She sighs deeply.
 Obviously our app needs four nines reliabilty.  Obviously it must respond within 200 ms.  Obviously a toddler should find it easy to use.  Obviously it should scale to 100 000 users.  Obviously it must repel attacks from Anonymous. There's nothing obvious about any of this!
@@ -481,18 +493,20 @@ Join us and learn about the latest evolution in query languages!</description>
 					<person>Tobias Brandt</person>
 				</persons>
 			</event>
-			<event id="561186">
+			<event id="561825">
 				<start>11:25</start>
 				<duration>00:40</duration>
 				<room>Senate II</room>
-				<title>10 Lessons I Learned About Engineering Leadership from Ted Lasso</title>
-				<description>This talk goes into the ten lessons which Benny learned from the Emmy Award Winning show Ted Lasso, about an American Football coach hired to coach an English Football (soccer) team.
-Benny applied the Lessons as a consulting Head of Engineering for a HealthTech with some moderate success.
-Please be aware that there are tons of Spoilers.</description>
+				<title>If it's everywhere, why aren't you using it?</title>
+				<description>WebAssembly. Wasm. Wat. What? What?!
+It's everywhere, in the browser, on the server, embedded devices, your preferred runtime. Every. Where.  Why should you start to take note? How can Wasm be a cohesive force, allowing you to use the best tools for the job, yet still remain portable and performant.
+Rust, Zig, Go, Python and friends can all work together using WebAssembly. We've heard it before, but what does it mean in practice? What does this unlock, for you, the developer?
+Let's see how Wasm can make you more productive, open up new possibilities and allow contributions from many different disciplines to come together and form the solutions we need for modern challenges.
+I will share lessons learned in bringing together various development efforts to build a solution that would be a serious challenge to do with only one or two programming languages or frameworks.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Benny Ou</person>
+					<person>Ewald Horn</person>
 				</persons>
 			</event>
 			<event id="562703">
@@ -509,20 +523,18 @@ But the journey doesn't stop there. I'll also explore the exciting possibilities
 					<person>Rudi Grobler</person>
 				</persons>
 			</event>
-			<event id="561825">
+			<event id="561186">
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Senate II</room>
-				<title>If it's everywhere, why aren't you using it?</title>
-				<description>WebAssembly. Wasm. Wat. What? What?!
-It's everywhere, in the browser, on the server, embedded devices, your preferred runtime. Every. Where.  Why should you start to take note? How can Wasm be a cohesive force, allowing you to use the best tools for the job, yet still remain portable and performant.
-Rust, Zig, Go, Python and friends can all work together using WebAssembly. We've heard it before, but what does it mean in practice? What does this unlock, for you, the developer?
-Let's see how Wasm can make you more productive, open up new possibilities and allow contributions from many different disciplines to come together and form the solutions we need for modern challenges.
-I will share lessons learned in bringing together various development efforts to build a solution that would be a serious challenge to do with only one or two programming languages or frameworks.</description>
+				<title>10 Lessons I Learned About Engineering Leadership from Ted Lasso</title>
+				<description>This talk goes into the ten lessons which Benny learned from the Emmy Award Winning show Ted Lasso, about an American Football coach hired to coach an English Football (soccer) team.
+Benny applied the Lessons as a consulting Head of Engineering for a HealthTech with some moderate success.
+Please be aware that there are tons of Spoilers.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Ewald Horn</person>
+					<person>Benny Ou</person>
 				</persons>
 			</event>
 			<event id="566288">

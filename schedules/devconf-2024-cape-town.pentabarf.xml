@@ -142,7 +142,7 @@ We won't spend too much time on the wide spectrum of material here, but rather f
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Hall A</room>
-				<title>Dysfunctional Requirements Obviously!  Being Deliberate about Quality Attributes</title>
+				<title>Non-Functional or Dysfunctional?  Don't Leave Quality Attributes to Chance</title>
 				<description>I am so tired of "Obviously".  It's too late for "Obviously".  I never want to hear "Obviously" again.
 In a world where non-functional requirements are left to chance, a lone developer bravely confronts software quality.  She sighs deeply.
 Obviously our app needs four nines reliabilty.  Obviously it must respond within 200 ms.  Obviously a toddler should find it easy to use.  Obviously it should scale to 100 000 users.  Obviously it must repel attacks from Anonymous. There's nothing obvious about any of this!
