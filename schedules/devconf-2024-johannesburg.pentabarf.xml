@@ -235,8 +235,23 @@ It will be a great way to get a glimpse of how loosely coupled and highly aligne
 					<person>Cayden de Wit</person>
 				</persons>
 			</event>
-			<event id="563904">
+			<event id="555819">
 				<start>12:20</start>
+				<duration>00:40</duration>
+				<room>Fabia</room>
+				<title>Navigating the Storm: Tools and Patterns for Resilient Systems in the Face of Production Chaos</title>
+				<description>Troubleshooting large, distributed systems during production outages can be a daunting challenge. When downtime is not an option, how do you steer your ship through the storm of technical difficulties?
+Drawing from extensive experience trying to keep production up at one of South Africa's largest banks, this talk delves into the realm of resilience engineering. It will equip you to identify and reproduce issues and also to make your systems more resilient in the face of chaos.
+We will explore an array of troubleshooting tools, such as Application Performance Monitoring tools, logging, heap and thread dumps, application metrics, profiling techniques, load testing, and briefly touch on chaos engineering.
+Recognizing that prevention is better than cure, we will conclude with patterns and strategies to help you build resilient systems. Topics will include timeouts, connection reuse, circuit breakers, bulkheads, and fallback mechanisms.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Renette Ros</person>
+				</persons>
+			</event>
+			<event id="563904">
+				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Fabia</room>
 				<title>Data Science For Dummies</title>
@@ -245,18 +260,6 @@ It will be a great way to get a glimpse of how loosely coupled and highly aligne
 				<language />
 				<persons>
 					<person>Quinn Grace</person>
-				</persons>
-			</event>
-			<event id="565695">
-				<start>13:50</start>
-				<duration>00:40</duration>
-				<room>Fabia</room>
-				<title>Chains Redefined: Blockchain’s Promise for Africa’s Rich Resources</title>
-				<description>In a world where the term 'chains' often conjures images of restriction, "Chains Redefined" explores the liberating power of blockchain technology in managing Africa's natural wealth. This talk is a journey for everyday software developers, a journey from historical chains of exploitation to modern chains of opportunity and innovation. It’s an exploration into how blockchain, a technology many developers interact with daily, can have profound impacts far beyond cryptocurrency – specifically in revolutionizing the management of Africa’s rich resources.</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Omphile Matheolane</person>
 				</persons>
 			</event>
 			<event id="556508">
@@ -448,19 +451,16 @@ I will also do a quick introduction to observability in general and some of the 
 					<person>Cliff de Wit</person>
 				</persons>
 			</event>
-			<event id="555819">
+			<event id="565695">
 				<start>14:45</start>
 				<duration>00:40</duration>
 				<room>Senate I</room>
-				<title>Navigating the Storm: Tools and Patterns for Resilient Systems in the Face of Production Chaos</title>
-				<description>Troubleshooting large, distributed systems during production outages can be a daunting challenge. When downtime is not an option, how do you steer your ship through the storm of technical difficulties?
-Drawing from extensive experience trying to keep production up at one of South Africa's largest banks, this talk delves into the realm of resilience engineering. It will equip you to identify and reproduce issues and also to make your systems more resilient in the face of chaos.
-We will explore an array of troubleshooting tools, such as Application Performance Monitoring tools, logging, heap and thread dumps, application metrics, profiling techniques, load testing, and briefly touch on chaos engineering.
-Recognizing that prevention is better than cure, we will conclude with patterns and strategies to help you build resilient systems. Topics will include timeouts, connection reuse, circuit breakers, bulkheads, and fallback mechanisms.</description>
+				<title>Chains Redefined: Blockchain’s Promise for Africa’s Rich Resources</title>
+				<description>In a world where the term 'chains' often conjures images of restriction, "Chains Redefined" explores the liberating power of blockchain technology in managing Africa's natural wealth. This talk is a journey for everyday software developers, a journey from historical chains of exploitation to modern chains of opportunity and innovation. It’s an exploration into how blockchain, a technology many developers interact with daily, can have profound impacts far beyond cryptocurrency – specifically in revolutionizing the management of Africa’s rich resources.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Renette Ros</person>
+					<person>Omphile Matheolane</person>
 				</persons>
 			</event>
 			<event id="550361">
@@ -535,6 +535,21 @@ Please be aware that there are tons of Spoilers.</description>
 				<language />
 				<persons>
 					<person>Benny Ou</person>
+				</persons>
+			</event>
+			<event id="565769">
+				<start>14:45</start>
+				<duration>00:40</duration>
+				<room>Senate II</room>
+				<title>Developer Driven-Testing: ship better code faster by removing the testing column.</title>
+				<description>Have you ever written some code and thought to yourself "I suspect there are still bugs in here, but I can’t say where exactly. Let's see what they find during testing..."
+Increasingly, high-performing teams are making developers primarily responsible for testing throughout the software development lifecycle. There is no hand-over to another person to write tests or perform testing activities before code can be released. In this talk I’ll explain what Developer-Driven Testing (DDT) is and how it can lead to higher code quality, and faster development cycles.
+However, it’s not as simple as just deleting the testing column - I’ll cover the steps needed to get to that point. I’ll share some practical examples on how to improve the effectiveness of your tests - something that is critical when operating without a testing phase as a safety net.
+And what about the role of quality engineers in teams that do DDT? Come and find out how DDT enables them to provide even more value to teams.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Lee Bailey</person>
 				</persons>
 			</event>
 			<event id="566288">
