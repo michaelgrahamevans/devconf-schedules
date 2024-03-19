@@ -28,6 +28,18 @@
 				<language />
 				<persons />
 			</event>
+			<event id="650300">
+				<start>09:15</start>
+				<duration>00:45</duration>
+				<room />
+				<title>PDI Model for Progressive Data Transformation in Organizations</title>
+				<description>This keynote will introduce the PDI Model, a novel approach to data transformation that prioritizes People, Data, and Infrastructure in a sequence that emphasizes human-centricity.</description>
+				<track>Keynotes</track>
+				<language />
+				<persons>
+					<person>John Kamara</person>
+				</persons>
+			</event>
 			<event id="e1c1b65851b4665252e9684fbec3f1a5">
 				<start>10:00</start>
 				<duration>00:30</duration>
@@ -142,7 +154,7 @@ We won't spend too much time on the wide spectrum of material here, but rather f
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Hall A</room>
-				<title>Non-Functional or Dysfunctional?  Don't Leave Quality Attributes to Chance</title>
+				<title>Non-Functional or Dysfunctional?  Don't Leave Quality to Chance</title>
 				<description>I am so tired of "Obviously".  It's too late for "Obviously".  I never want to hear "Obviously" again.
 In a world where non-functional requirements are left to chance, a lone developer bravely confronts software quality.  She sighs deeply.
 Obviously our app needs four nines reliabilty.  Obviously it must respond within 200 ms.  Obviously a toddler should find it easy to use.  Obviously it should scale to 100 000 users.  Obviously it must repel attacks from Anonymous. There's nothing obvious about any of this!
@@ -225,6 +237,18 @@ Join in to explore the incredible transformation that unfolds when an ordinary i
 				<language />
 				<persons>
 					<person>Richard Sithole</person>
+				</persons>
+			</event>
+			<event id="649707">
+				<start>12:20</start>
+				<duration>00:40</duration>
+				<room>Hall B</room>
+				<title>The Good, the Bad, and the Cross-Platform: Insider Stories of Mobile Development</title>
+				<description>Dive into the world of cross-platform mobile app development through the lens of firsthand experiences with 'The Good, the Bad, and the Cross-Platform.' This talk will unravel the complexities and nuances of using various cross-platform tools, drawing on real-life stories from the trenches of development. Discover the pitfalls to avoid, the unexpected victories, and the lessons learned along the way. Whether you're deciding on a framework for your next project, looking to streamline your development process, or simply curious about the cross-platform landscape, this presentation will arm you with the insights needed to navigate the challenges and opportunities of building mobile apps that stand the test of device diversity.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Nico du Plessis</person>
 				</persons>
 			</event>
 			<event id="566454">
@@ -539,6 +563,21 @@ Join me, as we walk through a new world of AI and developers co-existing to acce
 				<language />
 				<persons>
 					<person>Tiane Erwee</person>
+				</persons>
+			</event>
+			<event id="648663">
+				<start>15:55</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 8 and 9</room>
+				<title>Delve into the Dungeons of Cybersecurity at DevConf 2024!</title>
+				<description>Join us on a quest as we unveil the mysterious connection between continuous performance enhancements and the emergence of 0-Day Exploits. As the clock struck midnight on December 31st, 2023, a frantic call summoned our Paladin to confront a lurking terror within our system's depths.
+Prepare your spells and sharpen your swords as we journey into the heart of darkness, where 0-Day Exploits lie in wait, ready to ensnare the unwary. Witness the treacherous exploits of the past, from the V8 JavaScript engine's betrayal of Google Chrome to the sinister schemes that plagued Apple iOS.
+Venture forth into the nexus between performance and security, where every enhancement risks awakening the dreaded Tarrasque of vulnerability. Learn the invaluable lessons of vigilance and adaptation as we navigate the perilous landscape of software development.
+Join the Q&amp;A to share insights and seek guidance. Together, let's conquer the darkness for cybersecurity excellence.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Jonathan Maurer</person>
 				</persons>
 			</event>
 			<event id="566735">

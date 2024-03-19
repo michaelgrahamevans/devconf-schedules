@@ -28,6 +28,18 @@
 				<language />
 				<persons />
 			</event>
+			<event id="650300">
+				<start>09:15</start>
+				<duration>00:45</duration>
+				<room />
+				<title>PDI Model for Progressive Data Transformation in Organizations</title>
+				<description>This keynote will introduce the PDI Model, a novel approach to data transformation that prioritizes People, Data, and Infrastructure in a sequence that emphasizes human-centricity.</description>
+				<track>Keynotes</track>
+				<language />
+				<persons>
+					<person>John Kamara</person>
+				</persons>
+			</event>
 			<event id="e1c1b65851b4665252e9684fbec3f1a5">
 				<start>10:00</start>
 				<duration>00:30</duration>
@@ -154,7 +166,7 @@ We won't spend too much time on the wide spectrum of material here, but rather f
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Centre Court</room>
-				<title>Non-Functional or Dysfunctional?  Don't Leave Quality Attributes to Chance</title>
+				<title>Non-Functional or Dysfunctional?  Don't Leave Quality to Chance</title>
 				<description>I am so tired of "Obviously".  It's too late for "Obviously".  I never want to hear "Obviously" again.
 In a world where non-functional requirements are left to chance, a lone developer bravely confronts software quality.  She sighs deeply.
 Obviously our app needs four nines reliabilty.  Obviously it must respond within 200 ms.  Obviously a toddler should find it easy to use.  Obviously it should scale to 100 000 users.  Obviously it must repel attacks from Anonymous. There's nothing obvious about any of this!
@@ -274,6 +286,18 @@ Recognizing that prevention is better than cure, we will conclude with patterns 
 					<person>Tiane Erwee</person>
 				</persons>
 			</event>
+			<event id="649086">
+				<start>15:55</start>
+				<duration>00:40</duration>
+				<room>Fabia</room>
+				<title>Surviving IT Project Warzones</title>
+				<description>Large IT projects often resemble battlefields, where the stakes are high, and victory is far from guaranteed. In this digital warzone, the landscape is fraught with challenges like shifting requirements, tight deadlines, and complex technologies. Just as generals must contend with unpredictable terrain and enemy tactics, project managers navigate through ever-changing budgets, scope creep, and organizational politics. The fog of war obscures visibility, leading to miscommunication, misunderstandings, and missed opportunities. Battle-hardened teams may find themselves overwhelmed by the sheer magnitude of the undertaking, grappling with coordination issues, resource constraints, and technology gaps. Like battle plans drawn with the best intentions, project blueprints may falter in the face of unexpected setbacks, from software bugs to infrastructure failures. Despite planning and rigorous testing, the battlefield of IT projects remains unpredictable, with an elusive victory.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Sean Cremer</person>
+				</persons>
+			</event>
 			<event id="566735">
 				<start>16:50</start>
 				<duration>00:40</duration>
@@ -352,6 +376,18 @@ Join in to explore the incredible transformation that unfolds when an ordinary i
 				<language />
 				<persons>
 					<person>Richard Sithole</person>
+				</persons>
+			</event>
+			<event id="649707">
+				<start>12:20</start>
+				<duration>00:40</duration>
+				<room>NCC</room>
+				<title>The Good, the Bad, and the Cross-Platform: Insider Stories of Mobile Development</title>
+				<description>Dive into the world of cross-platform mobile app development through the lens of firsthand experiences with 'The Good, the Bad, and the Cross-Platform.' This talk will unravel the complexities and nuances of using various cross-platform tools, drawing on real-life stories from the trenches of development. Discover the pitfalls to avoid, the unexpected victories, and the lessons learned along the way. Whether you're deciding on a framework for your next project, looking to streamline your development process, or simply curious about the cross-platform landscape, this presentation will arm you with the insights needed to navigate the challenges and opportunities of building mobile apps that stand the test of device diversity.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Nico du Plessis</person>
 				</persons>
 			</event>
 			<event id="566454">
@@ -449,6 +485,18 @@ I will also do a quick introduction to observability in general and some of the 
 				<language />
 				<persons>
 					<person>Cliff de Wit</person>
+				</persons>
+			</event>
+			<event id="650329">
+				<start>13:50</start>
+				<duration>00:40</duration>
+				<room>Senate I</room>
+				<title>From code to Experience: Build a bridge between UX and Development</title>
+				<description>Every one of us holds a distinctive role, and with that role comes the power to shape the systems we develop. These systems, in turn, leave a lasting impression on our users' experiences. So, what's your mark on the user experience? How does your coding influence the journey of the user? Together, we'll delve into various roles and examine how each contributes to the overall user experience (UX). Let's embark on a journey to fine-tune our efforts and craft an enhanced experience for our users.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Strauss Bornman</person>
 				</persons>
 			</event>
 			<event id="565695">
