@@ -322,11 +322,13 @@ What we will cover at this session:
 				<start>10:30</start>
 				<duration>01:35</duration>
 				<room>Julia</room>
-				<title />
-				<description />
+				<title>From Complexity to Clarity: Navigating Microservices with Kubernetes</title>
+				<description>In today's dynamic software development landscape, adopting microservices is key to achieving greater scalability, flexibility, and faster innovation. While the benefits of microservices are clear, they come with their own set of complexities. Successfully implementing a microservices architecture extends beyond breaking down applications; it demands a thorough understanding of deployment, management, and observability. The prevalent adoption of the "You Build It, You Run It" philosophy marks a significant shift towards developer accountability and empowerment. As a modern developer understanding the platform your applications run on, is not just beneficial, it's essential. We invite you to a technical session tailored for forward-thinking developers ready to tackle the challenges of deploying microservices using Kubernetes. This session is focused on demystifying the deployment platforms that will house your applications, emphasizing the early adoption of practices such as logging, tracing, monitoring to name a few. The session will cover:Preparing Your Development EnvironmentCrafting Docker ImagesApplication Deployment with KubernetesMonitoring and Troubleshooting Techniques within KubernetesSecurity Measures and Best PracticesExploring Advanced Features of Kubernetes</description>
 				<track>Workshops</track>
 				<language />
-				<persons />
+				<persons>
+					<person>iOCO</person>
+				</persons>
 			</event>
 			<event id="8c7b28ecec78ae1eb47be893bf02f50e">
 				<start>13:50</start>
@@ -367,7 +369,7 @@ This engaging talk will take you on a journey behind the scenes of Wikipedia's r
 				<start>11:25</start>
 				<duration>00:40</duration>
 				<room>NCC</room>
-				<title>From a South African Village to Berlin: My Journey from Call Centre Agent to Frontend Lead Developer</title>
+				<title>From Phone Calls to Function Calls: My Journey from Call Centre Agent to Frontend Lead Developer</title>
 				<description>Listen to a captivating narrative that unfolds the inspiring journey of a self-taught Frontend Lead Developer who began in a South African village and now flourishes in Berlin's tech hub
 What's in it for you? This isn't just a story; it's a source of motivation and a testament to the power of perseverance. Witness a "struggles to successes" tale for the digital age
 This narrative offers more than inspiration; its a reminder that every obstacle is an opportunity, and every setback is a setup for a comeback. It's a journey that promises to ignite your own aspirations and leave you with a renewed belief in the potential within you
@@ -520,7 +522,7 @@ I will also do a quick introduction to observability in general and some of the 
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Monique Marshall</person>
+					<person>Monique Springer</person>
 				</persons>
 			</event>
 		</room>
