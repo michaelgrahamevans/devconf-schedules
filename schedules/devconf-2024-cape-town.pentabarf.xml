@@ -150,20 +150,18 @@ We won't spend too much time on the wide spectrum of material here, but rather f
 					<person>Andy Higgins</person>
 				</persons>
 			</event>
-			<event id="561829">
+			<event id="556963">
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Hall A</room>
-				<title>Non-Functional or Dysfunctional?  Don't Leave Quality to Chance</title>
-				<description>I am so tired of "Obviously".  It's too late for "Obviously".  I never want to hear "Obviously" again.
-In a world where non-functional requirements are left to chance, a lone developer bravely confronts software quality.  She sighs deeply.
-Obviously our app needs four nines reliabilty.  Obviously it must respond within 200 ms.  Obviously a toddler should find it easy to use.  Obviously it should scale to 100 000 users.  Obviously it must repel attacks from Anonymous. There's nothing obvious about any of this!
-We think we can fulfil these requirements at no cost, but we can't.  We think they'll just emerge, and we're disappointed. We never define quality attributes well enough.  Not across the board. If we're deliberate about performance and security, we neglect modifiability and availability.  Why do we do this?  Again and again...
-Is it too late?  Or can one intrepid developer lead us to a safer place?  One iteration at a time.  Never to be bullied with "Obviously" again...</description>
+				<title>DevOps at Netflix</title>
+				<description>Netflix is a global leader in video streaming and has always been known in Silicon Valley for its culture document; a seminal work in setting the context about culture.
+In this session, I will shed light on how Netflix thinks about DevOps, how our culture permeates our thought on Agile practices, DevOps, and development.
+It will be a great way to get a glimpse of how loosely coupled and highly aligned Netflix is, and participants can apply some parts of our culture to their organizations.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Donald Graham</person>
+					<person>Tejas Chopra</person>
 				</persons>
 			</event>
 			<event id="563078">
@@ -195,18 +193,16 @@ Join me for a roller-coaster ride through distributed system performance monitor
 					<person>Mike Minutillo</person>
 				</persons>
 			</event>
-			<event id="556963">
+			<event id="550426">
 				<start>16:50</start>
 				<duration>00:40</duration>
 				<room>Hall A</room>
-				<title>DevOps at Netflix</title>
-				<description>Netflix is a global leader in video streaming and has always been known in Silicon Valley for its culture document; a seminal work in setting the context about culture.
-In this session, I will shed light on how Netflix thinks about DevOps, how our culture permeates our thought on Agile practices, DevOps, and development.
-It will be a great way to get a glimpse of how loosely coupled and highly aligned Netflix is, and participants can apply some parts of our culture to their organizations.</description>
+				<title>How building a portable escape room made me a better developer</title>
+				<description>I built a portable IoT escape room, and it changed how I think about development! In this session, we'll uncover unexpected parallels between escape rooms and architecting resilient, scalable systems. Let me share the lessons learned, and how they translate into invaluable guidance for Domain-Driven Design (DDD), modularity, communication, scalability and fault tolerance. Doors will be unlocked at the end - even if the audience can't solve the puzzles.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Tejas Chopra</person>
+					<person>William Brander</person>
 				</persons>
 			</event>
 		</room>
@@ -251,21 +247,8 @@ Join in to explore the incredible transformation that unfolds when an ordinary i
 					<person>Nico du Plessis</person>
 				</persons>
 			</event>
-			<event id="566454">
-				<start>13:50</start>
-				<duration>00:40</duration>
-				<room>Hall B</room>
-				<title>P-AI-R Programming with Gemini</title>
-				<description>During this talk attendees will get first-hand experience developing an application (either .NET 8 and/or Node.js) using Visual Code with Gemini. We are starting out from a basic project (provided via my public GitHub repository) and are going to "discuss" matters, refactor and extend the application with Gemini, our AI-based assistant.
-P-AI-R programming, or programming with AI-based assistants, is a new paradigm for software development that leverages the power of AI to help developers write better code, faster. Gemini is a Google Cloud service that provides AI-powered assistance for developers, including code completion, code generation, code understanding, and code refactoring.</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Jochen Kirstätter</person>
-				</persons>
-			</event>
 			<event id="562554">
-				<start>14:45</start>
+				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Hall B</room>
 				<title>A World Without Passwords? Are We There Yet?</title>
@@ -276,6 +259,19 @@ In this talk, you'll learn about the existing forms of passwordless authenticati
 				<language />
 				<persons>
 					<person>Linda Ikechukwu</person>
+				</persons>
+			</event>
+			<event id="566454">
+				<start>14:45</start>
+				<duration>00:40</duration>
+				<room>Hall B</room>
+				<title>P-AI-R Programming with Gemini</title>
+				<description>During this talk attendees will get first-hand experience developing an application (either .NET 8 and/or Node.js) using Visual Code with Gemini. We are starting out from a basic project (provided via my public GitHub repository) and are going to "discuss" matters, refactor and extend the application with Gemini, our AI-based assistant.
+P-AI-R programming, or programming with AI-based assistants, is a new paradigm for software development that leverages the power of AI to help developers write better code, faster. Gemini is a Google Cloud service that provides AI-powered assistance for developers, including code completion, code generation, code understanding, and code refactoring.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Jochen Kirstätter</person>
 				</persons>
 			</event>
 			<event id="565939">
@@ -293,16 +289,18 @@ Join me for a fun "Do-it-yourself" session with demos and code!</description>
 					<person>Allan Pead</person>
 				</persons>
 			</event>
-			<event id="550426">
+			<event id="561186">
 				<start>16:50</start>
 				<duration>00:40</duration>
 				<room>Hall B</room>
-				<title>How building a portable escape room made me a better developer</title>
-				<description>I built a portable IoT escape room, and it changed how I think about development! In this session, we'll uncover unexpected parallels between escape rooms and architecting resilient, scalable systems. Let me share the lessons learned, and how they translate into invaluable guidance for Domain-Driven Design (DDD), modularity, communication, scalability and fault tolerance. Doors will be unlocked at the end - even if the audience can't solve the puzzles.</description>
+				<title>10 Lessons I Learned About Engineering Leadership from Ted Lasso</title>
+				<description>This talk goes into the ten lessons which Benny learned from the Emmy Award Winning show Ted Lasso, about an American Football coach hired to coach an English Football (soccer) team.
+Benny applied the Lessons as a consulting Head of Engineering for a HealthTech with some moderate success.
+Please be aware that there are tons of Spoilers.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>William Brander</person>
+					<person>Benny Ou</person>
 				</persons>
 			</event>
 		</room>
@@ -325,54 +323,76 @@ Let’s unleash the superpower of neurodiverse tech talent: my advice on embraci
 				<start>11:25</start>
 				<duration>00:40</duration>
 				<room>Hall C</room>
-				<title>Making observability tangible with end-to-end test automation</title>
-				<description>The tooling for observability (metrics, traces, logging) has evolved at a rapid pace.
+				<title>Making observability tangible (with end-to-end test automation)</title>
+				<description>The tooling for observability (metrics, traces, logging) has been evolving at a rapid pace.
 The benefits this offers are remarkable but it is hard to see the potential without practical experience. On smaller projects (or projects in their infancy) it is also hard to get enough traffic to have statistically meaningful data to showcase observability benefits.
-In this talk I want to show how end-to-end tests can be used to continuously instrument a sample application to establish a baseline of observability data. This can then be used to get a better understanding of the inner workings of our application and also to diagnose specific problems created during the talk.
-I will also do a quick introduction to observability in general and some of the dos and don'ts that I've noticed.</description>
+I will give a brief introduction to the terms and tools available and will point out some common pitfalls when starting out with collecting metrics.
+In the more interactive part of the talk I want to show how end-to-end tests can be used to continuously instrument a sample application to establish a baseline of observability data. This can then be used to help us get a better understanding of the inner workings of our application and to diagnose problems created during the talk.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
 					<person>Daniel Temme</person>
 				</persons>
 			</event>
-			<event id="566291">
+			<event id="561825">
 				<start>12:20</start>
 				<duration>00:40</duration>
 				<room>Hall C</room>
-				<title>So you want to be a CTO</title>
-				<description>Most technical people reach a point in their career journey where they must decide between management or remaining in an individual contribution role. At the same time, many good technical people believe the only way to advance their careers is by taking on a role in management. In this talk, I will cover two critical aspects of the CTO role.  Firstly, is it a good career choice for you Secondly what are the skills and attributes required to succeed in the CTO role?</description>
+				<title>If it's everywhere, why aren't you using it?</title>
+				<description>WebAssembly. Wasm. Wat. What? What?!
+It's everywhere, in the browser, on the server, embedded devices, your preferred runtime. Every. Where.  Why should you start to take note? How can Wasm be a cohesive force, allowing you to use the best tools for the job, yet still remain portable and performant.
+Rust, Zig, Go, Python and friends can all work together using WebAssembly. We've heard it before, but what does it mean in practice? What does this unlock, for you, the developer?
+Let's see how Wasm can make you more productive, open up new possibilities and allow contributions from many different disciplines to come together and form the solutions we need for modern challenges.
+I will share lessons learned in bringing together various development efforts to build a solution that would be a serious challenge to do with only one or two programming languages or frameworks.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Cliff de Wit</person>
+					<person>Ewald Horn</person>
 				</persons>
 			</event>
-			<event id="555819">
+			<event id="561829">
 				<start>14:45</start>
 				<duration>00:40</duration>
 				<room>Hall C</room>
-				<title>Navigating the Storm: Tools and Patterns for Resilient Systems in the Face of Production Chaos</title>
-				<description>Troubleshooting large, distributed systems during production outages can be a daunting challenge. When downtime is not an option, how do you steer your ship through the storm of technical difficulties?
-Drawing from extensive experience trying to keep production up at one of South Africa's largest banks, this talk delves into the realm of resilience engineering. It will equip you to identify and reproduce issues and also to make your systems more resilient in the face of chaos.
-We will explore an array of troubleshooting tools, such as Application Performance Monitoring tools, logging, heap and thread dumps, application metrics, profiling techniques, load testing, and briefly touch on chaos engineering.
-Recognizing that prevention is better than cure, we will conclude with patterns and strategies to help you build resilient systems. Topics will include timeouts, connection reuse, circuit breakers, bulkheads, and fallback mechanisms.</description>
+				<title>Non-Functional or Dysfunctional?  Don't Leave Quality to Chance</title>
+				<description>I am so tired of "Obviously".  It's too late for "Obviously".  I never want to hear "Obviously" again.
+In a world where non-functional requirements are left to chance, a lone developer bravely confronts software quality.  He sighs deeply.
+Obviously our app needs four nines reliability.  Obviously it must respond within 200 ms.  Obviously a toddler should find it easy to use.  Obviously it should scale to 100 000 users.  Obviously it must repel attacks from Anonymous...
+There's nothing obvious about any of this!  We think we can fulfil these requirements at no cost, but we can't.  We think they'll just emerge, and we're disappointed. We never define quality attributes well enough.  Not across the board. If we're deliberate about performance and security, we neglect modifiability and availability.  Why do we do this?  Again and again...
+Is it too late?  Or can one intrepid developer lead us to a safer place?  One iteration at a time.  Never to be bullied with "Obviously" again...</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Renette Ros</person>
+					<person>Donald Graham</person>
 				</persons>
 			</event>
-			<event id="550361">
+			<event id="662638">
 				<start>15:55</start>
 				<duration>00:40</duration>
 				<room>Hall C</room>
-				<title>Embracing Neurodiversity in the Software Industry</title>
-				<description>Neurodiversity refers to the range of differences in how individuals cognitively process the world around them. Neurodiversity is an umbrella term that includes (but is not limited to) autism spectrum disorders, ADHD, dyslexia, dyscalculia, and Tourette's disorder. Individuals with these differences make up a large portion of the population and it is found that the software industry seems to be an attractive industry for individuals with these differences, therefore it is imperative to embrace this population to better understand their differences, the strengths that they bring to the table, and the common difficulties that they may face in a workplace setting.</description>
+				<title>Building on a Crypto Operating System</title>
+				<description>Cryptocurrencies are here to stay, and playing a key role in modernising and innovation in the financial sector. Did you know that you don't need to be a big business or a blockchain expert to start building that next generation financial system, for yourself?
+In this session, we'll be taking a practical look at how to build on top of VALR's world-class API, going from 0 to 1 with running code, as well as discuss a range of build possibilities.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Monique Springer</person>
+					<person>Janco Wolmarans</person>
+				</persons>
+			</event>
+			<event id="566288">
+				<start>16:50</start>
+				<duration>00:40</duration>
+				<room>Hall C</room>
+				<title>I Can't Believe It's Not Native!</title>
+				<description>The web's come a long way, baby!
+The gap between the web and native platforms has been closing for years, and it's finally gotten really small.
+It used to be that web applications did not have access to a lot of mobile platform functionality, but did you know that you can access Bluetooth, NFC, USB directly from a web app, and that iOS Safari finally supports web push notifications?
+Even with the new platform capabilities of the modern web, you may still be concerned about performance! Aren't web browsers slow? I'll cover how you can build UIs that look and feel just as slick as a native UI.
+Of course, there are no silver bullets, so I'll also discuss when the web is not a good choice, and you might prefer to go native.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Xandor Schiefer</person>
 				</persons>
 			</event>
 		</room>
@@ -393,21 +413,25 @@ Recognizing that prevention is better than cure, we will conclude with patterns 
 				<start>13:50</start>
 				<duration>01:35</duration>
 				<room>Meeting Room 10</room>
-				<title />
-				<description />
+				<title>Co-creating API Banking</title>
+				<description>Discover how Investec's developer community is shaping the future of API banking and Programmable Banking card accounts. Learn about the collaborative efforts that are enabling developers to craft bespoke financial solutions, drive rapid innovation, and seamlessly integrate banking services into diverse digital ecosystems. This masterclass will showcase the synergy between technology and finance, highlighting the collective intelligence of a thriving developer community. Wayne Summers (Head of Open APIs at Investec) - The Story of Programmable Banking Wayne will share the journey of Investec's programmable banking, its vision, and the impact it has on the financial industry. Devin Pearson (Investec Developer Community member) Hands-on with the Investec API: Programmable Banking Card Accounts and Community Projects Devin will provide a technical walkthrough of the Investec API, demonstrating real-world applications and community-driven projects. Attendees are encouraged to bring their laptops to follow along. Nick Benson (Developer Community Lead @ Investec) The Pulse of Investec's Developer Community Nick will discuss the ethos of the Investec developer community, its role in fostering innovation, and how new members can get involved.</description>
 				<track>Workshops</track>
 				<language />
-				<persons />
+				<persons>
+					<person>Investec</person>
+				</persons>
 			</event>
 			<event id="e8df47072730c22b3f207c555903e601">
 				<start>15:55</start>
 				<duration>01:35</duration>
 				<room>Meeting Room 10</room>
-				<title />
-				<description />
+				<title>Protecting Kubernetes Workloads: A Developer's Guide with Veeam Kasten K10</title>
+				<description>Overview of Kubernetes and its significance as a platform for running code.Introduction to K10 and its role in Kubernetes data management and protection.Importance of protecting Kubernetes environments and the role of K10 in achieving this.Deploy 1st Application to Kubernetes:Walkthrough of deploying an application onto a Kubernetes cluster.Explanation of key concepts such as pods, deployments, and services.Create Initial K10 Policy to Protect App:Demonstration of setting up K10 policies to protect the deployed application.Explanation of backup strategies, retention policies, and disaster recovery configurations.Kubernetes Perform Backup &amp; DR:Hands-on exercise on performing backups and disaster recovery operations using K10.Practice restoring applications and data in case of failures.Application &amp; Code Mobility:Discussion on strategies for application and code mobility within Kubernetes environments.Exploration of tools and practices for seamless migration and scaling of applications.</description>
 				<track>Workshops</track>
 				<language />
-				<persons />
+				<persons>
+					<person>Veeam</person>
+				</persons>
 			</event>
 		</room>
 		<room name="Meeting Room 11">
@@ -427,18 +451,19 @@ Join us and learn about the latest evolution in query languages!</description>
 					<person>Tobias Brandt</person>
 				</persons>
 			</event>
-			<event id="561186">
+			<event id="555819">
 				<start>11:25</start>
 				<duration>00:40</duration>
 				<room>Meeting Room 11</room>
-				<title>10 Lessons I Learned About Engineering Leadership from Ted Lasso</title>
-				<description>This talk goes into the ten lessons which Benny learned from the Emmy Award Winning show Ted Lasso, about an American Football coach hired to coach an English Football (soccer) team.
-Benny applied the Lessons as a consulting Head of Engineering for a HealthTech with some moderate success.
-Please be aware that there are tons of Spoilers.</description>
+				<title>Navigating the Storm: Tools and Patterns for Resilient Systems in the Face of Production Chaos</title>
+				<description>Troubleshooting large, distributed systems during production outages can be a daunting challenge. When downtime is not an option, how do you steer your ship through the storm of technical difficulties?
+Drawing from extensive experience trying to keep production up at one of South Africa's largest banks, this talk delves into the realm of resilience engineering. It will equip you to identify and reproduce issues and also to make your systems more resilient in the face of chaos.
+We will explore an array of troubleshooting tools, such as Application Performance Monitoring tools, logging, heap and thread dumps, application metrics, profiling techniques, load testing, and briefly touch on chaos engineering.
+Recognizing that prevention is better than cure, we will conclude with patterns and strategies to help you build resilient systems. Topics will include timeouts, connection reuse, circuit breakers, bulkheads, and fallback mechanisms.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Benny Ou</person>
+					<person>Renette Ros</person>
 				</persons>
 			</event>
 			<event id="562703">
@@ -455,36 +480,40 @@ But the journey doesn't stop there. I'll also explore the exciting possibilities
 					<person>Rudi Grobler</person>
 				</persons>
 			</event>
-			<event id="561825">
+			<event id="566291">
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Meeting Room 11</room>
-				<title>If it's everywhere, why aren't you using it?</title>
-				<description>WebAssembly. Wasm. Wat. What? What?!
-It's everywhere, in the browser, on the server, embedded devices, your preferred runtime. Every. Where.  Why should you start to take note? How can Wasm be a cohesive force, allowing you to use the best tools for the job, yet still remain portable and performant.
-Rust, Zig, Go, Python and friends can all work together using WebAssembly. We've heard it before, but what does it mean in practice? What does this unlock, for you, the developer?
-Let's see how Wasm can make you more productive, open up new possibilities and allow contributions from many different disciplines to come together and form the solutions we need for modern challenges.
-I will share lessons learned in bringing together various development efforts to build a solution that would be a serious challenge to do with only one or two programming languages or frameworks.</description>
+				<title>So you want to be a CTO</title>
+				<description>Most technical people reach a point in their career journey where they must decide between management or remaining in an individual contribution role. At the same time, many good technical people believe the only way to advance their careers is by taking on a role in management. In this talk, I will cover two critical aspects of the CTO role.  Firstly, is it a good career choice for you Secondly what are the skills and attributes required to succeed in the CTO role?</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Ewald Horn</person>
+					<person>Cliff de Wit</person>
 				</persons>
 			</event>
-			<event id="566288">
+			<event id="561993">
+				<start>14:45</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 11</room>
+				<title>Container-based development in a Corporate Network</title>
+				<description>Supporting developers inside a corporate network has many pitfalls. How can we leverage containers to share environments, simplify deployments and manage vulnerabilities centrally?</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Dee Moore</person>
+				</persons>
+			</event>
+			<event id="550361">
 				<start>15:55</start>
 				<duration>00:40</duration>
 				<room>Meeting Room 11</room>
-				<title>I Can't Believe It's Not Native!</title>
-				<description>The web's come a long way, baby!
-The gap between the web and native platforms has been closing for years, and it's finally gotten really small.
-It used to be that web applications did not have access to a lot of mobile platform functionality, but did you know that you can access Bluetooth, NFC, USB directly from a web app, and that iOS Safari finally supports web push notifications?
-Even with the new platform capabilities of the modern web, you may still be concerned about performance! Aren't web browsers slow? I'll cover how you can build UIs that look and feel just as slick as a native UI.
-Of course, there are no silver bullets, so I'll also discuss when the web is not a good choice, and you might prefer to go native.</description>
+				<title>Embracing Neurodiversity in the Software Industry</title>
+				<description>Neurodiversity refers to the range of differences in how individuals cognitively process the world around them. Neurodiversity is an umbrella term that includes (but is not limited to) autism spectrum disorders, ADHD, dyslexia, dyscalculia, and Tourette's disorder. Individuals with these differences make up a large portion of the population and it is found that the software industry seems to be an attractive industry for individuals with these differences, therefore it is imperative to embrace this population to better understand their differences, the strengths that they bring to the table, and the common difficulties that they may face in a workplace setting.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Xandor Schiefer</person>
+					<person>Monique Springer</person>
 				</persons>
 			</event>
 			<event id="561808">
@@ -511,8 +540,8 @@ Join me, as we walk through a new world of AI and developers co-existing to acce
 				<start>10:30</start>
 				<duration>00:40</duration>
 				<room>Meeting Room 8 and 9</room>
-				<title>Serverless apps, How and Why?</title>
-				<description>For my 40-minute talk on "Serverless Functions: How and Why?", I will offer an informative and educational exploration of serverless computing. I'll begin by introducing key concepts and delve into the advantages of serverless, addressing potential challenges and mitigation strategies. I'll demonstrate the practical aspects of developing and deploying serverless functions on Azure and AWS, providing a simple code example and sharing best practices for monitoring and debugging. Additionally, I'll discuss security considerations and best practices while showcasing a real-world case study to illustrate the technology's practical application. This talk is designed to inform and educate the audience about serverless computing</description>
+				<title>Death to the server : The new serverless era</title>
+				<description>For my 40-minute talk on "The new serverless era", I will offer an informative and educational exploration of serverless computing. I'll begin by introducing key concepts and delve into the advantages of serverless, addressing potential challenges and mitigation strategies. I'll demonstrate the practical aspects of developing and deploying serverless functions on Azure and AWS, providing a simple code example and sharing best practices for monitoring and debugging. Additionally, I'll discuss security considerations and best practices while showcasing a real-world case study to illustrate the technology's practical application. This talk is designed to inform and educate the audience about serverless computing</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
@@ -567,8 +596,26 @@ Join me, as we walk through a new world of AI and developers co-existing to acce
 					<person>Tiane Erwee</person>
 				</persons>
 			</event>
-			<event id="648663">
+			<event id="566735">
 				<start>15:55</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 8 and 9</room>
+				<title>Automating Blue Teaming Practices using Golang</title>
+				<description>Golang is a programming language launched by Google and is best suited in cybersecurity because of its ease of typing, concurrency and multipurposefulness.
+What we will cover at this session:
+- Secure Coding practices promoted by Golang
+- Go libraries and tools used in the cybersecurity field, such as GoBuster for directory and file brute-forcing and GoDNS for DNS enumeration.
+- Project: Discussing how a log aggregator can be built using Golang for collecting log data, as an example for logging and monitoring
+- Live Demo: Building a custom-built Golang based tool for network and vulnerability scanning - using nmap and gopacket
+- Q&amp;A and discussion on use of Go in blue teaming practices with the audience.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Ankshita Maunthrooa</person>
+				</persons>
+			</event>
+			<event id="648663">
+				<start>16:50</start>
 				<duration>00:40</duration>
 				<room>Meeting Room 8 and 9</room>
 				<title>Delve into the Dungeons of Cybersecurity at DevConf 2024!</title>
@@ -580,24 +627,6 @@ Join the Q&amp;A to share insights and seek guidance. Together, let's conquer th
 				<language />
 				<persons>
 					<person>Jonathan Maurer</person>
-				</persons>
-			</event>
-			<event id="566735">
-				<start>16:50</start>
-				<duration>00:40</duration>
-				<room>Meeting Room 8 and 9</room>
-				<title>Automating Blue Teaming Practices using Golang</title>
-				<description>Golang is a programming language launched by Google and is best suited in cybersecurity because of its ease of typing, concurrency and multipurposefulness.
-What we will cover at this session:
-- Secure Coding practices promoted by Golang
-- Go libraries and tools used in the cybersecurity field, such as GoBuster for directory and file brute-forcing and GoDNS for DNS enumeration.
-- Showcasing an existing log aggregator built using Golang, used for collecting log data, as an example for logging and monitoring
-- Live Demo: Building a custom-built Golang based tool for network and vulnerability scanning - using nmap and gopacket
-- Q&amp;A and discussion on use of Go in blue teaming practices with the audience.</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Ankshita Maunthrooa</person>
 				</persons>
 			</event>
 		</room>

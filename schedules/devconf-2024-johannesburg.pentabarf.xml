@@ -162,20 +162,18 @@ We won't spend too much time on the wide spectrum of material here, but rather f
 					<person>Andy Higgins</person>
 				</persons>
 			</event>
-			<event id="561829">
+			<event id="556963">
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Centre Court</room>
-				<title>Non-Functional or Dysfunctional?  Don't Leave Quality to Chance</title>
-				<description>I am so tired of "Obviously".  It's too late for "Obviously".  I never want to hear "Obviously" again.
-In a world where non-functional requirements are left to chance, a lone developer bravely confronts software quality.  She sighs deeply.
-Obviously our app needs four nines reliabilty.  Obviously it must respond within 200 ms.  Obviously a toddler should find it easy to use.  Obviously it should scale to 100 000 users.  Obviously it must repel attacks from Anonymous. There's nothing obvious about any of this!
-We think we can fulfil these requirements at no cost, but we can't.  We think they'll just emerge, and we're disappointed. We never define quality attributes well enough.  Not across the board. If we're deliberate about performance and security, we neglect modifiability and availability.  Why do we do this?  Again and again...
-Is it too late?  Or can one intrepid developer lead us to a safer place?  One iteration at a time.  Never to be bullied with "Obviously" again...</description>
+				<title>DevOps at Netflix</title>
+				<description>Netflix is a global leader in video streaming and has always been known in Silicon Valley for its culture document; a seminal work in setting the context about culture.
+In this session, I will shed light on how Netflix thinks about DevOps, how our culture permeates our thought on Agile practices, DevOps, and development.
+It will be a great way to get a glimpse of how loosely coupled and highly aligned Netflix is, and participants can apply some parts of our culture to their organizations.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Donald Graham</person>
+					<person>Tejas Chopra</person>
 				</persons>
 			</event>
 			<event id="563078">
@@ -207,18 +205,16 @@ Join me for a roller-coaster ride through distributed system performance monitor
 					<person>Mike Minutillo</person>
 				</persons>
 			</event>
-			<event id="556963">
+			<event id="550426">
 				<start>16:50</start>
 				<duration>00:40</duration>
 				<room>Centre Court</room>
-				<title>DevOps at Netflix</title>
-				<description>Netflix is a global leader in video streaming and has always been known in Silicon Valley for its culture document; a seminal work in setting the context about culture.
-In this session, I will shed light on how Netflix thinks about DevOps, how our culture permeates our thought on Agile practices, DevOps, and development.
-It will be a great way to get a glimpse of how loosely coupled and highly aligned Netflix is, and participants can apply some parts of our culture to their organizations.</description>
+				<title>How building a portable escape room made me a better developer</title>
+				<description>I built a portable IoT escape room, and it changed how I think about development! In this session, we'll uncover unexpected parallels between escape rooms and architecting resilient, scalable systems. Let me share the lessons learned, and how they translate into invaluable guidance for Domain-Driven Design (DDD), modularity, communication, scalability and fault tolerance. Doors will be unlocked at the end - even if the audience can't solve the puzzles.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Tejas Chopra</person>
+					<person>William Brander</person>
 				</persons>
 			</event>
 		</room>
@@ -227,8 +223,8 @@ It will be a great way to get a glimpse of how loosely coupled and highly aligne
 				<start>10:30</start>
 				<duration>00:40</duration>
 				<room>Fabia</room>
-				<title>Serverless apps, How and Why?</title>
-				<description>For my 40-minute talk on "Serverless Functions: How and Why?", I will offer an informative and educational exploration of serverless computing. I'll begin by introducing key concepts and delve into the advantages of serverless, addressing potential challenges and mitigation strategies. I'll demonstrate the practical aspects of developing and deploying serverless functions on Azure and AWS, providing a simple code example and sharing best practices for monitoring and debugging. Additionally, I'll discuss security considerations and best practices while showcasing a real-world case study to illustrate the technology's practical application. This talk is designed to inform and educate the audience about serverless computing</description>
+				<title>Death to the server : The new serverless era</title>
+				<description>For my 40-minute talk on "The new serverless era", I will offer an informative and educational exploration of serverless computing. I'll begin by introducing key concepts and delve into the advantages of serverless, addressing potential challenges and mitigation strategies. I'll demonstrate the practical aspects of developing and deploying serverless functions on Azure and AWS, providing a simple code example and sharing best practices for monitoring and debugging. Additionally, I'll discuss security considerations and best practices while showcasing a real-world case study to illustrate the technology's practical application. This talk is designed to inform and educate the audience about serverless computing</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
@@ -307,7 +303,7 @@ Recognizing that prevention is better than cure, we will conclude with patterns 
 What we will cover at this session:
 - Secure Coding practices promoted by Golang
 - Go libraries and tools used in the cybersecurity field, such as GoBuster for directory and file brute-forcing and GoDNS for DNS enumeration.
-- Showcasing an existing log aggregator built using Golang, used for collecting log data, as an example for logging and monitoring
+- Project: Discussing how a log aggregator can be built using Golang for collecting log data, as an example for logging and monitoring
 - Live Demo: Building a custom-built Golang based tool for network and vulnerability scanning - using nmap and gopacket
 - Q&amp;A and discussion on use of Go in blue teaming practices with the audience.</description>
 				<track>Sessions</track>
@@ -334,21 +330,25 @@ What we will cover at this session:
 				<start>13:50</start>
 				<duration>01:35</duration>
 				<room>Julia</room>
-				<title />
-				<description />
+				<title>Co-creating API Banking</title>
+				<description>Discover how Investec's developer community is shaping the future of API banking and Programmable Banking card accounts. Learn about the collaborative efforts that are enabling developers to craft bespoke financial solutions, drive rapid innovation, and seamlessly integrate banking services into diverse digital ecosystems. This masterclass will showcase the synergy between technology and finance, highlighting the collective intelligence of a thriving developer community. Wayne Summers (Head of Open APIs at Investec) - The Story of Programmable Banking Wayne will share the journey of Investec's programmable banking, its vision, and the impact it has on the financial industry. Devin Pearson (Investec Developer Community member) Hands-on with the Investec API: Programmable Banking Card Accounts and Community Projects Devin will provide a technical walkthrough of the Investec API, demonstrating real-world applications and community-driven projects. Attendees are encouraged to bring their laptops to follow along. Nick Benson (Developer Community Lead @ Investec) The Pulse of Investec's Developer Community Nick will discuss the ethos of the Investec developer community, its role in fostering innovation, and how new members can get involved.</description>
 				<track>Workshops</track>
 				<language />
-				<persons />
+				<persons>
+					<person>Investec</person>
+				</persons>
 			</event>
 			<event id="52ce6b821a8332b5ba000d8b24ad8d39">
 				<start>15:55</start>
 				<duration>01:35</duration>
 				<room>Julia</room>
-				<title />
-				<description />
+				<title>Protecting Kubernetes Workloads: A Developer's Guide with Veeam Kasten K10</title>
+				<description>Overview of Kubernetes and its significance as a platform for running code.Introduction to K10 and its role in Kubernetes data management and protection.Importance of protecting Kubernetes environments and the role of K10 in achieving this.Deploy 1st Application to Kubernetes:Walkthrough of deploying an application onto a Kubernetes cluster.Explanation of key concepts such as pods, deployments, and services.Create Initial K10 Policy to Protect App:Demonstration of setting up K10 policies to protect the deployed application.Explanation of backup strategies, retention policies, and disaster recovery configurations.Kubernetes Perform Backup &amp; DR:Hands-on exercise on performing backups and disaster recovery operations using K10.Practice restoring applications and data in case of failures.Application &amp; Code Mobility:Discussion on strategies for application and code mobility within Kubernetes environments.Exploration of tools and practices for seamless migration and scaling of applications.</description>
 				<track>Workshops</track>
 				<language />
-				<persons />
+				<persons>
+					<person>Veeam</person>
+				</persons>
 			</event>
 		</room>
 		<room name="NCC">
@@ -434,16 +434,20 @@ Join me for a fun "Do-it-yourself" session with demos and code!</description>
 					<person>Allan Pead</person>
 				</persons>
 			</event>
-			<event id="550426">
+			<event id="561829">
 				<start>16:50</start>
 				<duration>00:40</duration>
 				<room>NCC</room>
-				<title>How building a portable escape room made me a better developer</title>
-				<description>I built a portable IoT escape room, and it changed how I think about development! In this session, we'll uncover unexpected parallels between escape rooms and architecting resilient, scalable systems. Let me share the lessons learned, and how they translate into invaluable guidance for Domain-Driven Design (DDD), modularity, communication, scalability and fault tolerance. Doors will be unlocked at the end - even if the audience can't solve the puzzles.</description>
+				<title>Non-Functional or Dysfunctional?  Don't Leave Quality to Chance</title>
+				<description>I am so tired of "Obviously".  It's too late for "Obviously".  I never want to hear "Obviously" again.
+In a world where non-functional requirements are left to chance, a lone developer bravely confronts software quality.  He sighs deeply.
+Obviously our app needs four nines reliability.  Obviously it must respond within 200 ms.  Obviously a toddler should find it easy to use.  Obviously it should scale to 100 000 users.  Obviously it must repel attacks from Anonymous...
+There's nothing obvious about any of this!  We think we can fulfil these requirements at no cost, but we can't.  We think they'll just emerge, and we're disappointed. We never define quality attributes well enough.  Not across the board. If we're deliberate about performance and security, we neglect modifiability and availability.  Why do we do this?  Again and again...
+Is it too late?  Or can one intrepid developer lead us to a safer place?  One iteration at a time.  Never to be bullied with "Obviously" again...</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>William Brander</person>
+					<person>Donald Graham</person>
 				</persons>
 			</event>
 		</room>
@@ -466,27 +470,29 @@ Let’s unleash the superpower of neurodiverse tech talent: my advice on embraci
 				<start>11:25</start>
 				<duration>00:40</duration>
 				<room>Senate I</room>
-				<title>Making observability tangible with end-to-end test automation</title>
-				<description>The tooling for observability (metrics, traces, logging) has evolved at a rapid pace.
+				<title>Making observability tangible (with end-to-end test automation)</title>
+				<description>The tooling for observability (metrics, traces, logging) has been evolving at a rapid pace.
 The benefits this offers are remarkable but it is hard to see the potential without practical experience. On smaller projects (or projects in their infancy) it is also hard to get enough traffic to have statistically meaningful data to showcase observability benefits.
-In this talk I want to show how end-to-end tests can be used to continuously instrument a sample application to establish a baseline of observability data. This can then be used to get a better understanding of the inner workings of our application and also to diagnose specific problems created during the talk.
-I will also do a quick introduction to observability in general and some of the dos and don'ts that I've noticed.</description>
+I will give a brief introduction to the terms and tools available and will point out some common pitfalls when starting out with collecting metrics.
+In the more interactive part of the talk I want to show how end-to-end tests can be used to continuously instrument a sample application to establish a baseline of observability data. This can then be used to help us get a better understanding of the inner workings of our application and to diagnose problems created during the talk.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
 					<person>Daniel Temme</person>
 				</persons>
 			</event>
-			<event id="566291">
+			<event id="561186">
 				<start>12:20</start>
 				<duration>00:40</duration>
 				<room>Senate I</room>
-				<title>So you want to be a CTO</title>
-				<description>Most technical people reach a point in their career journey where they must decide between management or remaining in an individual contribution role. At the same time, many good technical people believe the only way to advance their careers is by taking on a role in management. In this talk, I will cover two critical aspects of the CTO role.  Firstly, is it a good career choice for you Secondly what are the skills and attributes required to succeed in the CTO role?</description>
+				<title>10 Lessons I Learned About Engineering Leadership from Ted Lasso</title>
+				<description>This talk goes into the ten lessons which Benny learned from the Emmy Award Winning show Ted Lasso, about an American Football coach hired to coach an English Football (soccer) team.
+Benny applied the Lessons as a consulting Head of Engineering for a HealthTech with some moderate success.
+Please be aware that there are tons of Spoilers.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Cliff de Wit</person>
+					<person>Benny Ou</person>
 				</persons>
 			</event>
 			<event id="650329">
@@ -573,18 +579,16 @@ But the journey doesn't stop there. I'll also explore the exciting possibilities
 					<person>Rudi Grobler</person>
 				</persons>
 			</event>
-			<event id="561186">
+			<event id="566291">
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Senate II</room>
-				<title>10 Lessons I Learned About Engineering Leadership from Ted Lasso</title>
-				<description>This talk goes into the ten lessons which Benny learned from the Emmy Award Winning show Ted Lasso, about an American Football coach hired to coach an English Football (soccer) team.
-Benny applied the Lessons as a consulting Head of Engineering for a HealthTech with some moderate success.
-Please be aware that there are tons of Spoilers.</description>
+				<title>So you want to be a CTO</title>
+				<description>Most technical people reach a point in their career journey where they must decide between management or remaining in an individual contribution role. At the same time, many good technical people believe the only way to advance their careers is by taking on a role in management. In this talk, I will cover two critical aspects of the CTO role.  Firstly, is it a good career choice for you Secondly what are the skills and attributes required to succeed in the CTO role?</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Benny Ou</person>
+					<person>Cliff de Wit</person>
 				</persons>
 			</event>
 			<event id="565769">
