@@ -138,6 +138,18 @@ We won't spend too much time on the wide spectrum of material here, but rather f
 					<person>Stuart Steedman</person>
 				</persons>
 			</event>
+			<event id="670812">
+				<start>11:25</start>
+				<duration>00:40</duration>
+				<room>Hall A</room>
+				<title>State of the Developer Ecosystem - Insights from OfferZen’s Developer Nation Report</title>
+				<description>Jason Tame, Engineering Manager at OfferZen, will be unpacking insights from our State of the Developer Nation Report relevant to the Developer Ecosystem.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Jason Tame</person>
+				</persons>
+			</event>
 			<event id="565641">
 				<start>12:20</start>
 				<duration>00:40</duration>
@@ -150,18 +162,23 @@ We won't spend too much time on the wide spectrum of material here, but rather f
 					<person>Andy Higgins</person>
 				</persons>
 			</event>
-			<event id="556963">
+			<event id="671606">
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Hall A</room>
-				<title>DevOps at Netflix</title>
-				<description>Netflix is a global leader in video streaming and has always been known in Silicon Valley for its culture document; a seminal work in setting the context about culture.
-In this session, I will shed light on how Netflix thinks about DevOps, how our culture permeates our thought on Agile practices, DevOps, and development.
-It will be a great way to get a glimpse of how loosely coupled and highly aligned Netflix is, and participants can apply some parts of our culture to their organizations.</description>
+				<title>Turning Doubters Into Believers - Bringing Flash to the Enterprise and Beyond</title>
+				<description>No one believed us. At every corner we were told no one needs the performance of Flash, and even if you did, it will be too expensive for the Enterprise at scale, so don't bother to change.
+"My last migration will be onto Pure? I don't believe you!"
+"No way you can do non-disruptive hardware and software upgrades with no performance loss on a Tuesday morning!"
+"Data Reduction is black magic, I don't trust it!"
+"It can't be that simple..."
+This is how we did it; from the 'knife fights in phone boxes' in the early days to giving back weekends to Storage Admins, to seeing the delight in our customer's faces when all of our promises came true. "It does what it says on the box!"
+Fast forward to 2024 and Pure Storage is quietly powering the most demanding workloads for the most critical IT infrastructure in the South Africa.
+So what does the future hold? Find out in this session...</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Tejas Chopra</person>
+					<person>Daniel Teixeira</person>
 				</persons>
 			</event>
 			<event id="563078">
@@ -207,17 +224,16 @@ Join me for a roller-coaster ride through distributed system performance monitor
 			</event>
 		</room>
 		<room name="Hall B">
-			<event id="564837">
+			<event id="565168">
 				<start>10:30</start>
 				<duration>00:40</duration>
 				<room>Hall B</room>
-				<title>The Wikipedia Infrastructure: How Wikipedia Hosts Over Six Million Articles and Still Counting</title>
-				<description>Wikipedia, the world's largest and most comprehensive online encyclopedia, is an astounding example of collaborative knowledge-sharing. With over six million articles in the English Wikipedia. it's an extraordinary feat of infrastructure and technology. Have you ever wondered how Wikipedia manages to host and deliver this massive amount of information while continuing to grow?
-This engaging talk will take you on a journey behind the scenes of Wikipedia's remarkable infrastructure. We will explore the fascinating technologies and strategies that empower Wikipedia to not only host millions of articles but also maintain a high standard of accessibility and reliability.</description>
+				<title>Rewriting a datastore, at millions of transactions per second</title>
+				<description>After the AWS impact in Dec 2021 many teams had to take action. This talk follows a two-plus year project in which we re-architected the backing data store for one of the most widely used diagnostic tools in EC2, the distributed log tracer. We look at how this service impacted EC2 in the December event, in terms of our own delayed recovery, and delays caused to EC2 recovery. We consider the scale of the problem being solved (we write trillions of records every day, and read only a very small fraction of them), and then we work through why it took us over two years to get the new solution into production and delighting customers. Including completely changing certain design decisions due to latency issues, and finding "that one weird bug" multiple times.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Hannah Okwelum</person>
+					<person>Pippa Hillebrand</person>
 				</persons>
 			</event>
 			<event id="566406">
@@ -350,6 +366,21 @@ I will share lessons learned in bringing together various development efforts to
 					<person>Ewald Horn</person>
 				</persons>
 			</event>
+			<event id="565769">
+				<start>13:50</start>
+				<duration>00:40</duration>
+				<room>Hall C</room>
+				<title>Developer Driven-Testing: ship better code faster by removing the testing column.</title>
+				<description>Have you ever written some code and thought to yourself "I suspect there are still bugs in here, but I can’t say where exactly. Let's see what they find during testing..."
+Increasingly, high-performing teams are making developers primarily responsible for testing throughout the software development lifecycle. There is no hand-over to another person to write tests or perform testing activities before code can be released. In this talk I’ll explain what Developer-Driven Testing (DDT) is and how it can lead to higher code quality, and faster development cycles.
+However, it’s not as simple as just deleting the testing column - I’ll cover the steps needed to get to that point. I’ll share some practical examples on how to improve the effectiveness of your tests - something that is critical when operating without a testing phase as a safety net.
+And what about the role of quality engineers in teams that do DDT? Come and find out how DDT enables them to provide even more value to teams.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Lee Bailey</person>
+				</persons>
+			</event>
 			<event id="561829">
 				<start>14:45</start>
 				<duration>00:40</duration>
@@ -396,151 +427,12 @@ Of course, there are no silver bullets, so I'll also discuss when the web is not
 				</persons>
 			</event>
 		</room>
-		<room name="Meeting Room 10">
-			<event id="6d75af668419ea0241d6023e9adc338d">
-				<start>10:30</start>
-				<duration>01:35</duration>
-				<room>Meeting Room 10</room>
-				<title>From Complexity to Clarity: Navigating Microservices with Kubernetes</title>
-				<description>In today's dynamic software development landscape, adopting microservices is key to achieving greater scalability, flexibility, and faster innovation. While the benefits of microservices are clear, they come with their own set of complexities. Successfully implementing a microservices architecture extends beyond breaking down applications; it demands a thorough understanding of deployment, management, and observability. The prevalent adoption of the "You Build It, You Run It" philosophy marks a significant shift towards developer accountability and empowerment. As a modern developer understanding the platform your applications run on, is not just beneficial, it's essential. We invite you to a technical session tailored for forward-thinking developers ready to tackle the challenges of deploying microservices using Kubernetes. This session is focused on demystifying the deployment platforms that will house your applications, emphasizing the early adoption of practices such as logging, tracing, monitoring to name a few. The session will cover:Preparing Your Development EnvironmentCrafting Docker ImagesApplication Deployment with KubernetesMonitoring and Troubleshooting Techniques within KubernetesSecurity Measures and Best PracticesExploring Advanced Features of Kubernetes</description>
-				<track>Workshops</track>
-				<language />
-				<persons>
-					<person>iOCO</person>
-				</persons>
-			</event>
-			<event id="42084285778baed498a6d38a919b3348">
-				<start>13:50</start>
-				<duration>01:35</duration>
-				<room>Meeting Room 10</room>
-				<title>Co-creating API Banking</title>
-				<description>Discover how Investec's developer community is shaping the future of API banking and Programmable Banking card accounts. Learn about the collaborative efforts that are enabling developers to craft bespoke financial solutions, drive rapid innovation, and seamlessly integrate banking services into diverse digital ecosystems. This masterclass will showcase the synergy between technology and finance, highlighting the collective intelligence of a thriving developer community. Wayne Summers (Head of Open APIs at Investec) - The Story of Programmable Banking Wayne will share the journey of Investec's programmable banking, its vision, and the impact it has on the financial industry. Devin Pearson (Investec Developer Community member) Hands-on with the Investec API: Programmable Banking Card Accounts and Community Projects Devin will provide a technical walkthrough of the Investec API, demonstrating real-world applications and community-driven projects. Attendees are encouraged to bring their laptops to follow along. Nick Benson (Developer Community Lead @ Investec) The Pulse of Investec's Developer Community Nick will discuss the ethos of the Investec developer community, its role in fostering innovation, and how new members can get involved.</description>
-				<track>Workshops</track>
-				<language />
-				<persons>
-					<person>Investec</person>
-				</persons>
-			</event>
-			<event id="e8df47072730c22b3f207c555903e601">
-				<start>15:55</start>
-				<duration>01:35</duration>
-				<room>Meeting Room 10</room>
-				<title>Protecting Kubernetes Workloads: A Developer's Guide with Veeam Kasten K10</title>
-				<description>Overview of Kubernetes and its significance as a platform for running code.Introduction to K10 and its role in Kubernetes data management and protection.Importance of protecting Kubernetes environments and the role of K10 in achieving this.Deploy 1st Application to Kubernetes:Walkthrough of deploying an application onto a Kubernetes cluster.Explanation of key concepts such as pods, deployments, and services.Create Initial K10 Policy to Protect App:Demonstration of setting up K10 policies to protect the deployed application.Explanation of backup strategies, retention policies, and disaster recovery configurations.Kubernetes Perform Backup &amp; DR:Hands-on exercise on performing backups and disaster recovery operations using K10.Practice restoring applications and data in case of failures.Application &amp; Code Mobility:Discussion on strategies for application and code mobility within Kubernetes environments.Exploration of tools and practices for seamless migration and scaling of applications.</description>
-				<track>Workshops</track>
-				<language />
-				<persons>
-					<person>Veeam</person>
-				</persons>
-			</event>
-		</room>
 		<room name="Meeting Room 11">
-			<event id="564009">
-				<start>10:30</start>
-				<duration>00:40</duration>
-				<room>Meeting Room 11</room>
-				<title>PRQL: a modern language for transforming data - a simple, powerful, pipelined SQL replacement</title>
-				<description>The past 50 years have seen a great evolution in programming languages — except in the world of databases. There, SQL still reigns supreme; but is it a shark, enduring due to its perfection, or a dinosaur, one impact away from extinction?
-We argue that SQL is an amalgamation of both: relational algebra — the shark; and the language — the bloated dinosaur.
-PRQL incorporates the beauty of relational algebra while also embracing the best from libraries like dplyr, Pandas, and LINQ to name just a few. It is a functional, pipelined query language with modern ergonomics and expressivity that compiles to SQL, making it usable on any relational database. PRQL is open source, contributor-driven, and committed to staying that way forever.
-This talk will motivate why we need a modern query language to replace SQL, introduce PRQL, and demonstrate its elegance and productivity as a language for data using interactive examples.
-Join us and learn about the latest evolution in query languages!</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Tobias Brandt</person>
-				</persons>
-			</event>
-			<event id="555819">
-				<start>11:25</start>
-				<duration>00:40</duration>
-				<room>Meeting Room 11</room>
-				<title>Navigating the Storm: Tools and Patterns for Resilient Systems in the Face of Production Chaos</title>
-				<description>Troubleshooting large, distributed systems during production outages can be a daunting challenge. When downtime is not an option, how do you steer your ship through the storm of technical difficulties?
-Drawing from extensive experience trying to keep production up at one of South Africa's largest banks, this talk delves into the realm of resilience engineering. It will equip you to identify and reproduce issues and also to make your systems more resilient in the face of chaos.
-We will explore an array of troubleshooting tools, such as Application Performance Monitoring tools, logging, heap and thread dumps, application metrics, profiling techniques, load testing, and briefly touch on chaos engineering.
-Recognizing that prevention is better than cure, we will conclude with patterns and strategies to help you build resilient systems. Topics will include timeouts, connection reuse, circuit breakers, bulkheads, and fallback mechanisms.</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Renette Ros</person>
-				</persons>
-			</event>
-			<event id="562703">
-				<start>12:20</start>
-				<duration>00:40</duration>
-				<room>Meeting Room 11</room>
-				<title>From Overheating to Overachieving: A Comedic Tale of Hacking My Car</title>
-				<description>Embark on a humorous and enlightening journey into the world of car hacking in this developer-focused conference talk. As my trusty old car overheated and befuddled multiple repair shops, I decided to take matters into my own hands. Armed with an OBD connector, I ventured to uncover the secrets hidden within my vehicle's systems.
-In this presentation, I'll guide you through the process of reverse engineering, offering a brief Electronics 101 for beginners. Discover how I used Arduino to decode the mysterious signals on the car's CAN bus. Along the way, I'll share my humorous misadventures and the lessons learned from my escapades.
-But the journey doesn't stop there. I'll also explore the exciting possibilities that car hacking opens up. Learn how a friend transformed his gasoline car into an electric marvel using the same techniques.</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Rudi Grobler</person>
-				</persons>
-			</event>
-			<event id="566291">
-				<start>13:50</start>
-				<duration>00:40</duration>
-				<room>Meeting Room 11</room>
-				<title>So you want to be a CTO</title>
-				<description>Most technical people reach a point in their career journey where they must decide between management or remaining in an individual contribution role. At the same time, many good technical people believe the only way to advance their careers is by taking on a role in management. In this talk, I will cover two critical aspects of the CTO role.  Firstly, is it a good career choice for you Secondly what are the skills and attributes required to succeed in the CTO role?</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Cliff de Wit</person>
-				</persons>
-			</event>
-			<event id="561993">
-				<start>14:45</start>
-				<duration>00:40</duration>
-				<room>Meeting Room 11</room>
-				<title>Container-based development in a Corporate Network</title>
-				<description>Supporting developers inside a corporate network has many pitfalls. How can we leverage containers to share environments, simplify deployments and manage vulnerabilities centrally?</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Dee Moore</person>
-				</persons>
-			</event>
-			<event id="550361">
-				<start>15:55</start>
-				<duration>00:40</duration>
-				<room>Meeting Room 11</room>
-				<title>Embracing Neurodiversity in the Software Industry</title>
-				<description>Neurodiversity refers to the range of differences in how individuals cognitively process the world around them. Neurodiversity is an umbrella term that includes (but is not limited to) autism spectrum disorders, ADHD, dyslexia, dyscalculia, and Tourette's disorder. Individuals with these differences make up a large portion of the population and it is found that the software industry seems to be an attractive industry for individuals with these differences, therefore it is imperative to embrace this population to better understand their differences, the strengths that they bring to the table, and the common difficulties that they may face in a workplace setting.</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Monique Springer</person>
-				</persons>
-			</event>
-			<event id="561808">
-				<start>16:50</start>
-				<duration>00:40</duration>
-				<room>Meeting Room 11</room>
-				<title>Will AI really take my job? - A Call for Complete Developer Mindshift!</title>
-				<description>AI is changing how we develop software. AI tools can generate, complete, debug, optimize, and review code. But how do you use them effectively and responsibly? How do you enhance your creativity and productivity, without losing your identity and autonomy as a developer?
-In this session, you will learn about the current state of AI tools for software development, and how they can help you at distinct stages of your career, which may include.
-- Starting off as a newbie developer
-- Increasing your confidence as a junior developer
-- Delivering higher quality work after a promotion to senior developer
-You will also discover the challenges and opportunities of working with AI as a co-creator, and how to adopt a new mindset that embraces AI as a partner, not a competitor.
-Join me, as we walk through a new world of AI and developers co-existing to accelerate innovation through short demos on AI code generation/ completion tools, debugging and documentation tools and code review tools.</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Julia Muiruri</person>
-				</persons>
-			</event>
-		</room>
-		<room name="Meeting Room 8 and 9">
 			<event id="566625">
 				<start>10:30</start>
 				<duration>00:40</duration>
-				<room>Meeting Room 8 and 9</room>
-				<title>Death to the server : The new serverless era</title>
+				<room>Meeting Room 11</room>
+				<title>Death to the Server : The New Serverless Era</title>
 				<description>For my 40-minute talk on "The new serverless era", I will offer an informative and educational exploration of serverless computing. I'll begin by introducing key concepts and delve into the advantages of serverless, addressing potential challenges and mitigation strategies. I'll demonstrate the practical aspects of developing and deploying serverless functions on Azure and AWS, providing a simple code example and sharing best practices for monitoring and debugging. Additionally, I'll discuss security considerations and best practices while showcasing a real-world case study to illustrate the technology's practical application. This talk is designed to inform and educate the audience about serverless computing</description>
 				<track>Sessions</track>
 				<language />
@@ -551,7 +443,7 @@ Join me, as we walk through a new world of AI and developers co-existing to acce
 			<event id="565694">
 				<start>11:25</start>
 				<duration>00:40</duration>
-				<room>Meeting Room 8 and 9</room>
+				<room>Meeting Room 11</room>
 				<title>How modern computers play board games</title>
 				<description>Bao (or Bawo) is a mancala type game originating out of east Africa. It is an old and somewhat obscure game with little to known records of its origins. It has become an obsession and is a wonderful game to illustrate how computers can play board games. This talk will be about the algorithms that computers use to play board games (Like chess, go or Bao) and finally will apply what was learnt to make the best engine for Bao that could likely beat almost any human player.</description>
 				<track>Sessions</track>
@@ -563,7 +455,7 @@ Join me, as we walk through a new world of AI and developers co-existing to acce
 			<event id="563904">
 				<start>12:20</start>
 				<duration>00:40</duration>
-				<room>Meeting Room 8 and 9</room>
+				<room>Meeting Room 11</room>
 				<title>Data Science For Dummies</title>
 				<description>The Data Science buzz is reaching new heights and it seems like a pretty intimidating field and set of tools. This session utilises a live demo to walk through the basic concepts of Data Science.  It makes the case for why you should learn Data Science tools and how you can get started today!</description>
 				<track>Sessions</track>
@@ -575,7 +467,7 @@ Join me, as we walk through a new world of AI and developers co-existing to acce
 			<event id="565695">
 				<start>13:50</start>
 				<duration>00:40</duration>
-				<room>Meeting Room 8 and 9</room>
+				<room>Meeting Room 11</room>
 				<title>Chains Redefined: Blockchain’s Promise for Africa’s Rich Resources</title>
 				<description>In a world where the term 'chains' often conjures images of restriction, "Chains Redefined" explores the liberating power of blockchain technology in managing Africa's natural wealth. This talk is a journey for everyday software developers, a journey from historical chains of exploitation to modern chains of opportunity and innovation. It’s an exploration into how blockchain, a technology many developers interact with daily, can have profound impacts far beyond cryptocurrency – specifically in revolutionizing the management of Africa’s rich resources.</description>
 				<track>Sessions</track>
@@ -587,7 +479,7 @@ Join me, as we walk through a new world of AI and developers co-existing to acce
 			<event id="556508">
 				<start>14:45</start>
 				<duration>00:40</duration>
-				<room>Meeting Room 8 and 9</room>
+				<room>Meeting Room 11</room>
 				<title>Module Federation: Your teams don't need to deploy together</title>
 				<description>A deep dive into Webpack Module Federation and what it can do for you, your teams and your monolithic frontends. Deploy separately but still present one application to the user, you can have good developer experience and user experience at the same time.</description>
 				<track>Sessions</track>
@@ -599,7 +491,7 @@ Join me, as we walk through a new world of AI and developers co-existing to acce
 			<event id="566735">
 				<start>15:55</start>
 				<duration>00:40</duration>
-				<room>Meeting Room 8 and 9</room>
+				<room>Meeting Room 11</room>
 				<title>Automating Blue Teaming Practices using Golang</title>
 				<description>Golang is a programming language launched by Google and is best suited in cybersecurity because of its ease of typing, concurrency and multipurposefulness.
 What we will cover at this session:
@@ -617,7 +509,7 @@ What we will cover at this session:
 			<event id="648663">
 				<start>16:50</start>
 				<duration>00:40</duration>
-				<room>Meeting Room 8 and 9</room>
+				<room>Meeting Room 11</room>
 				<title>Delve into the Dungeons of Cybersecurity at DevConf 2024!</title>
 				<description>Join us on a quest as we unveil the mysterious connection between continuous performance enhancements and the emergence of 0-Day Exploits. As the clock struck midnight on December 31st, 2023, a frantic call summoned our Paladin to confront a lurking terror within our system's depths.
 Prepare your spells and sharpen your swords as we journey into the heart of darkness, where 0-Day Exploits lie in wait, ready to ensnare the unwary. Witness the treacherous exploits of the past, from the V8 JavaScript engine's betrayal of Google Chrome to the sinister schemes that plagued Apple iOS.
@@ -627,6 +519,145 @@ Join the Q&amp;A to share insights and seek guidance. Together, let's conquer th
 				<language />
 				<persons>
 					<person>Jonathan Maurer</person>
+				</persons>
+			</event>
+		</room>
+		<room name="Meeting Room 8 and 9">
+			<event id="6d75af668419ea0241d6023e9adc338d">
+				<start>10:30</start>
+				<duration>01:35</duration>
+				<room>Meeting Room 8 and 9</room>
+				<title>From Complexity to Clarity: Navigating Microservices with Kubernetes</title>
+				<description>In today's dynamic software development landscape, adopting microservices is key to achieving greater scalability, flexibility, and faster innovation. While the benefits of microservices are clear, they come with their own set of complexities. Successfully implementing a microservices architecture extends beyond breaking down applications; it demands a thorough understanding of deployment, management, and observability. The prevalent adoption of the "You Build It, You Run It" philosophy marks a significant shift towards developer accountability and empowerment. As a modern developer understanding the platform your applications run on, is not just beneficial, it's essential. We invite you to a technical session tailored for forward-thinking developers ready to tackle the challenges of deploying microservices using Kubernetes. This session is focused on demystifying the deployment platforms that will house your applications, emphasizing the early adoption of practices such as logging, tracing, monitoring to name a few. The session will cover:Preparing Your Development EnvironmentCrafting Docker ImagesApplication Deployment with KubernetesMonitoring and Troubleshooting Techniques within KubernetesSecurity Measures and Best PracticesExploring Advanced Features of Kubernetes</description>
+				<track>Workshops</track>
+				<language />
+				<persons>
+					<person>iOCO</person>
+				</persons>
+			</event>
+			<event id="42084285778baed498a6d38a919b3348">
+				<start>13:50</start>
+				<duration>01:35</duration>
+				<room>Meeting Room 8 and 9</room>
+				<title>Co-creating API Banking</title>
+				<description>Discover how Investec's developer community is shaping the future of API banking and Programmable Banking card accounts. Learn about the collaborative efforts that are enabling developers to craft bespoke financial solutions, drive rapid innovation, and seamlessly integrate banking services into diverse digital ecosystems. This masterclass will showcase the synergy between technology and finance, highlighting the collective intelligence of a thriving developer community. Wayne Summers (Head of Open APIs at Investec) - The Story of Programmable Banking Wayne will share the journey of Investec's programmable banking, its vision, and the impact it has on the financial industry. Devin Pearson (Investec Developer Community member) Hands-on with the Investec API: Programmable Banking Card Accounts and Community Projects Devin will provide a technical walkthrough of the Investec API, demonstrating real-world applications and community-driven projects. Attendees are encouraged to bring their laptops to follow along. Nick Benson (Developer Community Lead @ Investec) The Pulse of Investec's Developer Community Nick will discuss the ethos of the Investec developer community, its role in fostering innovation, and how new members can get involved.</description>
+				<track>Workshops</track>
+				<language />
+				<persons>
+					<person>Investec</person>
+				</persons>
+			</event>
+			<event id="e8df47072730c22b3f207c555903e601">
+				<start>15:55</start>
+				<duration>01:35</duration>
+				<room>Meeting Room 8 and 9</room>
+				<title>Protecting Kubernetes Workloads: A Developer's Guide with Veeam Kasten K10</title>
+				<description>Overview of Kubernetes and its significance as a platform for running code.Introduction to K10 and its role in Kubernetes data management and protection.Importance of protecting Kubernetes environments and the role of K10 in achieving this.Deploy 1st Application to Kubernetes:Walkthrough of deploying an application onto a Kubernetes cluster.Explanation of key concepts such as pods, deployments, and services.Create Initial K10 Policy to Protect App:Demonstration of setting up K10 policies to protect the deployed application.Explanation of backup strategies, retention policies, and disaster recovery configurations.Kubernetes Perform Backup &amp; DR:Hands-on exercise on performing backups and disaster recovery operations using K10.Practice restoring applications and data in case of failures.Application &amp; Code Mobility:Discussion on strategies for application and code mobility within Kubernetes environments.Exploration of tools and practices for seamless migration and scaling of applications.</description>
+				<track>Workshops</track>
+				<language />
+				<persons>
+					<person>Veeam</person>
+				</persons>
+			</event>
+		</room>
+		<room name="The Verve">
+			<event id="564009">
+				<start>10:30</start>
+				<duration>00:40</duration>
+				<room>The Verve</room>
+				<title>PRQL: a modern language for transforming data - a simple, powerful, pipelined SQL replacement</title>
+				<description>The past 50 years have seen a great evolution in programming languages — except in the world of databases. There, SQL still reigns supreme; but is it a shark, enduring due to its perfection, or a dinosaur, one impact away from extinction?
+We argue that SQL is an amalgamation of both: relational algebra — the shark; and the language — the bloated dinosaur.
+PRQL incorporates the beauty of relational algebra while also embracing the best from libraries like dplyr, Pandas, and LINQ to name just a few. It is a functional, pipelined query language with modern ergonomics and expressivity that compiles to SQL, making it usable on any relational database. PRQL is open source, contributor-driven, and committed to staying that way forever.
+This talk will motivate why we need a modern query language to replace SQL, introduce PRQL, and demonstrate its elegance and productivity as a language for data using interactive examples.
+Join us and learn about the latest evolution in query languages!</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Tobias Brandt</person>
+				</persons>
+			</event>
+			<event id="555819">
+				<start>11:25</start>
+				<duration>00:40</duration>
+				<room>The Verve</room>
+				<title>Navigating the Storm: Tools and Patterns for Resilient Systems in the Face of Production Chaos</title>
+				<description>Troubleshooting large, distributed systems during production outages can be a daunting challenge. When downtime is not an option, how do you steer your ship through the storm of technical difficulties?
+Drawing from extensive experience trying to keep production up at one of South Africa's largest banks, this talk delves into the realm of resilience engineering. It will equip you to identify and reproduce issues and also to make your systems more resilient in the face of chaos.
+We will explore an array of troubleshooting tools, such as Application Performance Monitoring tools, logging, heap and thread dumps, application metrics, profiling techniques, load testing, and briefly touch on chaos engineering.
+Recognizing that prevention is better than cure, we will conclude with patterns and strategies to help you build resilient systems. Topics will include timeouts, connection reuse, circuit breakers, bulkheads, and fallback mechanisms.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Renette Ros</person>
+				</persons>
+			</event>
+			<event id="562703">
+				<start>12:20</start>
+				<duration>00:40</duration>
+				<room>The Verve</room>
+				<title>From Overheating to Overachieving: A Comedic Tale of Hacking My Car</title>
+				<description>Embark on a humorous and enlightening journey into the world of car hacking in this developer-focused conference talk. As my trusty old car overheated and befuddled multiple repair shops, I decided to take matters into my own hands. Armed with an OBD connector, I ventured to uncover the secrets hidden within my vehicle's systems.
+In this presentation, I'll guide you through the process of reverse engineering, offering a brief Electronics 101 for beginners. Discover how I used Arduino to decode the mysterious signals on the car's CAN bus. Along the way, I'll share my humorous misadventures and the lessons learned from my escapades.
+But the journey doesn't stop there. I'll also explore the exciting possibilities that car hacking opens up. Learn how a friend transformed his gasoline car into an electric marvel using the same techniques.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Rudi Grobler</person>
+				</persons>
+			</event>
+			<event id="566291">
+				<start>13:50</start>
+				<duration>00:40</duration>
+				<room>The Verve</room>
+				<title>So you want to be a CTO</title>
+				<description>Most technical people reach a point in their career journey where they must decide between management or remaining in an individual contribution role. At the same time, many good technical people believe the only way to advance their careers is by taking on a role in management. In this talk, I will cover two critical aspects of the CTO role.  Firstly, is it a good career choice for you Secondly what are the skills and attributes required to succeed in the CTO role?</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Cliff de Wit</person>
+				</persons>
+			</event>
+			<event id="561993">
+				<start>14:45</start>
+				<duration>00:40</duration>
+				<room>The Verve</room>
+				<title>Container-based development in a Corporate Network</title>
+				<description>Supporting developers inside a corporate network has many pitfalls. How can we leverage containers to share environments, simplify deployments and manage vulnerabilities centrally?</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Dee Moore</person>
+				</persons>
+			</event>
+			<event id="550361">
+				<start>15:55</start>
+				<duration>00:40</duration>
+				<room>The Verve</room>
+				<title>Embracing Neurodiversity in the Software Industry</title>
+				<description>Neurodiversity refers to the range of differences in how individuals cognitively process the world around them. Neurodiversity is an umbrella term that includes (but is not limited to) autism spectrum disorders, ADHD, dyslexia, dyscalculia, and Tourette's disorder. Individuals with these differences make up a large portion of the population and it is found that the software industry seems to be an attractive industry for individuals with these differences, therefore it is imperative to embrace this population to better understand their differences, the strengths that they bring to the table, and the common difficulties that they may face in a workplace setting.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Monique Springer</person>
+				</persons>
+			</event>
+			<event id="561808">
+				<start>16:50</start>
+				<duration>00:40</duration>
+				<room>The Verve</room>
+				<title>Will AI really take my job? - A Call for Complete Developer Mindshift!</title>
+				<description>AI is changing how we develop software. AI tools can generate, complete, debug, optimize, and review code. But how do you use them effectively and responsibly? How do you enhance your creativity and productivity, without losing your identity and autonomy as a developer?
+In this session, you will learn about the current state of AI tools for software development, and how they can help you at distinct stages of your career, which may include.
+- Starting off as a newbie developer
+- Increasing your confidence as a junior developer
+- Delivering higher quality work after a promotion to senior developer
+You will also discover the challenges and opportunities of working with AI as a co-creator, and how to adopt a new mindset that embraces AI as a partner, not a competitor.
+Join me, as we walk through a new world of AI and developers co-existing to accelerate innovation through short demos on AI code generation/ completion tools, debugging and documentation tools and code review tools.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Julia Muiruri</person>
 				</persons>
 			</event>
 		</room>

@@ -162,18 +162,23 @@ We won't spend too much time on the wide spectrum of material here, but rather f
 					<person>Andy Higgins</person>
 				</persons>
 			</event>
-			<event id="556963">
+			<event id="671606">
 				<start>13:50</start>
 				<duration>00:40</duration>
 				<room>Centre Court</room>
-				<title>DevOps at Netflix</title>
-				<description>Netflix is a global leader in video streaming and has always been known in Silicon Valley for its culture document; a seminal work in setting the context about culture.
-In this session, I will shed light on how Netflix thinks about DevOps, how our culture permeates our thought on Agile practices, DevOps, and development.
-It will be a great way to get a glimpse of how loosely coupled and highly aligned Netflix is, and participants can apply some parts of our culture to their organizations.</description>
+				<title>Turning Doubters Into Believers - Bringing Flash to the Enterprise and Beyond</title>
+				<description>No one believed us. At every corner we were told no one needs the performance of Flash, and even if you did, it will be too expensive for the Enterprise at scale, so don't bother to change.
+"My last migration will be onto Pure? I don't believe you!"
+"No way you can do non-disruptive hardware and software upgrades with no performance loss on a Tuesday morning!"
+"Data Reduction is black magic, I don't trust it!"
+"It can't be that simple..."
+This is how we did it; from the 'knife fights in phone boxes' in the early days to giving back weekends to Storage Admins, to seeing the delight in our customer's faces when all of our promises came true. "It does what it says on the box!"
+Fast forward to 2024 and Pure Storage is quietly powering the most demanding workloads for the most critical IT infrastructure in the South Africa.
+So what does the future hold? Find out in this session...</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Tejas Chopra</person>
+					<person>Daniel Teixeira</person>
 				</persons>
 			</event>
 			<event id="563078">
@@ -223,7 +228,7 @@ Join me for a roller-coaster ride through distributed system performance monitor
 				<start>10:30</start>
 				<duration>00:40</duration>
 				<room>Fabia</room>
-				<title>Death to the server : The new serverless era</title>
+				<title>Death to the Server : The New Serverless Era</title>
 				<description>For my 40-minute talk on "The new serverless era", I will offer an informative and educational exploration of serverless computing. I'll begin by introducing key concepts and delve into the advantages of serverless, addressing potential challenges and mitigation strategies. I'll demonstrate the practical aspects of developing and deploying serverless functions on Azure and AWS, providing a simple code example and sharing best practices for monitoring and debugging. Additionally, I'll discuss security considerations and best practices while showcasing a real-world case study to illustrate the technology's practical application. This talk is designed to inform and educate the audience about serverless computing</description>
 				<track>Sessions</track>
 				<language />
@@ -352,17 +357,16 @@ What we will cover at this session:
 			</event>
 		</room>
 		<room name="NCC">
-			<event id="564837">
+			<event id="565168">
 				<start>10:30</start>
 				<duration>00:40</duration>
 				<room>NCC</room>
-				<title>The Wikipedia Infrastructure: How Wikipedia Hosts Over Six Million Articles and Still Counting</title>
-				<description>Wikipedia, the world's largest and most comprehensive online encyclopedia, is an astounding example of collaborative knowledge-sharing. With over six million articles in the English Wikipedia. it's an extraordinary feat of infrastructure and technology. Have you ever wondered how Wikipedia manages to host and deliver this massive amount of information while continuing to grow?
-This engaging talk will take you on a journey behind the scenes of Wikipedia's remarkable infrastructure. We will explore the fascinating technologies and strategies that empower Wikipedia to not only host millions of articles but also maintain a high standard of accessibility and reliability.</description>
+				<title>Rewriting a datastore, at millions of transactions per second</title>
+				<description>After the AWS impact in Dec 2021 many teams had to take action. This talk follows a two-plus year project in which we re-architected the backing data store for one of the most widely used diagnostic tools in EC2, the distributed log tracer. We look at how this service impacted EC2 in the December event, in terms of our own delayed recovery, and delays caused to EC2 recovery. We consider the scale of the problem being solved (we write trillions of records every day, and read only a very small fraction of them), and then we work through why it took us over two years to get the new solution into production and delighting customers. Including completely changing certain design decisions due to latency issues, and finding "that one weird bug" multiple times.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
-					<person>Hannah Okwelum</person>
+					<person>Pippa Hillebrand</person>
 				</persons>
 			</event>
 			<event id="566406">
@@ -529,6 +533,19 @@ Please be aware that there are tons of Spoilers.</description>
 				<language />
 				<persons>
 					<person>Monique Springer</person>
+				</persons>
+			</event>
+			<event id="565781">
+				<start>16:50</start>
+				<duration>00:40</duration>
+				<room>Senate I</room>
+				<title>An evolutionary tale of the web</title>
+				<description>The web ecosystem is often mocked for changing rapidly. With new tools and methodologies added every day, it is easy to feel overwhelmed by new frameworks, libraries, bundlers, builders, runtimes and the plethora of other elements we seem to need in our modern web development toolchains. Their existence and the hype around them surely
+If you've ever asked yourself: What ever happened to the trinity that was just HTML, CCS and JavaScript?  Then this talk is for you. In this story-like talk, I take a look at the evolution of the web, its use, challenges and the tools that have been developed through the decades to address them By the end of this talk, the audience should understand what some of the most popular tools in the web ecosystem are aimed at solving.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Nhlanhla Lucky Nkosi</person>
 				</persons>
 			</event>
 		</room>
