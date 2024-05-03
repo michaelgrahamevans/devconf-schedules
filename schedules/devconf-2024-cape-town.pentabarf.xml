@@ -90,11 +90,11 @@
 				<language />
 				<persons />
 			</event>
-			<event id="e1c1b65851b4665252e9684fbec3f1a5">
+			<event id="4ab0a2b87210b507f47f6cf1bd51891e">
 				<start>15:25</start>
 				<duration>00:30</duration>
 				<room />
-				<title>Movement, Networking &amp; Refreshments</title>
+				<title>Movement, Networking &amp; Refreshments Join the CTRL Freaks in the expo area to find out about amazing keyboards!</title>
 				<description />
 				<track>Breaks</track>
 				<language />
@@ -325,10 +325,10 @@ Please be aware that there are tons of Spoilers.</description>
 				<start>10:30</start>
 				<duration>00:40</duration>
 				<room>Hall C</room>
-				<title>Tech's Hidden Superpower: How to Unleash Neurodiverse Talent</title>
+				<title>Tech's Secret Superpower: How to Unleash Neurodiverse Talent</title>
 				<description>Join me as I walk you through my story as an autistic engineer in the software industry, and how we can reap the rewards of undeniable neurodiverse talent by applying inclusive strategies from the hiring process to the workplace.
 While neurodiversity may sound like a modern buzzword, we’ll delve into this definition and attempt to demystify it. You will gain awareness of the difficulties that neurodiverse people experience in the industry, and learn suggestions for changes that can prevent difficulties in future.
-Let’s unleash the superpower of neurodiverse tech talent: my advice on embracing neurodivergent coworkers will be essential for all roles in the industry, as well as for neurodiverse individuals in the audience who may resonate with my stories, and use these key tips as inspiration for what they may implement in their own careers.</description>
+Let’s unleash the superpower of neurodiverse tech talent: my advice on embracing neurodivergent coworkers will be essential for all roles in the industry, as well as for neurodiverse individuals in the audience who may resonate with my stories, and use these key tips as inspiration for what they may implement in their careers.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
@@ -486,6 +486,22 @@ Of course, there are no silver bullets, so I'll also discuss when the web is not
 				<language />
 				<persons>
 					<person>Tiane Erwee</person>
+				</persons>
+			</event>
+			<event id="678100">
+				<start>15:55</start>
+				<duration>00:40</duration>
+				<room>Meeting Room 11</room>
+				<title>Good Tech: A showcase of amazing tech initiatives that go to space and win competitions...</title>
+				<description>Join us at DevConf for a dual showcase that’s sure to inspire! In a groundbreaking session, we’re thrilled to present two trailblazing groups who are not just shaping the future of technology, but also embodying the spirit of innovation.
+Coder LevelUp: With a visionary target to empower 500,000 coders in the Western Cape, Coder LevelUp is revolutionizing the tech landscape. Their mission? To transform the region into a vibrant hub of digital expertise.
+Textpand: Meet the world-renowned FIRST Tech Challenge champions hailing from Cape Town. Textpand isn’t just a team; they’re pioneers, setting the global standard for competitive tech excellence.
+But here’s the twist – the masterminds behind these technological marvels are none other than students! That’s right, these young geniuses are still navigating the halls of school while simultaneously steering the wheel of technological advancement.
+This session is more than a display of cutting-edge technology; it’s a celebration of the youthful passion and intellect driving it. Discover the origins of these remarkable initiatives and explore how you can contribute to a movement where technology serves the greater good.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Coder LevelUp &amp; Texpand</person>
 				</persons>
 			</event>
 			<event id="648663">

@@ -90,11 +90,11 @@
 				<language />
 				<persons />
 			</event>
-			<event id="e1c1b65851b4665252e9684fbec3f1a5">
+			<event id="4ab0a2b87210b507f47f6cf1bd51891e">
 				<start>15:25</start>
 				<duration>00:30</duration>
 				<room />
-				<title>Movement, Networking &amp; Refreshments</title>
+				<title>Movement, Networking &amp; Refreshments Join the CTRL Freaks in the expo area to find out about amazing keyboards!</title>
 				<description />
 				<track>Breaks</track>
 				<language />
@@ -299,6 +299,19 @@ Recognizing that prevention is better than cure, we will conclude with patterns 
 					<person>Sean Cremer</person>
 				</persons>
 			</event>
+			<event id="662638">
+				<start>16:50</start>
+				<duration>00:40</duration>
+				<room>Fabia</room>
+				<title>Building on a Crypto Operating System</title>
+				<description>Cryptocurrencies are here to stay, and playing a key role in modernising and innovation in the financial sector. Did you know that you don't need to be a big business or a blockchain expert to start building that next generation financial system, for yourself?
+In this session, we'll be taking a practical look at how to build on top of VALR's world-class API, going from 0 to 1 with running code, as well as discuss a range of build possibilities.</description>
+				<track>Sessions</track>
+				<language />
+				<persons>
+					<person>Janco Wolmarans</person>
+				</persons>
+			</event>
 		</room>
 		<room name="Julia">
 			<event id="549257a201aa2801c8cc4da89a4ce02d">
@@ -442,10 +455,10 @@ Is it too late?  Or can one intrepid developer lead us to a safer place?  One it
 				<start>10:30</start>
 				<duration>00:40</duration>
 				<room>Senate I</room>
-				<title>Tech's Hidden Superpower: How to Unleash Neurodiverse Talent</title>
+				<title>Tech's Secret Superpower: How to Unleash Neurodiverse Talent</title>
 				<description>Join me as I walk you through my story as an autistic engineer in the software industry, and how we can reap the rewards of undeniable neurodiverse talent by applying inclusive strategies from the hiring process to the workplace.
 While neurodiversity may sound like a modern buzzword, we’ll delve into this definition and attempt to demystify it. You will gain awareness of the difficulties that neurodiverse people experience in the industry, and learn suggestions for changes that can prevent difficulties in future.
-Let’s unleash the superpower of neurodiverse tech talent: my advice on embracing neurodivergent coworkers will be essential for all roles in the industry, as well as for neurodiverse individuals in the audience who may resonate with my stories, and use these key tips as inspiration for what they may implement in their own careers.</description>
+Let’s unleash the superpower of neurodiverse tech talent: my advice on embracing neurodivergent coworkers will be essential for all roles in the industry, as well as for neurodiverse individuals in the audience who may resonate with my stories, and use these key tips as inspiration for what they may implement in their careers.</description>
 				<track>Sessions</track>
 				<language />
 				<persons>
