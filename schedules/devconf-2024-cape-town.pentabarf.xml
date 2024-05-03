@@ -488,24 +488,6 @@ Of course, there are no silver bullets, so I'll also discuss when the web is not
 					<person>Tiane Erwee</person>
 				</persons>
 			</event>
-			<event id="566735">
-				<start>15:55</start>
-				<duration>00:40</duration>
-				<room>Meeting Room 11</room>
-				<title>Automating Blue Teaming Practices using Golang</title>
-				<description>Golang is a programming language launched by Google and is best suited in cybersecurity because of its ease of typing, concurrency and multipurposefulness.
-What we will cover at this session:
-- Secure Coding practices promoted by Golang
-- Go libraries and tools used in the cybersecurity field, such as GoBuster for directory and file brute-forcing and GoDNS for DNS enumeration.
-- Project: Discussing how a log aggregator can be built using Golang for collecting log data, as an example for logging and monitoring
-- Live Demo: Building a custom-built Golang based tool for network and vulnerability scanning - using nmap and gopacket
-- Q&amp;A and discussion on use of Go in blue teaming practices with the audience.</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Ankshita Maunthrooa</person>
-				</persons>
-			</event>
 			<event id="648663">
 				<start>16:50</start>
 				<duration>00:40</duration>

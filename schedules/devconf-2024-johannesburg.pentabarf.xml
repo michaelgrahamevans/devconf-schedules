@@ -299,24 +299,6 @@ Recognizing that prevention is better than cure, we will conclude with patterns 
 					<person>Sean Cremer</person>
 				</persons>
 			</event>
-			<event id="566735">
-				<start>16:50</start>
-				<duration>00:40</duration>
-				<room>Fabia</room>
-				<title>Automating Blue Teaming Practices using Golang</title>
-				<description>Golang is a programming language launched by Google and is best suited in cybersecurity because of its ease of typing, concurrency and multipurposefulness.
-What we will cover at this session:
-- Secure Coding practices promoted by Golang
-- Go libraries and tools used in the cybersecurity field, such as GoBuster for directory and file brute-forcing and GoDNS for DNS enumeration.
-- Project: Discussing how a log aggregator can be built using Golang for collecting log data, as an example for logging and monitoring
-- Live Demo: Building a custom-built Golang based tool for network and vulnerability scanning - using nmap and gopacket
-- Q&amp;A and discussion on use of Go in blue teaming practices with the audience.</description>
-				<track>Sessions</track>
-				<language />
-				<persons>
-					<person>Ankshita Maunthrooa</person>
-				</persons>
-			</event>
 		</room>
 		<room name="Julia">
 			<event id="549257a201aa2801c8cc4da89a4ce02d">
