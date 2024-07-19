@@ -3,7 +3,9 @@ from datetime import date
 
 import requests
 
+import bsides
 import devconf
+import pretalx
 import sessionize
 
 
@@ -42,7 +44,7 @@ def main():
         ],
     )
 
-    for config in [devconf_2022, devconf_2023]:
+    for config in []:  # [devconf_2022, devconf_2023]:
         for event_config in config.events:
             event = devconf.get_event(
                 config,
@@ -56,6 +58,15 @@ def main():
                 "w",
             ) as f:
                 f.write(out.to_xml())
+
+    out = bsides.schedule_to_pentabarf(
+        pretalx.get_schedule("bsides-joburg-2024", "0.6"),
+    )
+    with open(
+        f"schedules/bsides-{out.conference.start.year}-joburg.pentabarf.xml",
+        "w",
+    ) as f:
+        f.write(out.to_xml())
 
 
 if __name__ == "__main__":
