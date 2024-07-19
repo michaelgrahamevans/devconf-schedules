@@ -1,0 +1,357 @@
+<schedule>
+	<conference>
+		<title>BSides</title>
+		<city>Johannesburg</city>
+		<venue>Focus Rooms, 20 Heaton Lane Longlake, Johannesburg</venue>
+		<start>2024-07-20</start>
+		<end>2024-07-20</end>
+	</conference>
+	<day index="1" date="2024-07-20">
+		<room name="Track 1">
+			<event id="1048152">
+				<start>09:00</start>
+				<duration>00:30</duration>
+				<room>Track 1</room>
+				<title>Opening</title>
+				<description>Opening of BSides Joburg 2024 by the organizing team</description>
+				<language />
+				<persons />
+			</event>
+			<event id="1048153">
+				<start>09:30</start>
+				<duration>00:45</duration>
+				<room>Track 1</room>
+				<title>Could ZA be 1337? What if we cast off the dark and lead the way to a new dawn</title>
+				<description>What if South Africa weren’t just consumers, but renowned in the global cyber community; known for our innovative people, groundbreaking contributions, and pioneering companies? What would that look like, how could we get there, and would it be worth it?
+
+Prevailing winds suggest we are at the start of a decline: a dwindling pool of entrants, an erosion of skills, and a market too narrow to sustain or inspire greatness. This slow death spiral threatens to undermine what we could be.
+
+In this keynote, I want to warn us away from the dark path, and towards a future where South Africa is propelled from an increasingly tenuous periphery to the centre of all things cyber.</description>
+				<language />
+				<persons>
+					<person>singe</person>
+				</persons>
+			</event>
+			<event id="1048154">
+				<start>08:15</start>
+				<duration>00:15</duration>
+				<room>Track 1</room>
+				<title>Tea Break</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048155">
+				<start>10:30</start>
+				<duration>00:45</duration>
+				<room>Track 1</room>
+				<title>Terribly Layered Security - The common security failings of cryptography implementations for mobile</title>
+				<description>This talk will delve into the intricate world of transport security, specifically within mobile applications, highlighting the terrifying vulnerabilities that can be introduced into your applications unknowingly. We will explore how these security flaws can be exploited by threat actors, compromising data integrity and user privacy. The presentation will cover critical aspects such as host name validation, certificate chain validation, certificate/public key pinning and even the use of custom cr</description>
+				<language />
+				<persons>
+					<person>Connor du Plooy</person>
+					<person>Andre Lopes</person>
+				</persons>
+			</event>
+			<event id="1048157">
+				<start>09:15</start>
+				<duration>00:05</duration>
+				<room>Track 1</room>
+				<title>Break</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048160">
+				<start>11:20</start>
+				<duration>00:45</duration>
+				<room>Track 1</room>
+				<title>Doppelgänger Devices: Investigating Fake iPhones &amp; Security Implications</title>
+				<description>In this presentation, I delve into the world of counterfeit iPhones, examining their security risks and offering practical methods for distinguishing fake devices. Through thorough forensic analysis and penetration testing, I aim to uncover vulnerabilities and provide strategies to enhance user security. Join me as we explore the implications of doppelgänger devices and how to navigate the counterfeit landscape in today's digital world.</description>
+				<language />
+				<persons>
+					<person>Ansie Brough</person>
+				</persons>
+			</event>
+			<event id="1048162">
+				<start>10:05</start>
+				<duration>00:05</duration>
+				<room>Track 1</room>
+				<title>Break</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048164">
+				<start>12:10</start>
+				<duration>00:45</duration>
+				<room>Track 1</room>
+				<title>Certpinning, OpenSSL and Memory Patching. Sounds fun right?</title>
+				<description>This is a technical and theoretical talk on an alternative approach to bypassing certificate pinning by using Frida to change values in memory. It will cover my research on certificate pinning over the last few months, mainly within an Android mobile context.</description>
+				<language />
+				<persons>
+					<person>Isak van der Walt</person>
+				</persons>
+			</event>
+			<event id="1048166">
+				<start>10:55</start>
+				<duration>00:50</duration>
+				<room>Track 1</room>
+				<title>Lunch</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048167">
+				<start>13:45</start>
+				<duration>00:15</duration>
+				<room>Track 1</room>
+				<title>The CISO's Field Guide to GenAI</title>
+				<description>The aim of the talk is to equip cybersecurity practitioners with a comprehensive understanding of GenAI, its impacts on business and suggest strategies on securing GenAI for use in the enterprise.</description>
+				<language />
+				<persons>
+					<person>Samresh Ramjith</person>
+				</persons>
+			</event>
+			<event id="1048169">
+				<start>14:00</start>
+				<duration>00:15</duration>
+				<room>Track 1</room>
+				<title>I've seen you get hacked! (AI Real-Time Attack Simulation)</title>
+				<description>Imagine running multiple threat models, attack trees and graphs – simultaneously - on real-time asset cartography, vulnerability data and threat intelligence. Leveraging AI for predictive analytics, you could proactively defend regardless of the dynamics and turbulence presented in the emerging technology, attacker or vulnerability landscape. This is how we did it - and what we learnt.</description>
+				<language />
+				<persons>
+					<person>nithen</person>
+				</persons>
+			</event>
+			<event id="1048170">
+				<start>14:15</start>
+				<duration>00:15</duration>
+				<room>Track 1</room>
+				<title>Is ChatGPT a friend of foe to CTF competitions?</title>
+				<description>Capture the Flag (CTF) events have become a popular format for ethical hacking competitions, offering participants invaluable opportunities to practice and hone their cybersecurity skills. With the release of ChatGPT, an artificial intelligence (AI)-based chatbot, the question now is: Can ChatGPT solve CTF challenges?</description>
+				<language />
+				<persons>
+					<person>Heloise Meyer</person>
+				</persons>
+			</event>
+			<event id="1048171">
+				<start>12:30</start>
+				<duration>00:10</duration>
+				<room>Track 1</room>
+				<title>Break</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048173">
+				<start>14:40</start>
+				<duration>00:45</duration>
+				<room>Track 1</room>
+				<title>The Enterprise Cloud Security Journey - Are we on the right track?</title>
+				<description>Cloud adoption is booming, with many organizations around world migrating to the cloud for cost efficiency, scalability and agility. This shift requires a critical review of traditional IT operating models. To secure cloud environments effectively, a modern operating model needs to be created to solve the real security challenges faced during cloud adoption. This talk will explore whether we are focusing on the right problems and solutions when defending our cloud environments.</description>
+				<language />
+				<persons>
+					<person>Jared Naude</person>
+				</persons>
+			</event>
+			<event id="1048177">
+				<start>13:25</start>
+				<duration>00:15</duration>
+				<room>Track 1</room>
+				<title>Tea Break</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048179">
+				<start>15:40</start>
+				<duration>00:45</duration>
+				<room>Track 1</room>
+				<title>Hacking The Airwaves!</title>
+				<description>This talk will dive into the world of hacking wireless communication, focusing on the automotive industry, access control, and IoT communications. We will jump into the mind of how attackers view wireless communication and explore various attack vectors that could allow them to unlock your car and drive away or bypass your office access control to gain access to sensitive areas such as the server room.</description>
+				<language />
+				<persons>
+					<person>Robin Roodt</person>
+				</persons>
+			</event>
+			<event id="1048181">
+				<start>14:25</start>
+				<duration>00:05</duration>
+				<room>Track 1</room>
+				<title>Break</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048183">
+				<start>16:30</start>
+				<duration>00:45</duration>
+				<room>Track 1</room>
+				<title>From Overheating to Overachieving: A Comedic Tale of Hacking My Car</title>
+				<description>Embark on a humorous and enlightening journey into the world of car hacking in this developer-focused conference talk. As my trusty old car overheated and befuddled multiple repair shops, I decided to take matters into my own hands. Armed with an OBD connector, I ventured to uncover the secrets hidden within my vehicle's systems.
+
+In this presentation, I'll guide you through the process of reverse engineering, offering a brief Electronics 101 for beginners. Discover how I used Arduino to decode</description>
+				<language />
+				<persons>
+					<person>Rudi Grobler</person>
+				</persons>
+			</event>
+			<event id="1048185">
+				<start>17:15</start>
+				<duration>00:30</duration>
+				<room>Track 1</room>
+				<title>Closing</title>
+				<description>Closing ceremony of BSides Joburg by organizing team</description>
+				<language />
+				<persons />
+			</event>
+		</room>
+		<room name="Track 2">
+			<event id="1048156">
+				<start>10:30</start>
+				<duration>00:45</duration>
+				<room>Track 2</room>
+				<title>The Hidden War: Navigating the Threats of Corporate Espionage</title>
+				<description>Explore the hidden world of corporate and industrial espionage, where adversaries aim to steal trade secrets and intellectual property for competitive advantage. This presentation delves deep into the legalities, impacts, and methodologies of espionage activities, including the darker aspects, shedding light on the complex landscape while unraveling the mechanisms employed behind these covert operations.</description>
+				<language />
+				<persons>
+					<person>Kitso Moema</person>
+				</persons>
+			</event>
+			<event id="1048158">
+				<start>09:15</start>
+				<duration>00:05</duration>
+				<room>Track 2</room>
+				<title>Break</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048159">
+				<start>11:20</start>
+				<duration>00:45</duration>
+				<room>Track 2</room>
+				<title>The evolution/revolution of Cryptography and Quantum Computing in Cyber Security</title>
+				<description>In this talk we provide a brief introduction to common cryptographic algorithms and weaknesses within their implementation. We show how quantum computing trivializes the exploitation of these weaknesses and how modern quantum resistant cryptographic algorithms seek to overcome these issues.</description>
+				<language />
+				<persons>
+					<person>Ivan Burke</person>
+					<person>Sa'ad Kari</person>
+					<person>Vimilan Naiker</person>
+				</persons>
+			</event>
+			<event id="1048161">
+				<start>10:05</start>
+				<duration>00:05</duration>
+				<room>Track 2</room>
+				<title>Break</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048163">
+				<start>12:10</start>
+				<duration>00:45</duration>
+				<room>Track 2</room>
+				<title>Reverse-Shell Fallacy: An introduction into defence evasion techniques</title>
+				<description>The session will go over different techniques to bypass different types of defences you may encounter during engagements. We'll also do a brief discussion about the architecture, design, and flaws present in these defences, and why a successful reverse shell isn't always a measurement of success.</description>
+				<language />
+				<persons>
+					<person>Gerhard Botha</person>
+				</persons>
+			</event>
+			<event id="1048165">
+				<start>10:55</start>
+				<duration>00:50</duration>
+				<room>Track 2</room>
+				<title>Lunch</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048168">
+				<start>13:45</start>
+				<duration>00:45</duration>
+				<room>Track 2</room>
+				<title>AV Evasion - How Adversaries Aim to Bypass Antivirus Tools</title>
+				<description>Malicious actors continually refine their techniques to evade detection by antivirus (AV) software. In this session, we will delve into the sophisticated methods cybercriminals use to circumvent traditional AV defenses, showcasing the ongoing battle between attackers and defenders. This talk aims to provide a detailed understanding of contemporary AV evasion tactics and practical strategies for strengthening security postures against these advanced threats.</description>
+				<language />
+				<persons>
+					<person>Marvin Ngoma</person>
+				</persons>
+			</event>
+			<event id="1048172">
+				<start>12:30</start>
+				<duration>00:10</duration>
+				<room>Track 2</room>
+				<title>Break</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048175">
+				<start>14:40</start>
+				<duration>00:15</duration>
+				<room>Track 2</room>
+				<title>BlindSQLi falls on deaf ears</title>
+				<description>Explore the journey of discovering a blind SQL injection flaw, uncovering unforeseen access to sensitive data, and navigating the implications for cybersecurity practices. Gain insights into identifying, exploiting, and preventing such vulnerabilities.</description>
+				<language />
+				<persons>
+					<person>Rohan Dayaram</person>
+				</persons>
+			</event>
+			<event id="1048176">
+				<start>14:55</start>
+				<duration>00:15</duration>
+				<room>Track 2</room>
+				<title>Your Own Worst Enemy - Beating Imposter Syndrome</title>
+				<description>A lightning talk about Imposter Syndrome, and some techniques to overcome it.</description>
+				<language />
+				<persons>
+					<person>Roberto Arico</person>
+				</persons>
+			</event>
+			<event id="1048178">
+				<start>13:25</start>
+				<duration>00:15</duration>
+				<room>Track 2</room>
+				<title>Tea Break</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048180">
+				<start>15:40</start>
+				<duration>00:45</duration>
+				<room>Track 2</room>
+				<title>Developing a cybersecurity framework for commercial banks in South Africa</title>
+				<description>The study proposed a conceptual framework for South African commercial banks as a direct response to the exponential rise of cyber-attacks and threats. It proposed this framework by identifying the factors impeding commercial banks from developing their own frameworks. The factors were identified using a mixed methods approach, with qualitative data collection facilitated through interviews and quantitative data collected by means of a survey distributed to IT, risk, compliance, and governance.</description>
+				<language />
+				<persons>
+					<person>Tlhologelo Mphahlele</person>
+				</persons>
+			</event>
+			<event id="1048182">
+				<start>14:25</start>
+				<duration>00:05</duration>
+				<room>Track 2</room>
+				<title>Break</title>
+				<description />
+				<language />
+				<persons />
+			</event>
+			<event id="1048184">
+				<start>16:30</start>
+				<duration>00:45</duration>
+				<room>Track 2</room>
+				<title>Cybersecurity in the Boardroom: From Risk to Strategic Advantage</title>
+				<description>Cybersecurity is no longer just an IT concern; it's a critical business issue demanding boardroom attention. This talk dives into the evolving threat landscape and its potential impact on an organization's reputation, finances, and operations.</description>
+				<language />
+				<persons>
+					<person>Sandika Daya</person>
+				</persons>
+			</event>
+		</room>
+	</day>
+</schedule>
